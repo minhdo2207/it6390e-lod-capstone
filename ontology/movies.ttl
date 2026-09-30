@@ -1,0 +1,61 @@
+@prefix : <http://it6390e-group2.example.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+# Classes
+
+:Person a owl:Class ;
+    owl:equivalentClass foaf:Person ;
+    rdfs:label "Person"@en .
+
+:Director a owl:Class ;
+    rdfs:subClassOf :Person ;
+    rdfs:label "Director"@en .
+
+:Actor a owl:Class ;
+    rdfs:subClassOf :Person ;
+    rdfs:label "Actor"@en .
+
+:Movie a owl:Class ;
+    owl:equivalentClass schema:Movie ;
+    rdfs:label "Movie"@en .
+
+:Genre a owl:Class ;
+    rdfs:label "Genre"@en .
+
+:Studio a owl:Class ;
+    rdfs:label "Studio"@en .
+
+:Country a owl:Class ;
+    rdfs:label "Country"@en .
+
+# Properties
+
+:hasGenre a owl:ObjectProperty ;
+    rdfs:domain :Movie ;
+    rdfs:range :Genre ;
+    rdfs:label "has genre"@en .
+
+:producedBy a owl:ObjectProperty ;
+    rdfs:domain :Movie ;
+    rdfs:range :Studio ;
+    rdfs:label "produced by"@en .
+
+:producedIn a owl:ObjectProperty ;
+    rdfs:domain :Movie ;
+    rdfs:range :Country ;
+    rdfs:label "produced in"@en .
+
+:releaseYear a owl:DatatypeProperty ;
+    rdfs:domain :Movie ;
+    rdfs:range xsd:gYear ;
+    rdfs:label "release year"@en .
+
+# dbo:director / dbo:starring / dc:title / schema:datePublished / foaf:name
+# are reused directly, no local re-declaration needed.
