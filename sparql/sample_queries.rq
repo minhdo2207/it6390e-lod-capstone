@@ -1,0 +1,39 @@
+# Sample queries against data/processed/movies_linked.ttl,
+# loaded into a Fuseki endpoint at /movies/sparql.
+
+PREFIX ont:    <http://it6390e-group2.example.org/ontology/>
+PREFIX dc:     <http://purl.org/dc/elements/1.1/>
+PREFIX dbo:    <http://dbpedia.org/ontology/>
+PREFIX foaf:   <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+
+# 1. Movies directed by a given person
+SELECT ?title WHERE {
+  ?movie dc:title ?title ;
+         dbo:director ?d .
+  ?d foaf:name "Christopher Nolan" .
+}
+
+# 2. Movies released after a given year
+SELECT ?title ?year WHERE {
+  ?movie a schema:Movie ;
+         dc:title ?title ;
+         ont:releaseYear ?year .
+  FILTER(?year > "2015"^^xsd:gYear)
+}
+
+# 3. Director with the most movies in the dataset
+SELECT ?directorName (COUNT(?movie) AS ?movieCount) WHERE {
+  ?movie dbo:director ?d .
+  ?d foaf:name ?directorName .
+}
+GROUP BY ?directorName
+ORDER BY DESC(?movieCount)
+LIMIT 5
+
+# 4. Movies that were successfully linked to DBpedia
+SELECT ?title ?dbpediaResource WHERE {
+  ?movie dc:title ?title ;
+         owl:sameAs ?dbpediaResource .
+}
