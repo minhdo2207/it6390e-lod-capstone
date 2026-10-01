@@ -59,3 +59,30 @@
 
 # dbo:director / dbo:starring / dc:title / schema:datePublished / foaf:name
 # are reused directly, no local re-declaration needed.
+
+# Genre individuals (kept as named individuals, not literals, so they can be
+# used in hasValue restrictions below)
+
+:genre_action a :Genre ; rdfs:label "Action"@en .
+:genre_comedy a :Genre ; rdfs:label "Comedy"@en .
+
+# Defined classes: the reasoner classifies movies into these automatically
+# from hasGenre, instead of us tagging each movie by hand (same idea as
+# pizza.owl's VegetarianPizza).
+
+:ActionMovie a owl:Class ;
+    owl:equivalentClass [
+        a owl:Restriction ;
+        owl:onProperty :hasGenre ;
+        owl:hasValue :genre_action
+    ] ;
+    rdfs:label "Action Movie"@en .
+
+:ComedyMovie a owl:Class ;
+    owl:equivalentClass [
+        a owl:Restriction ;
+        owl:onProperty :hasGenre ;
+        owl:hasValue :genre_comedy
+    ] ;
+    owl:disjointWith :ActionMovie ;
+    rdfs:label "Comedy Movie"@en .
