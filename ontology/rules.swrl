@@ -1,0 +1,11 @@
+# SWRL rule, add via Protege's SWRL Tab (Rules tab) after loading movies.ttl.
+#
+# Why this needs a rule and not just OWL:
+# OWL property hierarchies only go specific -> general (subPropertyOf), they
+# can't combine a property assertion with a class/another-property check to
+# derive a MORE specific relation. Same limitation as the childOf+Woman ->
+# daughterOf example from the OWL2 lecture. "Directed a movie AND starred in
+# that same movie" needs two different properties checked together, so it
+# has to be a rule, not an equivalentClass restriction.
+
+Movie(?m) ^ dbo:director(?m, ?p) ^ dbo:starring(?m, ?p) -> ActorDirector(?p)

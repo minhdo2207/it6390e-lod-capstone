@@ -105,3 +105,9 @@
         )
     ] ;
     rdfs:label "Award-winning Director"@en .
+
+# Target class for the SWRL rule in rules.swrl (can't be built from a plain
+# OWL restriction - see the comment in that file).
+:ActorDirector a owl:Class ;
+    rdfs:subClassOf :Person ;
+    rdfs:label "Actor-Director"@en .
