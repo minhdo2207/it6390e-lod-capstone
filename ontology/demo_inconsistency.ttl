@@ -1,0 +1,11 @@
+# Load this file ON TOP OF movies.ttl + movies_linked.ttl only during the
+# live demo, to show the reasoner catching a contradiction - then remove it.
+# Do not include this in the final submitted dataset.
+
+@prefix : <http://it6390e-group2.example.org/ontology/> .
+@prefix ex: <http://it6390e-group2.example.org/resource/> .
+
+# A movie wrongly tagged with both genres. Since ActionMovie and
+# ComedyMovie are disjointWith each other, the reasoner should flag this
+# individual as inconsistent.
+ex:movie_demo_bad :hasGenre :genre_action , :genre_comedy .
