@@ -86,3 +86,22 @@
     ] ;
     owl:disjointWith :ActionMovie ;
     rdfs:label "Comedy Movie"@en .
+
+:Award a owl:Class ;
+    rdfs:label "Award"@en .
+
+:hasAward a owl:ObjectProperty ;
+    rdfs:domain :Person ;
+    rdfs:range :Award ;
+    rdfs:label "has award"@en .
+
+:AwardWinningDirector a owl:Class ;
+    rdfs:subClassOf :Director ;
+    owl:equivalentClass [
+        a owl:Class ;
+        owl:intersectionOf (
+            :Director
+            [ a owl:Restriction ; owl:onProperty :hasAward ; owl:someValuesFrom :Award ]
+        )
+    ] ;
+    rdfs:label "Award-winning Director"@en .
