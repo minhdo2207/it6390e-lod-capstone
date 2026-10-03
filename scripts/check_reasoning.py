@@ -78,7 +78,11 @@ def run(files, label):
 
 
 def main():
-    base = ["ontology/movies.ttl", "data/processed/movies_linked.ttl"]
+    base = [
+        "ontology/movies.ttl",
+        "data/processed/movies_linked.ttl",
+        "data/processed/awards.ttl",
+    ]
     ok = run(base, "clean data")
     if not ok:
         sys.exit(1)
