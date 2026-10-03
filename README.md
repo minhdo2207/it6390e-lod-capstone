@@ -61,8 +61,29 @@ python scripts/link_wikidata_dbpedia.py data/processed/movies.ttl data/processed
 `link_report.csv` lists every movie and person with the Wikidata / DBpedia
 links found, for manual review.
 
-Then load `data/processed/movies_linked.ttl` into a triple store (e.g. Apache Jena
+Awards (for the `AwardWinningDirector` class):
+
+```bash
+python scripts/add_awards.py data/processed/link_report.csv data/processed/awards.ttl
+```
+
+Then load `ontology/movies.ttl`, `data/processed/movies_linked.ttl` and
+`data/processed/awards.ttl` into Protege (or a triple store such as Apache Jena
 Fuseki) and query it using the examples in `sparql/sample_queries.rq`.
+
+## Reasoning check
+
+Runs HermiT over the ontology and data without opening Protege (needs Java):
+
+```bash
+pip install owlready2
+python scripts/check_reasoning.py --demo
+```
+
+Expected: 29 `ActionMovie`, 16 `ComedyMovie`, 32 `AwardWinningDirector`,
+5 `ActorDirector` (from the SWRL rule), and an inconsistency once
+`ontology/demo_inconsistency.ttl` is added. Demo steps for Protege are in
+`docs/DEMO_SCRIPT.md`.
 
 ## Team
 
