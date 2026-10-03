@@ -29,10 +29,14 @@ Build a Linked Open Data (LOD) application for the **movies** domain, following 
 ## Pipeline
 
 ```
-raw CSV  -->  scripts/csv_to_rdf.py  -->  data/processed/movies.ttl
+Kaggle TMDB 5000 CSVs  -->  scripts/prepare_movies_csv.py  -->  data/raw/movies.csv
+                                                                      |
+                                              +-----------------------+
+                                              v
+              scripts/csv_to_rdf.py  -->  data/processed/movies.ttl
                                               |
                                               v
-                                   scripts/link_dbpedia.py
+                               scripts/link_wikidata_dbpedia.py
                                               |
                                               v
                                    data/processed/movies_linked.ttl
@@ -45,9 +49,17 @@ raw CSV  -->  scripts/csv_to_rdf.py  -->  data/processed/movies.ttl
 
 ```bash
 pip install -r requirements.txt
+
+# Source data: download "TMDB 5000 Movie Dataset" from
+# https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata and unzip it into data/raw/
+python scripts/prepare_movies_csv.py data/raw/tmdb_5000_movies.csv data/raw/tmdb_5000_credits.csv data/raw/movies.csv
+
 python scripts/csv_to_rdf.py data/raw/movies.csv data/processed/movies.ttl
-python scripts/link_dbpedia.py data/processed/movies.ttl data/processed/movies_linked.ttl
+python scripts/link_wikidata_dbpedia.py data/processed/movies.ttl data/processed/movies_linked.ttl data/processed/link_report.csv
 ```
+
+`link_report.csv` lists every movie and person with the Wikidata / DBpedia
+links found, for manual review.
 
 Then load `data/processed/movies_linked.ttl` into a triple store (e.g. Apache Jena
 Fuseki) and query it using the examples in `sparql/sample_queries.rq`.

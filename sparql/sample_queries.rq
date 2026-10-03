@@ -20,7 +20,8 @@ SELECT ?title ?year WHERE {
   ?movie a schema:Movie ;
          dc:title ?title ;
          ont:releaseYear ?year .
-  FILTER(?year > "2015"^^xsd:gYear)
+  # compare as strings: "<" / ">" on xsd:gYear is not part of standard SPARQL
+  FILTER(STR(?year) > "2015")
 }
 
 # 3. Director with the most movies in the dataset
@@ -36,4 +37,12 @@ LIMIT 5
 SELECT ?title ?dbpediaResource WHERE {
   ?movie dc:title ?title ;
          owl:sameAs ?dbpediaResource .
+  FILTER(STRSTARTS(STR(?dbpediaResource), "http://dbpedia.org/resource/"))
+}
+
+# 5. Movies featuring a given actor
+SELECT ?title WHERE {
+  ?movie dc:title ?title ;
+         dbo:starring ?a .
+  ?a foaf:name "Tom Hanks" .
 }
