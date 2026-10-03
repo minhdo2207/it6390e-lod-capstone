@@ -42,7 +42,7 @@ def build_graph(rows):
         movie_uri = BASE[f"movie/{row['id']}"]
         g.add((movie_uri, RDF.type, SCHEMA.Movie))
         g.add((movie_uri, DC.title, Literal(row["title"])))
-        g.add((movie_uri, ONT.releaseYear, Literal(row["year"], datatype=XSD.gYear)))
+        g.add((movie_uri, ONT.releaseYear, Literal(int(row["year"]), datatype=XSD.integer)))
 
         if row.get("director_id"):
             director_uri = BASE[f"person/{row['director_id']}"]

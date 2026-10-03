@@ -54,7 +54,7 @@
 
 :releaseYear a owl:DatatypeProperty ;
     rdfs:domain :Movie ;
-    rdfs:range xsd:gYear ;
+    rdfs:range xsd:integer ;
     rdfs:label "release year"@en .
 
 # dbo:director / dbo:starring / dc:title / schema:datePublished / foaf:name
