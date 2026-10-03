@@ -53,15 +53,17 @@ serializes the result as Turtle.
 
 ## 6. 5-star: linking
 
-`scripts/link_dbpedia.py` looks up each movie (by title + year, to avoid
-false positives on remakes/sequels) on DBpedia and Wikidata and adds
-`owl:sameAs` links when a confident match is found. Ambiguous matches are
-left unlinked rather than guessed.
+`scripts/link_wikidata_dbpedia.py` matches on the TMDB ids stored in Wikidata
+(P4947 for films, P4985 for people), then takes the DBpedia resource from
+DBpedia's own `owl:sameAs`. Matching on title + year did not work: DBpedia film
+resources have no `dbo:releaseDate`. Ambiguous ids are left unlinked rather
+than guessed.
 
 ## 7. SPARQL endpoint
 
-Load `data/processed/movies_linked.ttl` into Apache Jena Fuseki for the demo.
-Sample queries live in `sparql/sample_queries.rq`.
+Terminal interface: `python scripts/sparql_cli.py` (interactive prompt, or
+`-n 3` to run a sample query). The same queries also run in Protege's SPARQL
+Query tab. Sample queries live in `sparql/sample_queries.rq`.
 
 ## 8. Timeline
 
