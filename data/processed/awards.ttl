@@ -1,0 +1,70 @@
+@prefix ont: <http://it6390e-group2.example.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://it6390e-group2.example.org/resource/person/1032> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/108> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/10828> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/11218> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/1152> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/1223> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/1243> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/1269> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/136495> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/15175> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/1614> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/16294> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/16513> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/1776> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/190> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/2034> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/223> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/24> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/2461> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/2662> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/2710> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/3556> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/39> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/3974> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/4109> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/4762> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/488> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/525> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/6159> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/70500> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/8246> ont:hasAward ont:award_oscar_best_director .
+
+<http://it6390e-group2.example.org/resource/person/9049> ont:hasAward ont:award_oscar_best_director .
+
+ont:award_oscar_best_director a ont:Award ;
+    rdfs:label "Academy Award for Best Director"@en .
+
