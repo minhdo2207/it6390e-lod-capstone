@@ -42,7 +42,7 @@ Kaggle TMDB 5000 CSVs  -->  scripts/prepare_movies_csv.py  -->  data/raw/movies.
                                    data/processed/movies_linked.ttl
                                               |
                                               v
-                                    load into Fuseki -> SPARQL endpoint
+                                    scripts/sparql_cli.py  /  Protege SPARQL tab
 ```
 
 ## Running locally
@@ -68,8 +68,14 @@ python scripts/add_awards.py data/processed/link_report.csv data/processed/award
 ```
 
 Then load `ontology/movies.ttl`, `data/processed/movies_linked.ttl` and
-`data/processed/awards.ttl` into Protege (or a triple store such as Apache Jena
-Fuseki) and query it using the examples in `sparql/sample_queries.rq`.
+`data/processed/awards.ttl` into Protege, or query from the terminal:
+
+```bash
+python scripts/sparql_cli.py          # interactive prompt (:list, :3, :quit)
+python scripts/sparql_cli.py -n 3     # run sample query #3
+```
+
+The queries are in `sparql/sample_queries.rq`.
 
 ## Reasoning check
 
@@ -91,5 +97,8 @@ Group 2 — IT6390E, HUST.
 
 ## License
 
-Data is redistributed under the same open license as its source dataset.
-Code in this repo is released under the MIT License.
+Code in this repo is released under the MIT License (see `LICENSE`).
+
+Movie data comes from the Kaggle "TMDB 5000 Movie Dataset", which is built from
+the TMDb API. This product uses the TMDb API but is not endorsed or certified
+by TMDb. Wikidata content is CC0; DBpedia content is CC BY-SA.
