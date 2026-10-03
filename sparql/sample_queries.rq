@@ -20,7 +20,7 @@ SELECT ?title ?year WHERE {
   ?movie a schema:Movie ;
          dc:title ?title ;
          ont:releaseYear ?year .
-  FILTER(?year > 2015)
+  FILTER(?year > 2010)
 }
 
 # 3. Director with the most movies in the dataset
