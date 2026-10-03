@@ -15,7 +15,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/handmade-films-ltd> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "1998"^^xsd:gYear ;
+    ont:releaseYear 1998 ;
     dc:title "Lock, Stock and Two Smoking Barrels" ;
     owl:sameAs <http://dbpedia.org/resource/Lock,_Stock_and_Two_Smoking_Barrels>,
         <http://www.wikidata.org/entity/Q851095> .
@@ -28,7 +28,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/marvel-studios> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Captain America: The Winter Soldier" ;
     owl:sameAs <http://dbpedia.org/resource/Captain_America:_The_Winter_Soldier>,
         <http://www.wikidata.org/entity/Q1765358> .
@@ -41,7 +41,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/lionsgate> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "The Hunger Games: Catching Fire" ;
     owl:sameAs <http://dbpedia.org/resource/The_Hunger_Games:_Catching_Fire>,
         <http://www.wikidata.org/entity/Q574583> .
@@ -54,7 +54,7 @@
     ont:hasGenre ont:genre_thriller ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/asymmetrical-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/france> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "Mulholland Drive" ;
     owl:sameAs <http://dbpedia.org/resource/Mulholland_Drive_(film)>,
         <http://www.wikidata.org/entity/Q272608> .
@@ -67,7 +67,7 @@
     ont:hasGenre ont:genre_fantasy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/dreamworks-animation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2010"^^xsd:gYear ;
+    ont:releaseYear 2010 ;
     dc:title "How to Train Your Dragon" ;
     owl:sameAs <http://dbpedia.org/resource/How_to_Train_Your_Dragon_(film)>,
         <http://www.wikidata.org/entity/Q373096> .
@@ -80,7 +80,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2010"^^xsd:gYear ;
+    ont:releaseYear 2010 ;
     dc:title "Toy Story 3" ;
     owl:sameAs <http://dbpedia.org/resource/Toy_Story_3>,
         <http://www.wikidata.org/entity/Q187278> .
@@ -93,7 +93,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/dinovi-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2002"^^xsd:gYear ;
+    ont:releaseYear 2002 ;
     dc:title "A Walk to Remember" ;
     owl:sameAs <http://dbpedia.org/resource/A_Walk_to_Remember>,
         <http://www.wikidata.org/entity/Q219442> .
@@ -106,7 +106,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/columbia-pictures-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1976"^^xsd:gYear ;
+    ont:releaseYear 1976 ;
     dc:title "Taxi Driver" ;
     owl:sameAs <http://dbpedia.org/resource/Taxi_Driver>,
         <http://www.wikidata.org/entity/Q47221> .
@@ -119,7 +119,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/twentieth-century-fox-film-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2009"^^xsd:gYear ;
+    ont:releaseYear 2009 ;
     dc:title "Fantastic Mr. Fox" ;
     owl:sameAs <http://dbpedia.org/resource/Fantastic_Mr._Fox_(film)>,
         <http://www.wikidata.org/entity/Q465275> .
@@ -132,7 +132,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/warner-bros-animation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1999"^^xsd:gYear ;
+    ont:releaseYear 1999 ;
     dc:title "The Iron Giant" ;
     owl:sameAs <http://dbpedia.org/resource/The_Iron_Giant>,
         <http://www.wikidata.org/entity/Q867283> .
@@ -145,7 +145,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1985"^^xsd:gYear ;
+    ont:releaseYear 1985 ;
     dc:title "Back to the Future" ;
     owl:sameAs <http://dbpedia.org/resource/Back_to_the_Future>,
         <http://www.wikidata.org/entity/Q91540> .
@@ -158,7 +158,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/twentieth-century-fox-film-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1987"^^xsd:gYear ;
+    ont:releaseYear 1987 ;
     dc:title "Predator" ;
     owl:sameAs <http://dbpedia.org/resource/Predator_(film)>,
         <http://www.wikidata.org/entity/Q200804> .
@@ -171,7 +171,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "The Wolf of Wall Street" ;
     owl:sameAs <http://dbpedia.org/resource/The_Wolf_of_Wall_Street_(2013_film)>,
         <http://www.wikidata.org/entity/Q1392744> .
@@ -184,7 +184,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1998"^^xsd:gYear ;
+    ont:releaseYear 1998 ;
     dc:title "Mulan" ;
     owl:sameAs <http://dbpedia.org/resource/Mulan_(1998_film)>,
         <http://www.wikidata.org/entity/Q537407> .
@@ -197,7 +197,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2008"^^xsd:gYear ;
+    ont:releaseYear 2008 ;
     dc:title "WALL·E" ;
     owl:sameAs <http://dbpedia.org/resource/WALL-E>,
         <http://www.wikidata.org/entity/Q104905> .
@@ -210,7 +210,7 @@
     ont:hasGenre ont:genre_thriller ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/columbia-pictures-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2000"^^xsd:gYear ;
+    ont:releaseYear 2000 ;
     dc:title "Snatch" ;
     owl:sameAs <http://dbpedia.org/resource/Snatch_(film)>,
         <http://www.wikidata.org/entity/Q335160> .
@@ -223,7 +223,7 @@
     ont:hasGenre ont:genre_horror ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1982"^^xsd:gYear ;
+    ont:releaseYear 1982 ;
     dc:title "The Thing" ;
     owl:sameAs <http://dbpedia.org/resource/The_Thing_(1982_film)>,
         <http://www.wikidata.org/entity/Q210756> .
@@ -236,7 +236,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/columbia-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "Captain Phillips" ;
     owl:sameAs <http://dbpedia.org/resource/Captain_Phillips_(film)>,
         <http://www.wikidata.org/entity/Q2937646> .
@@ -249,7 +249,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "Frozen" ;
     owl:sameAs <http://dbpedia.org/resource/Frozen_(2013_film)>,
         <http://www.wikidata.org/entity/Q246283> .
@@ -262,7 +262,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/lucasfilm> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1977"^^xsd:gYear ;
+    ont:releaseYear 1977 ;
     dc:title "Star Wars" ;
     owl:sameAs <http://dbpedia.org/resource/Star_Wars_(film)>,
         <http://www.wikidata.org/entity/Q17738> .
@@ -275,7 +275,7 @@
     ont:hasGenre ont:genre_romance ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/new-line-cinema> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2004"^^xsd:gYear ;
+    ont:releaseYear 2004 ;
     dc:title "The Notebook" ;
     owl:sameAs <http://dbpedia.org/resource/The_Notebook>,
         <http://www.wikidata.org/entity/Q223374> .
@@ -288,7 +288,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1983"^^xsd:gYear ;
+    ont:releaseYear 1983 ;
     dc:title "Scarface" ;
     owl:sameAs <http://dbpedia.org/resource/Scarface_(1983_film)>,
         <http://www.wikidata.org/entity/Q47075> .
@@ -301,7 +301,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/warner-bros> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2006"^^xsd:gYear ;
+    ont:releaseYear 2006 ;
     dc:title "The Prestige" ;
     owl:sameAs <http://dbpedia.org/resource/The_Prestige_(film)>,
         <http://www.wikidata.org/entity/Q46551> .
@@ -314,7 +314,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/columbia-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2008"^^xsd:gYear ;
+    ont:releaseYear 2008 ;
     dc:title "Seven Pounds" ;
     owl:sameAs <http://dbpedia.org/resource/Seven_Pounds>,
         <http://www.wikidata.org/entity/Q635924> .
@@ -327,7 +327,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2010"^^xsd:gYear ;
+    ont:releaseYear 2010 ;
     dc:title "Shutter Island" ;
     owl:sameAs <http://dbpedia.org/resource/Shutter_Island_(film)>,
         <http://www.wikidata.org/entity/Q210364> .
@@ -340,7 +340,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/brownstone-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2012"^^xsd:gYear ;
+    ont:releaseYear 2012 ;
     dc:title "Pitch Perfect" ;
     owl:sameAs <http://dbpedia.org/resource/Pitch_Perfect>,
         <http://www.wikidata.org/entity/Q137584> .
@@ -353,7 +353,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/gramercy-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "1998"^^xsd:gYear ;
+    ont:releaseYear 1998 ;
     dc:title "The Big Lebowski" ;
     owl:sameAs <http://dbpedia.org/resource/The_Big_Lebowski>,
         <http://www.wikidata.org/entity/Q337078> .
@@ -366,7 +366,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1987"^^xsd:gYear ;
+    ont:releaseYear 1987 ;
     dc:title "The Untouchables" ;
     owl:sameAs <http://dbpedia.org/resource/The_Untouchables_(film)>,
         <http://www.wikidata.org/entity/Q108525> .
@@ -379,7 +379,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/marvel-studios> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Guardians of the Galaxy" ;
     owl:sameAs <http://dbpedia.org/resource/Guardians_of_the_Galaxy_(film)>,
         <http://www.wikidata.org/entity/Q5887360> .
@@ -392,7 +392,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/ingenious-media> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Dawn of the Planet of the Apes" ;
     owl:sameAs <http://dbpedia.org/resource/Dawn_of_the_Planet_of_the_Apes>,
         <http://www.wikidata.org/entity/Q11220194> .
@@ -405,7 +405,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/pixar-animation-studios> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2003"^^xsd:gYear ;
+    ont:releaseYear 2003 ;
     dc:title "Finding Nemo" ;
     owl:sameAs <http://dbpedia.org/resource/Finding_Nemo>,
         <http://www.wikidata.org/entity/Q132863> .
@@ -418,7 +418,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/wingnut-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/new-zealand> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "The Lord of the Rings: The Fellowship of the Ring" ;
     owl:sameAs <http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring>,
         <http://www.wikidata.org/entity/Q127367> .
@@ -431,7 +431,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/fox-searchlight-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "The Grand Budapest Hotel" ;
     owl:sameAs <http://dbpedia.org/resource/The_Grand_Budapest_Hotel>,
         <http://www.wikidata.org/entity/Q3521099> .
@@ -444,7 +444,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/wingnut-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/new-zealand> ;
-    ont:releaseYear "2002"^^xsd:gYear ;
+    ont:releaseYear 2002 ;
     dc:title "The Lord of the Rings: The Two Towers" ;
     owl:sameAs <http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Two_Towers>,
         <http://www.wikidata.org/entity/Q164963> .
@@ -457,7 +457,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/wingnut-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/new-zealand> ;
-    ont:releaseYear "2003"^^xsd:gYear ;
+    ont:releaseYear 2003 ;
     dc:title "The Lord of the Rings: The Return of the King" ;
     owl:sameAs <http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Return_of_the_King>,
         <http://www.wikidata.org/entity/Q131074> .
@@ -470,7 +470,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/working-title-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "About Time" ;
     owl:sameAs <http://dbpedia.org/resource/About_Time_(2013_film)>,
         <http://www.wikidata.org/entity/Q4668586> .
@@ -483,7 +483,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/fox-searchlight-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/india> ;
-    ont:releaseYear "2008"^^xsd:gYear ;
+    ont:releaseYear 2008 ;
     dc:title "Slumdog Millionaire" ;
     owl:sameAs <http://dbpedia.org/resource/Slumdog_Millionaire>,
         <http://www.wikidata.org/entity/Q125076> .
@@ -496,7 +496,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/twentieth-century-fox-film-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "X-Men: Days of Future Past" ;
     owl:sameAs <http://dbpedia.org/resource/X-Men:_Days_of_Future_Past>,
         <http://www.wikidata.org/entity/Q4985891> .
@@ -509,7 +509,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/miramax-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/japan> ;
-    ont:releaseYear "1997"^^xsd:gYear ;
+    ont:releaseYear 1997 ;
     dc:title "Princess Mononoke" ;
     owl:sameAs <http://dbpedia.org/resource/Princess_Mononoke>,
         <http://www.wikidata.org/entity/Q186572> .
@@ -522,7 +522,7 @@
     ont:hasGenre ont:genre_fantasy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/studio-ghibli> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/japan> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "Spirited Away" ;
     owl:sameAs <http://dbpedia.org/resource/Spirited_Away>,
         <http://www.wikidata.org/entity/Q155653> .
@@ -535,7 +535,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1994"^^xsd:gYear ;
+    ont:releaseYear 1994 ;
     dc:title "Forrest Gump" ;
     owl:sameAs <http://dbpedia.org/resource/Forrest_Gump>,
         <http://www.wikidata.org/entity/Q134773> .
@@ -548,7 +548,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/village-roadshow-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2008"^^xsd:gYear ;
+    ont:releaseYear 2008 ;
     dc:title "Gran Torino" ;
     owl:sameAs <http://dbpedia.org/resource/Gran_Torino>,
         <http://www.wikidata.org/entity/Q126699> .
@@ -561,7 +561,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/germany> ;
-    ont:releaseYear "2009"^^xsd:gYear ;
+    ont:releaseYear 2009 ;
     dc:title "Star Trek" ;
     owl:sameAs <http://dbpedia.org/resource/Star_Trek_(film)>,
         <http://www.wikidata.org/entity/Q213081> .
@@ -574,7 +574,7 @@
     ont:hasGenre ont:genre_thriller ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/lions-gate-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/canada> ;
-    ont:releaseYear "2000"^^xsd:gYear ;
+    ont:releaseYear 2000 ;
     dc:title "American Psycho" ;
     owl:sameAs <http://dbpedia.org/resource/American_Psycho_(film)>,
         <http://www.wikidata.org/entity/Q1405126> .
@@ -587,7 +587,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/united-artists> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1976"^^xsd:gYear ;
+    ont:releaseYear 1976 ;
     dc:title "Rocky" ;
     owl:sameAs <http://dbpedia.org/resource/Rocky>,
         <http://www.wikidata.org/entity/Q188652> .
@@ -600,7 +600,7 @@
     ont:hasGenre ont:genre_romance ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/columbia-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1993"^^xsd:gYear ;
+    ont:releaseYear 1993 ;
     dc:title "Groundhog Day" ;
     owl:sameAs <http://dbpedia.org/resource/Groundhog_Day_(film)>,
         <http://www.wikidata.org/entity/Q488655> .
@@ -613,7 +613,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/village-roadshow-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "The Lego Movie" ;
     owl:sameAs <http://dbpedia.org/resource/The_Lego_Movie>,
         <http://www.wikidata.org/entity/Q2608065> .
@@ -626,7 +626,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/village-roadshow-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/australia> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Edge of Tomorrow" ;
     owl:sameAs <http://dbpedia.org/resource/Edge_of_Tomorrow>,
         <http://www.wikidata.org/entity/Q1187607> .
@@ -639,7 +639,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/bedford-falls-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/germany> ;
-    ont:releaseYear "2006"^^xsd:gYear ;
+    ont:releaseYear 2006 ;
     dc:title "Blood Diamond" ;
     owl:sameAs <http://dbpedia.org/resource/Blood_Diamond>,
         <http://www.wikidata.org/entity/Q74958> .
@@ -652,7 +652,7 @@
     ont:hasGenre ont:genre_horror ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/new-line-cinema> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "The Conjuring" ;
     owl:sameAs <http://dbpedia.org/resource/The_Conjuring>,
         <http://www.wikidata.org/entity/Q5540479> .
@@ -665,7 +665,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/dreamworks-skg> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1999"^^xsd:gYear ;
+    ont:releaseYear 1999 ;
     dc:title "American Beauty" ;
     owl:sameAs <http://dbpedia.org/resource/American_Beauty_(1999_film)>,
         <http://www.wikidata.org/entity/Q25139> .
@@ -678,7 +678,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/columbia-pictures-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2006"^^xsd:gYear ;
+    ont:releaseYear 2006 ;
     dc:title "The Pursuit of Happyness" ;
     owl:sameAs <http://dbpedia.org/resource/The_Pursuit_of_Happyness>,
         <http://www.wikidata.org/entity/Q220515> .
@@ -691,7 +691,7 @@
     ont:hasGenre ont:genre_fantasy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/pandora-cinema> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "Donnie Darko" ;
     owl:sameAs <http://dbpedia.org/resource/Donnie_Darko>,
         <http://www.wikidata.org/entity/Q426828> .
@@ -704,7 +704,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/pixar-animation-studios> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2009"^^xsd:gYear ;
+    ont:releaseYear 2009 ;
     dc:title "Up" ;
     owl:sameAs <http://dbpedia.org/resource/Up_(2009_film)>,
         <http://www.wikidata.org/entity/Q174811> .
@@ -717,7 +717,7 @@
     ont:hasGenre ont:genre_fantasy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/estudios-picasso> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/spain> ;
-    ont:releaseYear "2006"^^xsd:gYear ;
+    ont:releaseYear 2006 ;
     dc:title "Pan's Labyrinth" ;
     owl:sameAs <http://dbpedia.org/resource/Pan's_Labyrinth>,
         <http://www.wikidata.org/entity/Q216006> .
@@ -730,7 +730,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/river-road-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/canada> ;
-    ont:releaseYear "2005"^^xsd:gYear ;
+    ont:releaseYear 2005 ;
     dc:title "Brokeback Mountain" ;
     owl:sameAs <http://dbpedia.org/resource/Brokeback_Mountain>,
         <http://www.wikidata.org/entity/Q160618> .
@@ -743,7 +743,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/vertigo-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/hong-kong> ;
-    ont:releaseYear "2006"^^xsd:gYear ;
+    ont:releaseYear 2006 ;
     dc:title "The Departed" ;
     owl:sameAs <http://dbpedia.org/resource/The_Departed>,
         <http://www.wikidata.org/entity/Q172975> .
@@ -756,7 +756,7 @@
     ont:hasGenre ont:genre_war ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/miramax-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2008"^^xsd:gYear ;
+    ont:releaseYear 2008 ;
     dc:title "The Boy in the Striped Pyjamas" ;
     owl:sameAs <http://dbpedia.org/resource/The_Boy_in_the_Striped_Pyjamas_(film)>,
         <http://www.wikidata.org/entity/Q157556> .
@@ -769,7 +769,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/alcon-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "Prisoners" ;
     owl:sameAs <http://dbpedia.org/resource/Prisoners_(2013_film)>,
         <http://www.wikidata.org/entity/Q3404003> .
@@ -782,7 +782,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "Inside Out" ;
     owl:sameAs <http://dbpedia.org/resource/Inside_Out_(2015_film)>,
         <http://www.wikidata.org/entity/Q6144664> .
@@ -795,7 +795,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-studios> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "Dallas Buyers Club" ;
     owl:sameAs <http://dbpedia.org/resource/Dallas_Buyers_Club>,
         <http://www.wikidata.org/entity/Q3520498> .
@@ -808,7 +808,7 @@
     ont:hasGenre ont:genre_romance ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/warner-bros> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/china> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "Her" ;
     owl:sameAs <http://dbpedia.org/resource/Her_(film)>,
         <http://www.wikidata.org/entity/Q788822> .
@@ -821,7 +821,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/twentieth-century-fox-film-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1999"^^xsd:gYear ;
+    ont:releaseYear 1999 ;
     dc:title "Office Space" ;
     owl:sameAs <http://dbpedia.org/resource/Office_Space>,
         <http://www.wikidata.org/entity/Q1044523> .
@@ -834,7 +834,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/dc-comics> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2008"^^xsd:gYear ;
+    ont:releaseYear 2008 ;
     dc:title "The Dark Knight" ;
     owl:sameAs <http://dbpedia.org/resource/The_Dark_Knight>,
         <http://www.wikidata.org/entity/Q163872> .
@@ -847,7 +847,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/canada> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Interstellar" ;
     owl:sameAs <http://dbpedia.org/resource/Interstellar_(film)>,
         <http://www.wikidata.org/entity/Q13417189> .
@@ -860,7 +860,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/rko-radio-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1946"^^xsd:gYear ;
+    ont:releaseYear 1946 ;
     dc:title "It's a Wonderful Life" ;
     owl:sameAs <http://dbpedia.org/resource/It's_a_Wonderful_Life>,
         <http://www.wikidata.org/entity/Q204191> .
@@ -873,7 +873,7 @@
     ont:hasGenre ont:genre_fantasy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/twentieth-century-fox-film-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1990"^^xsd:gYear ;
+    ont:releaseYear 1990 ;
     dc:title "Edward Scissorhands" ;
     owl:sameAs <http://dbpedia.org/resource/Edward_Scissorhands>,
         <http://www.wikidata.org/entity/Q217182> .
@@ -886,7 +886,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2005"^^xsd:gYear ;
+    ont:releaseYear 2005 ;
     dc:title "Serenity" ;
     owl:sameAs <http://dbpedia.org/resource/Serenity_(2005_film)>,
         <http://www.wikidata.org/entity/Q691611> .
@@ -899,7 +899,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1989"^^xsd:gYear ;
+    ont:releaseYear 1989 ;
     dc:title "Back to the Future Part II" ;
     owl:sameAs <http://dbpedia.org/resource/Back_to_the_Future_Part_II>,
         <http://www.wikidata.org/entity/Q109331> .
@@ -912,7 +912,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/japan> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "Furious 7" ;
     owl:sameAs <http://dbpedia.org/resource/Furious_7>,
         <http://www.wikidata.org/entity/Q14650496> .
@@ -925,7 +925,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/germany> ;
-    ont:releaseYear "2009"^^xsd:gYear ;
+    ont:releaseYear 2009 ;
     dc:title "Inglourious Basterds" ;
     owl:sameAs <http://dbpedia.org/resource/Inglourious_Basterds>,
         <http://www.wikidata.org/entity/Q153723> .
@@ -938,7 +938,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/marvel-studios> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2008"^^xsd:gYear ;
+    ont:releaseYear 2008 ;
     dc:title "Iron Man" ;
     owl:sameAs <http://dbpedia.org/resource/Iron_Man_(2008_film)>,
         <http://www.wikidata.org/entity/Q192724> .
@@ -951,7 +951,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/liberty-films-uk> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2009"^^xsd:gYear ;
+    ont:releaseYear 2009 ;
     dc:title "Moon" ;
     owl:sameAs <http://dbpedia.org/resource/Moon_(2009_film)>,
         <http://www.wikidata.org/entity/Q26751> .
@@ -964,7 +964,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/wingnut-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2009"^^xsd:gYear ;
+    ont:releaseYear 2009 ;
     dc:title "District 9" ;
     owl:sameAs <http://dbpedia.org/resource/District_9>,
         <http://www.wikidata.org/entity/Q201819> .
@@ -977,7 +977,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Big Hero 6" ;
     owl:sameAs <http://dbpedia.org/resource/Big_Hero_6_(film)>,
         <http://www.wikidata.org/entity/Q13091172> .
@@ -990,7 +990,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/columbia-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/france> ;
-    ont:releaseYear "1997"^^xsd:gYear ;
+    ont:releaseYear 1997 ;
     dc:title "The Fifth Element" ;
     owl:sameAs <http://dbpedia.org/resource/The_Fifth_Element>,
         <http://www.wikidata.org/entity/Q106506> .
@@ -1003,7 +1003,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/the-weinstein-company> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/germany> ;
-    ont:releaseYear "2006"^^xsd:gYear ;
+    ont:releaseYear 2006 ;
     dc:title "Lucky Number Slevin" ;
     owl:sameAs <http://dbpedia.org/resource/Lucky_Number_Slevin>,
         <http://www.wikidata.org/entity/Q684470> .
@@ -1016,7 +1016,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/lucasfilm> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1980"^^xsd:gYear ;
+    ont:releaseYear 1980 ;
     dc:title "The Empire Strikes Back" ;
     owl:sameAs <http://dbpedia.org/resource/The_Empire_Strikes_Back>,
         <http://www.wikidata.org/entity/Q181795> .
@@ -1029,7 +1029,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/lucasfilm> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1983"^^xsd:gYear ;
+    ont:releaseYear 1983 ;
     dc:title "Return of the Jedi" ;
     owl:sameAs <http://dbpedia.org/resource/Return_of_the_Jedi>,
         <http://www.wikidata.org/entity/Q181803> .
@@ -1042,7 +1042,7 @@
     ont:hasGenre ont:genre_war ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/village-roadshow-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "American Sniper" ;
     owl:sameAs <http://dbpedia.org/resource/American_Sniper>,
         <http://www.wikidata.org/entity/Q16970789> .
@@ -1055,7 +1055,7 @@
     ont:hasGenre ont:genre_horror ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/cruise-wagner-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/spain> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "The Others" ;
     owl:sameAs <http://dbpedia.org/resource/The_Others_(2001_film)>,
         <http://www.wikidata.org/entity/Q332515> .
@@ -1068,7 +1068,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "Lone Survivor" ;
     owl:sameAs <http://dbpedia.org/resource/Lone_Survivor>,
         <http://www.wikidata.org/entity/Q3258993> .
@@ -1081,7 +1081,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/france-3-cin-ma> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/france> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "Amélie" ;
     owl:sameAs <http://dbpedia.org/resource/Amélie>,
         <http://www.wikidata.org/entity/Q484048> .
@@ -1094,7 +1094,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/worldview-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Birdman" ;
     owl:sameAs <http://dbpedia.org/resource/Birdman_(film)>,
         <http://www.wikidata.org/entity/Q13255497> .
@@ -1107,7 +1107,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2007"^^xsd:gYear ;
+    ont:releaseYear 2007 ;
     dc:title "Zodiac" ;
     owl:sameAs <http://dbpedia.org/resource/Zodiac_(film)>,
         <http://www.wikidata.org/entity/Q218172> .
@@ -1120,7 +1120,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/new-line-cinema> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/canada> ;
-    ont:releaseYear "2004"^^xsd:gYear ;
+    ont:releaseYear 2004 ;
     dc:title "The Butterfly Effect" ;
     owl:sameAs <http://dbpedia.org/resource/The_Butterfly_Effect>,
         <http://www.wikidata.org/entity/Q221109> .
@@ -1133,7 +1133,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/icon-entertainment-international> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1995"^^xsd:gYear ;
+    ont:releaseYear 1995 ;
     dc:title "Braveheart" ;
     owl:sameAs <http://dbpedia.org/resource/Braveheart>,
         <http://www.wikidata.org/entity/Q162729> .
@@ -1146,7 +1146,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/studio-babelsberg> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/germany> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "The Book Thief" ;
     owl:sameAs <http://dbpedia.org/resource/The_Book_Thief_(film)>,
         <http://www.wikidata.org/entity/Q14511981> .
@@ -1159,7 +1159,7 @@
     ont:hasGenre ont:genre_history ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/black-bear-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "The Imitation Game" ;
     owl:sameAs <http://dbpedia.org/resource/The_Imitation_Game>,
         <http://www.wikidata.org/entity/Q14918344> .
@@ -1172,7 +1172,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2007"^^xsd:gYear ;
+    ont:releaseYear 2007 ;
     dc:title "Ratatouille" ;
     owl:sameAs <http://dbpedia.org/resource/Ratatouille_(film)>,
         <http://www.wikidata.org/entity/Q170035> .
@@ -1185,7 +1185,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/touchstone-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1989"^^xsd:gYear ;
+    ont:releaseYear 1989 ;
     dc:title "Dead Poets Society" ;
     owl:sameAs <http://dbpedia.org/resource/Dead_Poets_Society>,
         <http://www.wikidata.org/entity/Q106316> .
@@ -1198,7 +1198,7 @@
     ont:hasGenre ont:genre_mystery ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/twentieth-century-fox-film-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Gone Girl" ;
     owl:sameAs <http://dbpedia.org/resource/Gone_Girl_(film)>,
         <http://www.wikidata.org/entity/Q14920425> .
@@ -1211,7 +1211,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/regency-enterprises> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1997"^^xsd:gYear ;
+    ont:releaseYear 1997 ;
     dc:title "L.A. Confidential" ;
     owl:sameAs <http://dbpedia.org/resource/L.A._Confidential_(film)>,
         <http://www.wikidata.org/entity/Q339876> .
@@ -1224,7 +1224,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/orion-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "1984"^^xsd:gYear ;
+    ont:releaseYear 1984 ;
     dc:title "The Terminator" ;
     owl:sameAs <http://dbpedia.org/resource/The_Terminator>,
         <http://www.wikidata.org/entity/Q162255> .
@@ -1237,7 +1237,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2003"^^xsd:gYear ;
+    ont:releaseYear 2003 ;
     dc:title "Pirates of the Caribbean: The Curse of the Black Pearl" ;
     owl:sameAs <http://dbpedia.org/resource/Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl>,
         <http://www.wikidata.org/entity/Q46717> .
@@ -1250,7 +1250,7 @@
     ont:hasGenre ont:genre_romance ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/fox-2000-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "The Fault in Our Stars" ;
     owl:sameAs <http://dbpedia.org/resource/The_Fault_in_Our_Stars_(film)>,
         <http://www.wikidata.org/entity/Q14704171> .
@@ -1263,7 +1263,7 @@
     ont:hasGenre ont:genre_war ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/columbia-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Fury" ;
     owl:sameAs <http://dbpedia.org/resource/Fury_(2014_film)>,
         <http://www.wikidata.org/entity/Q14786561> .
@@ -1276,7 +1276,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/columbia-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1986"^^xsd:gYear ;
+    ont:releaseYear 1986 ;
     dc:title "Stand by Me" ;
     owl:sameAs <http://dbpedia.org/resource/Stand_by_Me_(film)>,
         <http://www.wikidata.org/entity/Q494722> .
@@ -1289,7 +1289,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1972"^^xsd:gYear ;
+    ont:releaseYear 1972 ;
     dc:title "The Godfather" ;
     owl:sameAs <http://dbpedia.org/resource/The_Godfather>,
         <http://www.wikidata.org/entity/Q47703> .
@@ -1302,7 +1302,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/miramax-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2003"^^xsd:gYear ;
+    ont:releaseYear 2003 ;
     dc:title "Kill Bill: Vol. 1" ;
     owl:sameAs <http://dbpedia.org/resource/Kill_Bill:_Volume_1>,
         <http://www.wikidata.org/entity/Q165325> .
@@ -1315,7 +1315,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1974"^^xsd:gYear ;
+    ont:releaseYear 1974 ;
     dc:title "The Godfather: Part II" ;
     owl:sameAs <http://dbpedia.org/resource/The_Godfather_Part_II>,
         <http://www.wikidata.org/entity/Q184768> .
@@ -1328,7 +1328,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/bold-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Nightcrawler" ;
     owl:sameAs <http://dbpedia.org/resource/Nightcrawler_(film)>,
         <http://www.wikidata.org/entity/Q15154975> .
@@ -1341,7 +1341,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/verisimilitude> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "I Origins" ;
     owl:sameAs <http://dbpedia.org/resource/I_Origins>,
         <http://www.wikidata.org/entity/Q15635667> .
@@ -1354,7 +1354,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2012"^^xsd:gYear ;
+    ont:releaseYear 2012 ;
     dc:title "The Avengers" ;
     owl:sameAs <http://dbpedia.org/resource/The_Avengers_(2012_film)>,
         <http://www.wikidata.org/entity/Q182218> .
@@ -1367,7 +1367,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/bold-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Whiplash" ;
     owl:sameAs <http://dbpedia.org/resource/Whiplash_(2014_film)>,
         <http://www.wikidata.org/entity/Q15648198> .
@@ -1380,7 +1380,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/act-iii-communications> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1987"^^xsd:gYear ;
+    ont:releaseYear 1987 ;
     dc:title "The Princess Bride" ;
     owl:sameAs <http://dbpedia.org/resource/The_Princess_Bride_(film)>,
         <http://www.wikidata.org/entity/Q506418> .
@@ -1393,7 +1393,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2002"^^xsd:gYear ;
+    ont:releaseYear 2002 ;
     dc:title "The Bourne Identity" ;
     owl:sameAs <http://dbpedia.org/resource/The_Bourne_Identity_(2002_film)>,
         <http://www.wikidata.org/entity/Q105624> .
@@ -1406,7 +1406,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/germany> ;
-    ont:releaseYear "2007"^^xsd:gYear ;
+    ont:releaseYear 2007 ;
     dc:title "The Bourne Ultimatum" ;
     owl:sameAs <http://dbpedia.org/resource/The_Bourne_Ultimatum_(film)>,
         <http://www.wikidata.org/entity/Q107226> .
@@ -1419,7 +1419,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/t-l-film-canada> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/canada> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "Room" ;
     owl:sameAs <http://dbpedia.org/resource/Room_(2015_film)>,
         <http://www.wikidata.org/entity/Q18703032> .
@@ -1432,7 +1432,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/dna-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "Ex Machina" ;
     owl:sameAs <http://dbpedia.org/resource/Ex_Machina_(film)>,
         <http://www.wikidata.org/entity/Q16635326> .
@@ -1445,7 +1445,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/polygram-filmed-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1997"^^xsd:gYear ;
+    ont:releaseYear 1997 ;
     dc:title "The Game" ;
     owl:sameAs <http://dbpedia.org/resource/The_Game_(1997_film)>,
         <http://www.wikidata.org/entity/Q723187> .
@@ -1458,7 +1458,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/working-title-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "The Theory of Everything" ;
     owl:sameAs <http://dbpedia.org/resource/The_Theory_of_Everything_(2014_film)>,
         <http://www.wikidata.org/entity/Q15079318> .
@@ -1471,7 +1471,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/dc-comics> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2005"^^xsd:gYear ;
+    ont:releaseYear 2005 ;
     dc:title "Batman Begins" ;
     owl:sameAs <http://dbpedia.org/resource/Batman_Begins>,
         <http://www.wikidata.org/entity/Q166262> .
@@ -1484,7 +1484,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/legendary-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2010"^^xsd:gYear ;
+    ont:releaseYear 2010 ;
     dc:title "Inception" ;
     owl:sameAs <http://dbpedia.org/resource/Inception>,
         <http://www.wikidata.org/entity/Q25188> .
@@ -1497,7 +1497,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/double-feature-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "The Hateful Eight" ;
     owl:sameAs <http://dbpedia.org/resource/The_Hateful_Eight>,
         <http://www.wikidata.org/entity/Q18225084> .
@@ -1510,7 +1510,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/orion-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1991"^^xsd:gYear ;
+    ont:releaseYear 1991 ;
     dc:title "The Silence of the Lambs" ;
     owl:sameAs <http://dbpedia.org/resource/The_Silence_of_the_Lambs_(film)>,
         <http://www.wikidata.org/entity/Q133654> .
@@ -1523,7 +1523,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/new-line-cinema> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "Straight Outta Compton" ;
     owl:sameAs <http://dbpedia.org/resource/Straight_Outta_Compton_(film)>,
         <http://www.wikidata.org/entity/Q18154625> .
@@ -1536,7 +1536,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/castle-rock-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1994"^^xsd:gYear ;
+    ont:releaseYear 1994 ;
     dc:title "The Shawshank Redemption" ;
     owl:sameAs <http://dbpedia.org/resource/The_Shawshank_Redemption>,
         <http://www.wikidata.org/entity/Q172241> .
@@ -1549,7 +1549,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/warner-bros> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1984"^^xsd:gYear ;
+    ont:releaseYear 1984 ;
     dc:title "Amadeus" ;
     owl:sameAs <http://dbpedia.org/resource/Amadeus_(film)>,
         <http://www.wikidata.org/entity/Q190956> .
@@ -1562,7 +1562,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/united-artists> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1979"^^xsd:gYear ;
+    ont:releaseYear 1979 ;
     dc:title "Apocalypse Now" .
 
 <http://it6390e-group2.example.org/resource/movie/280> a schema:Movie ;
@@ -1573,7 +1573,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/lightstorm-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/france> ;
-    ont:releaseYear "1991"^^xsd:gYear ;
+    ont:releaseYear 1991 ;
     dc:title "Terminator 2: Judgment Day" ;
     owl:sameAs <http://dbpedia.org/resource/Terminator_2:_Judgment_Day>,
         <http://www.wikidata.org/entity/Q170564> .
@@ -1586,7 +1586,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/grand-army-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2009"^^xsd:gYear ;
+    ont:releaseYear 2009 ;
     dc:title "Hachi: A Dog's Tale" ;
     owl:sameAs <http://dbpedia.org/resource/Hachi:_A_Dog's_Tale>,
         <http://www.wikidata.org/entity/Q59249> .
@@ -1599,7 +1599,7 @@
     ont:hasGenre ont:genre_western ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/regency-enterprises> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/canada> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "The Revenant" ;
     owl:sameAs <http://dbpedia.org/resource/The_Revenant_(2015_film)>,
         <http://www.wikidata.org/entity/Q18002795> .
@@ -1612,7 +1612,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/killer-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Still Alice" ;
     owl:sameAs <http://dbpedia.org/resource/Still_Alice>,
         <http://www.wikidata.org/entity/Q16354843> .
@@ -1625,7 +1625,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/twentieth-century-fox-film-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "The Martian" ;
     owl:sameAs <http://dbpedia.org/resource/The_Martian_(film)>,
         <http://www.wikidata.org/entity/Q18547944> .
@@ -1638,7 +1638,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/warner-bros> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1942"^^xsd:gYear ;
+    ont:releaseYear 1942 ;
     dc:title "Casablanca" ;
     owl:sameAs <http://dbpedia.org/resource/Casablanca_(film)>,
         <http://www.wikidata.org/entity/Q132689> .
@@ -1651,7 +1651,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/twentieth-century-fox-film-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2016"^^xsd:gYear ;
+    ont:releaseYear 2016 ;
     dc:title "Deadpool" ;
     owl:sameAs <http://dbpedia.org/resource/Deadpool_(film)>,
         <http://www.wikidata.org/entity/Q19347291> .
@@ -1664,7 +1664,7 @@
     ont:hasGenre ont:genre_fantasy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/lakeshore-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "The Age of Adaline" ;
     owl:sameAs <http://dbpedia.org/resource/The_Age_of_Adaline>,
         <http://www.wikidata.org/entity/Q16242543> .
@@ -1677,7 +1677,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/new-line-cinema> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2016"^^xsd:gYear ;
+    ont:releaseYear 2016 ;
     dc:title "Me Before You" ;
     owl:sameAs <http://dbpedia.org/resource/Me_Before_You_(film)>,
         <http://www.wikidata.org/entity/Q20735644> .
@@ -1690,7 +1690,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/escape-artists> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "Southpaw" ;
     owl:sameAs <http://dbpedia.org/resource/Southpaw_(film)>,
         <http://www.wikidata.org/entity/Q17276718> .
@@ -1703,7 +1703,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/warner-bros> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1984"^^xsd:gYear ;
+    ont:releaseYear 1984 ;
     dc:title "Once Upon a Time in America" ;
     owl:sameAs <http://dbpedia.org/resource/Once_Upon_a_Time_in_America>,
         <http://www.wikidata.org/entity/Q206388> .
@@ -1716,7 +1716,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/new-line-cinema> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "Creed" ;
     owl:sameAs <http://dbpedia.org/resource/Creed_(film)>,
         <http://www.wikidata.org/entity/Q18822138> .
@@ -1729,7 +1729,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/canada> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "Spotlight" ;
     owl:sameAs <http://dbpedia.org/resource/Spotlight_(film)>,
         <http://www.wikidata.org/entity/Q18154496> .
@@ -1742,7 +1742,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "The Big Short" ;
     owl:sameAs <http://dbpedia.org/resource/The_Big_Short_(film)>,
         <http://www.wikidata.org/entity/Q19850715> .
@@ -1755,7 +1755,7 @@
     ont:hasGenre ont:genre_thriller ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/village-roadshow-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2003"^^xsd:gYear ;
+    ont:releaseYear 2003 ;
     dc:title "Mystic River" ;
     owl:sameAs <http://dbpedia.org/resource/Mystic_River_(film)>,
         <http://www.wikidata.org/entity/Q221586> .
@@ -1768,7 +1768,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1993"^^xsd:gYear ;
+    ont:releaseYear 1993 ;
     dc:title "Jurassic Park" ;
     owl:sameAs <http://dbpedia.org/resource/Jurassic_Park_(film)>,
         <http://www.wikidata.org/entity/Q167726> .
@@ -1781,7 +1781,7 @@
     ont:hasGenre ont:genre_western ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/malpaso-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1992"^^xsd:gYear ;
+    ont:releaseYear 1992 ;
     dc:title "Unforgiven" ;
     owl:sameAs <http://dbpedia.org/resource/Unforgiven>,
         <http://www.wikidata.org/entity/Q104137> .
@@ -1794,7 +1794,7 @@
     ont:hasGenre ont:genre_western ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/italy> ;
-    ont:releaseYear "1968"^^xsd:gYear ;
+    ont:releaseYear 1968 ;
     dc:title "Once Upon a Time in the West" ;
     owl:sameAs <http://dbpedia.org/resource/Once_Upon_a_Time_in_the_West>,
         <http://www.wikidata.org/entity/Q168154> .
@@ -1807,7 +1807,7 @@
     ont:hasGenre ont:genre_horror ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/twentieth-century-fox-film-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1979"^^xsd:gYear ;
+    ont:releaseYear 1979 ;
     dc:title "Alien" ;
     owl:sameAs <http://dbpedia.org/resource/Alien_(film)>,
         <http://www.wikidata.org/entity/Q103569> .
@@ -1820,7 +1820,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/eon-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/italy> ;
-    ont:releaseYear "2006"^^xsd:gYear ;
+    ont:releaseYear 2006 ;
     dc:title "Casino Royale" ;
     owl:sameAs <http://dbpedia.org/resource/Casino_Royale_(2006_film)>,
         <http://www.wikidata.org/entity/Q151904> .
@@ -1833,7 +1833,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1998"^^xsd:gYear ;
+    ont:releaseYear 1998 ;
     dc:title "The Truman Show" ;
     owl:sameAs <http://dbpedia.org/resource/The_Truman_Show>,
         <http://www.wikidata.org/entity/Q214801> .
@@ -1846,7 +1846,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/anonymous-content> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2004"^^xsd:gYear ;
+    ont:releaseYear 2004 ;
     dc:title "Eternal Sunshine of the Spotless Mind" ;
     owl:sameAs <http://dbpedia.org/resource/Eternal_Sunshine_of_the_Spotless_Mind>,
         <http://www.wikidata.org/entity/Q208269> .
@@ -1859,7 +1859,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/united-artists> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1988"^^xsd:gYear ;
+    ont:releaseYear 1988 ;
     dc:title "Rain Man" ;
     owl:sameAs <http://dbpedia.org/resource/Rain_Man>,
         <http://www.wikidata.org/entity/Q188845> .
@@ -1872,7 +1872,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2010"^^xsd:gYear ;
+    ont:releaseYear 2010 ;
     dc:title "Tangled" ;
     owl:sameAs <http://dbpedia.org/resource/Tangled>,
         <http://www.wikidata.org/entity/Q188439> .
@@ -1885,7 +1885,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/united-artists> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1957"^^xsd:gYear ;
+    ont:releaseYear 1957 ;
     dc:title "12 Angry Men" ;
     owl:sameAs <http://dbpedia.org/resource/12_Angry_Men_(1957_film)>,
         <http://www.wikidata.org/entity/Q2345> .
@@ -1898,7 +1898,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/miramax-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2004"^^xsd:gYear ;
+    ont:releaseYear 2004 ;
     dc:title "Kill Bill: Vol. 2" ;
     owl:sameAs <http://dbpedia.org/resource/Kill_Bill:_Volume_2>,
         <http://www.wikidata.org/entity/Q928019> .
@@ -1911,7 +1911,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/new-line-cinema> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "Blow" ;
     owl:sameAs <http://dbpedia.org/resource/Blow_(film)>,
         <http://www.wikidata.org/entity/Q631515> .
@@ -1924,7 +1924,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/bac-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/france> ;
-    ont:releaseYear "2002"^^xsd:gYear ;
+    ont:releaseYear 2002 ;
     dc:title "The Pianist" ;
     owl:sameAs <http://dbpedia.org/resource/The_Pianist_(2002_film)>,
         <http://www.wikidata.org/entity/Q150804> .
@@ -1937,7 +1937,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1993"^^xsd:gYear ;
+    ont:releaseYear 1993 ;
     dc:title "Schindler's List" ;
     owl:sameAs <http://dbpedia.org/resource/Schindler's_List>,
         <http://www.wikidata.org/entity/Q483941> .
@@ -1950,7 +1950,7 @@
     ont:hasGenre ont:genre_western ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/united-artists> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1966"^^xsd:gYear ;
+    ont:releaseYear 1966 ;
     dc:title "The Good, the Bad and the Ugly" ;
     owl:sameAs <http://dbpedia.org/resource/The_Good,_the_Bad_and_the_Ugly>,
         <http://www.wikidata.org/entity/Q41483> .
@@ -1963,7 +1963,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1964"^^xsd:gYear ;
+    ont:releaseYear 1964 ;
     dc:title "Mary Poppins" ;
     owl:sameAs <http://dbpedia.org/resource/Mary_Poppins_(film)>,
         <http://www.wikidata.org/entity/Q209170> .
@@ -1976,7 +1976,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2007"^^xsd:gYear ;
+    ont:releaseYear 2007 ;
     dc:title "Atonement" ;
     owl:sameAs <http://dbpedia.org/resource/Atonement_(2007_film)>,
         <http://www.wikidata.org/entity/Q1626186> .
@@ -1989,7 +1989,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/france> ;
-    ont:releaseYear "2005"^^xsd:gYear ;
+    ont:releaseYear 2005 ;
     dc:title "Pride & Prejudice" ;
     owl:sameAs <http://dbpedia.org/resource/Pride_&_Prejudice_(2005_film)>,
         <http://www.wikidata.org/entity/Q270385> .
@@ -2002,7 +2002,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/fox-searchlight-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2010"^^xsd:gYear ;
+    ont:releaseYear 2010 ;
     dc:title "Black Swan" ;
     owl:sameAs <http://dbpedia.org/resource/Black_Swan_(film)>,
         <http://www.wikidata.org/entity/Q180214> .
@@ -2015,7 +2015,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/the-weinstein-company> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2010"^^xsd:gYear ;
+    ont:releaseYear 2010 ;
     dc:title "The King's Speech" ;
     owl:sameAs <http://dbpedia.org/resource/The_King's_Speech>,
         <http://www.wikidata.org/entity/Q160060> .
@@ -2028,7 +2028,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/imagine-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "A Beautiful Mind" ;
     owl:sameAs <http://dbpedia.org/resource/A_Beautiful_Mind_(film)>,
         <http://www.wikidata.org/entity/Q164103> .
@@ -2041,7 +2041,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2007"^^xsd:gYear ;
+    ont:releaseYear 2007 ;
     dc:title "Hot Fuzz" ;
     owl:sameAs <http://dbpedia.org/resource/Hot_Fuzz>,
         <http://www.wikidata.org/entity/Q729788> .
@@ -2054,7 +2054,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/miramax-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/canada> ;
-    ont:releaseYear "1997"^^xsd:gYear ;
+    ont:releaseYear 1997 ;
     dc:title "Good Will Hunting" ;
     owl:sameAs <http://dbpedia.org/resource/Good_Will_Hunting>,
         <http://www.wikidata.org/entity/Q193835> .
@@ -2067,7 +2067,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/legendary-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2012"^^xsd:gYear ;
+    ont:releaseYear 2012 ;
     dc:title "The Dark Knight Rises" ;
     owl:sameAs <http://dbpedia.org/resource/The_Dark_Knight_Rises>,
         <http://www.wikidata.org/entity/Q189330> .
@@ -2080,7 +2080,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/warner-bros> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "Gravity" ;
     owl:sameAs <http://dbpedia.org/resource/Gravity_(2013_film)>,
         <http://www.wikidata.org/entity/Q2579784> .
@@ -2093,7 +2093,7 @@
     ont:hasGenre ont:genre_fantasy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2008"^^xsd:gYear ;
+    ont:releaseYear 2008 ;
     dc:title "The Curious Case of Benjamin Button" ;
     owl:sameAs <http://dbpedia.org/resource/The_Curious_Case_of_Benjamin_Button_(film)>,
         <http://www.wikidata.org/entity/Q183239> .
@@ -2106,7 +2106,7 @@
     ont:hasGenre ont:genre_fantasy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/studio-ghibli> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/japan> ;
-    ont:releaseYear "2004"^^xsd:gYear ;
+    ont:releaseYear 2004 ;
     dc:title "Howl's Moving Castle" ;
     owl:sameAs <http://dbpedia.org/resource/Howl's_Moving_Castle_(film)>,
         <http://www.wikidata.org/entity/Q29011> .
@@ -2119,7 +2119,7 @@
     ont:hasGenre ont:genre_fantasy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/castle-rock-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1999"^^xsd:gYear ;
+    ont:releaseYear 1999 ;
     dc:title "The Green Mile" ;
     owl:sameAs <http://dbpedia.org/resource/The_Green_Mile_(film)>,
         <http://www.wikidata.org/entity/Q208263> .
@@ -2132,7 +2132,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/imagine-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2007"^^xsd:gYear ;
+    ont:releaseYear 2007 ;
     dc:title "American Gangster" ;
     owl:sameAs <http://dbpedia.org/resource/American_Gangster_(film)>,
         <http://www.wikidata.org/entity/Q270351> .
@@ -2145,7 +2145,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/live-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1992"^^xsd:gYear ;
+    ont:releaseYear 1992 ;
     dc:title "Reservoir Dogs" ;
     owl:sameAs <http://dbpedia.org/resource/Reservoir_Dogs>,
         <http://www.wikidata.org/entity/Q72962> .
@@ -2158,7 +2158,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/dreamworks-skg> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/india> ;
-    ont:releaseYear "2011"^^xsd:gYear ;
+    ont:releaseYear 2011 ;
     dc:title "The Help" ;
     owl:sameAs <http://dbpedia.org/resource/The_Help_(film)>,
         <http://www.wikidata.org/entity/Q204374> .
@@ -2171,7 +2171,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/united-artists> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1975"^^xsd:gYear ;
+    ont:releaseYear 1975 ;
     dc:title "One Flew Over the Cuckoo's Nest" ;
     owl:sameAs <http://dbpedia.org/resource/One_Flew_Over_the_Cuckoo's_Nest_(film)>,
         <http://www.wikidata.org/entity/Q171669> .
@@ -2184,7 +2184,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/france> ;
-    ont:releaseYear "1995"^^xsd:gYear ;
+    ont:releaseYear 1995 ;
     dc:title "Casino" ;
     owl:sameAs <http://dbpedia.org/resource/Casino_(1995_film)>,
         <http://www.wikidata.org/entity/Q220910> .
@@ -2197,7 +2197,7 @@
     ont:hasGenre ont:genre_music ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1980"^^xsd:gYear ;
+    ont:releaseYear 1980 ;
     dc:title "The Blues Brothers" ;
     owl:sameAs <http://dbpedia.org/resource/The_Blues_Brothers_(film)>,
         <http://www.wikidata.org/entity/Q109767> .
@@ -2210,7 +2210,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1960"^^xsd:gYear ;
+    ont:releaseYear 1960 ;
     dc:title "Psycho" ;
     owl:sameAs <http://dbpedia.org/resource/Psycho_(1960_film)>,
         <http://www.wikidata.org/entity/Q163038> .
@@ -2223,7 +2223,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "Star Trek Into Darkness" ;
     owl:sameAs <http://dbpedia.org/resource/Star_Trek_Into_Darkness>,
         <http://www.wikidata.org/entity/Q171711> .
@@ -2236,7 +2236,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/regency-enterprises> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/germany> ;
-    ont:releaseYear "1999"^^xsd:gYear ;
+    ont:releaseYear 1999 ;
     dc:title "Fight Club" ;
     owl:sameAs <http://dbpedia.org/resource/Fight_Club>,
         <http://www.wikidata.org/entity/Q190050> .
@@ -2249,7 +2249,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/twentieth-century-fox-film-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1988"^^xsd:gYear ;
+    ont:releaseYear 1988 ;
     dc:title "Die Hard" ;
     owl:sameAs <http://dbpedia.org/resource/Die_Hard>,
         <http://www.wikidata.org/entity/Q105598> .
@@ -2262,7 +2262,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/wingnut-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/new-zealand> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "The Hobbit: The Desolation of Smaug" ;
     owl:sameAs <http://dbpedia.org/resource/The_Hobbit:_The_Desolation_of_Smaug>,
         <http://www.wikidata.org/entity/Q719915> .
@@ -2275,7 +2275,7 @@
     ont:hasGenre ont:genre_horror ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1975"^^xsd:gYear ;
+    ont:releaseYear 1975 ;
     dc:title "Jaws" ;
     owl:sameAs <http://dbpedia.org/resource/Jaws_(film)>,
         <http://www.wikidata.org/entity/Q189505> .
@@ -2288,7 +2288,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/tig-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "1990"^^xsd:gYear ;
+    ont:releaseYear 1990 ;
     dc:title "Dances with Wolves" ;
     owl:sameAs <http://dbpedia.org/resource/Dances_with_Wolves>,
         <http://www.wikidata.org/entity/Q20456> .
@@ -2301,7 +2301,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "Monsters, Inc." ;
     owl:sameAs <http://dbpedia.org/resource/Monsters,_Inc.>,
         <http://www.wikidata.org/entity/Q187726> .
@@ -2314,7 +2314,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/columbia-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2003"^^xsd:gYear ;
+    ont:releaseYear 2003 ;
     dc:title "Big Fish" ;
     owl:sameAs <http://dbpedia.org/resource/Big_Fish>,
         <http://www.wikidata.org/entity/Q278997> .
@@ -2327,7 +2327,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-vantage> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2007"^^xsd:gYear ;
+    ont:releaseYear 2007 ;
     dc:title "Into the Wild" ;
     owl:sameAs <http://dbpedia.org/resource/Into_the_Wild_(film)>,
         <http://www.wikidata.org/entity/Q269912> .
@@ -2340,7 +2340,7 @@
     ont:hasGenre ont:genre_fantasy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/gravier-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/spain> ;
-    ont:releaseYear "2011"^^xsd:gYear ;
+    ont:releaseYear 2011 ;
     dc:title "Midnight in Paris" ;
     owl:sameAs <http://dbpedia.org/resource/Midnight_in_Paris>,
         <http://www.wikidata.org/entity/Q206124> .
@@ -2353,7 +2353,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/solaris-film> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2011"^^xsd:gYear ;
+    ont:releaseYear 2011 ;
     dc:title "Warrior" ;
     owl:sameAs <http://dbpedia.org/resource/Warrior_(2011_film)>,
         <http://www.wikidata.org/entity/Q1415964> .
@@ -2366,7 +2366,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1997"^^xsd:gYear ;
+    ont:releaseYear 1997 ;
     dc:title "Titanic" ;
     owl:sameAs <http://dbpedia.org/resource/Titanic_(1997_film)>,
         <http://www.wikidata.org/entity/Q44578> .
@@ -2379,7 +2379,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/o2-filmes> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/brazil> ;
-    ont:releaseYear "2002"^^xsd:gYear ;
+    ont:releaseYear 2002 ;
     dc:title "City of God" ;
     owl:sameAs <http://dbpedia.org/resource/City_of_God_(2002_film)>,
         <http://www.wikidata.org/entity/Q220741> .
@@ -2392,7 +2392,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1982"^^xsd:gYear ;
+    ont:releaseYear 1982 ;
     dc:title "E.T. the Extra-Terrestrial" ;
     owl:sameAs <http://dbpedia.org/resource/E.T._the_Extra-Terrestrial>,
         <http://www.wikidata.org/entity/Q11621> .
@@ -2405,7 +2405,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/village-roadshow-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/australia> ;
-    ont:releaseYear "1999"^^xsd:gYear ;
+    ont:releaseYear 1999 ;
     dc:title "The Matrix" ;
     owl:sameAs <http://dbpedia.org/resource/The_Matrix>,
         <http://www.wikidata.org/entity/Q83495> .
@@ -2418,7 +2418,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/degeto-film> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/austria> ;
-    ont:releaseYear "2004"^^xsd:gYear ;
+    ont:releaseYear 2004 ;
     dc:title "Downfall" ;
     owl:sameAs <http://dbpedia.org/resource/Downfall_(2004_film)>,
         <http://www.wikidata.org/entity/Q152857> .
@@ -2431,7 +2431,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/cruise-wagner-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/japan> ;
-    ont:releaseYear "2003"^^xsd:gYear ;
+    ont:releaseYear 2003 ;
     dc:title "The Last Samurai" ;
     owl:sameAs <http://dbpedia.org/resource/The_Last_Samurai>,
         <http://www.wikidata.org/entity/Q207130> .
@@ -2444,7 +2444,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/stanley-kubrick-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1968"^^xsd:gYear ;
+    ont:releaseYear 1968 ;
     dc:title "2001: A Space Odyssey" ;
     owl:sameAs <http://dbpedia.org/resource/2001:_A_Space_Odyssey_(film)>,
         <http://www.wikidata.org/entity/Q103474> .
@@ -2457,7 +2457,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/miramax-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "1996"^^xsd:gYear ;
+    ont:releaseYear 1996 ;
     dc:title "Trainspotting" ;
     owl:sameAs <http://dbpedia.org/resource/Trainspotting_(film)>,
         <http://www.wikidata.org/entity/Q109135> .
@@ -2470,7 +2470,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/blue-parrot-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1995"^^xsd:gYear ;
+    ont:releaseYear 1995 ;
     dc:title "The Usual Suspects" ;
     owl:sameAs <http://dbpedia.org/resource/The_Usual_Suspects>,
         <http://www.wikidata.org/entity/Q132351> .
@@ -2483,7 +2483,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/loew-s-incorporated> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1939"^^xsd:gYear ;
+    ont:releaseYear 1939 ;
     dc:title "The Wizard of Oz" ;
     owl:sameAs <http://dbpedia.org/resource/The_Wizard_of_Oz_(1939_film)>,
         <http://www.wikidata.org/entity/Q193695> .
@@ -2496,7 +2496,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/kemp-company> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2002"^^xsd:gYear ;
+    ont:releaseYear 2002 ;
     dc:title "Catch Me If You Can" ;
     owl:sameAs <http://dbpedia.org/resource/Catch_Me_If_You_Can>,
         <http://www.wikidata.org/entity/Q208108> .
@@ -2509,7 +2509,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/artisan-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2000"^^xsd:gYear ;
+    ont:releaseYear 2000 ;
     dc:title "Requiem for a Dream" ;
     owl:sameAs <http://dbpedia.org/resource/Requiem_for_a_Dream>,
         <http://www.wikidata.org/entity/Q487181> .
@@ -2522,7 +2522,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/village-roadshow-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "The Great Gatsby" ;
     owl:sameAs <http://dbpedia.org/resource/The_Great_Gatsby_(2013_film)>,
         <http://www.wikidata.org/entity/Q892735> .
@@ -2535,7 +2535,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/bold-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2011"^^xsd:gYear ;
+    ont:releaseYear 2011 ;
     dc:title "Drive" ;
     owl:sameAs <http://dbpedia.org/resource/Drive_(2011_film)>,
         <http://www.wikidata.org/entity/Q732960> .
@@ -2548,7 +2548,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/egg-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/south-korea> ;
-    ont:releaseYear "2003"^^xsd:gYear ;
+    ont:releaseYear 2003 ;
     dc:title "Oldboy" ;
     owl:sameAs <http://dbpedia.org/resource/Oldboy_(2003_film)>,
         <http://www.wikidata.org/entity/Q475693> .
@@ -2561,7 +2561,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/1492-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "Harry Potter and the Philosopher's Stone" ;
     owl:sameAs <http://dbpedia.org/resource/Harry_Potter_and_the_Philosopher's_Stone_(film)>,
         <http://www.wikidata.org/entity/Q102438> .
@@ -2574,7 +2574,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/1492-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/germany> ;
-    ont:releaseYear "2002"^^xsd:gYear ;
+    ont:releaseYear 2002 ;
     dc:title "Harry Potter and the Chamber of Secrets" ;
     owl:sameAs <http://dbpedia.org/resource/Harry_Potter_and_the_Chamber_of_Secrets_(film)>,
         <http://www.wikidata.org/entity/Q102244> .
@@ -2587,7 +2587,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/1492-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2004"^^xsd:gYear ;
+    ont:releaseYear 2004 ;
     dc:title "Harry Potter and the Prisoner of Azkaban" ;
     owl:sameAs <http://dbpedia.org/resource/Harry_Potter_and_the_Prisoner_of_Azkaban_(film)>,
         <http://www.wikidata.org/entity/Q102448> .
@@ -2600,7 +2600,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/patalex-iv-productions-limited> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2005"^^xsd:gYear ;
+    ont:releaseYear 2005 ;
     dc:title "Harry Potter and the Goblet of Fire" ;
     owl:sameAs <http://dbpedia.org/resource/Harry_Potter_and_the_Goblet_of_Fire_(film)>,
         <http://www.wikidata.org/entity/Q102225> .
@@ -2613,7 +2613,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/warner-bros> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2007"^^xsd:gYear ;
+    ont:releaseYear 2007 ;
     dc:title "Harry Potter and the Order of the Phoenix" ;
     owl:sameAs <http://dbpedia.org/resource/Harry_Potter_and_the_Order_of_the_Phoenix_(film)>,
         <http://www.wikidata.org/entity/Q102235> .
@@ -2626,7 +2626,7 @@
     ont:hasGenre ont:genre_horror ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/twentieth-century-fox-film-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "1986"^^xsd:gYear ;
+    ont:releaseYear 1986 ;
     dc:title "Aliens" ;
     owl:sameAs <http://dbpedia.org/resource/Aliens_(film)>,
         <http://www.wikidata.org/entity/Q104814> .
@@ -2639,7 +2639,7 @@
     ont:hasGenre ont:genre_thriller ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/miramax-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1994"^^xsd:gYear ;
+    ont:releaseYear 1994 ;
     dc:title "Pulp Fiction" ;
     owl:sameAs <http://dbpedia.org/resource/Pulp_Fiction>,
         <http://www.wikidata.org/entity/Q104123> .
@@ -2652,7 +2652,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/columbia-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2012"^^xsd:gYear ;
+    ont:releaseYear 2012 ;
     dc:title "Django Unchained" ;
     owl:sameAs <http://dbpedia.org/resource/Django_Unchained>,
         <http://www.wikidata.org/entity/Q571032> .
@@ -2665,7 +2665,7 @@
     ont:hasGenre ont:genre_horror ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/hawk-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1980"^^xsd:gYear ;
+    ont:releaseYear 1980 ;
     dc:title "The Shining" ;
     owl:sameAs <http://dbpedia.org/resource/The_Shining_(film)>,
         <http://www.wikidata.org/entity/Q186341> .
@@ -2678,7 +2678,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/miramax-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2007"^^xsd:gYear ;
+    ont:releaseYear 2007 ;
     dc:title "No Country for Old Men" ;
     owl:sameAs <http://dbpedia.org/resource/No_Country_for_Old_Men>,
         <http://www.wikidata.org/entity/Q183081> .
@@ -2691,7 +2691,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/lakeshore-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2004"^^xsd:gYear ;
+    ont:releaseYear 2004 ;
     dc:title "Million Dollar Baby" ;
     owl:sameAs <http://dbpedia.org/resource/Million_Dollar_Baby>,
         <http://www.wikidata.org/entity/Q184255> .
@@ -2704,7 +2704,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/united-artists> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1977"^^xsd:gYear ;
+    ont:releaseYear 1977 ;
     dc:title "Annie Hall" ;
     owl:sameAs <http://dbpedia.org/resource/Annie_Hall>,
         <http://www.wikidata.org/entity/Q233464> .
@@ -2717,7 +2717,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/new-line-cinema> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1998"^^xsd:gYear ;
+    ont:releaseYear 1998 ;
     dc:title "American History X" ;
     owl:sameAs <http://dbpedia.org/resource/American_History_X>,
         <http://www.wikidata.org/entity/Q208572> .
@@ -2730,7 +2730,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/miramax-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2007"^^xsd:gYear ;
+    ont:releaseYear 2007 ;
     dc:title "There Will Be Blood" ;
     owl:sameAs <http://dbpedia.org/resource/There_Will_Be_Blood>,
         <http://www.wikidata.org/entity/Q244315> .
@@ -2743,7 +2743,7 @@
     ont:hasGenre ont:genre_mystery ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/spyglass-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1999"^^xsd:gYear ;
+    ont:releaseYear 1999 ;
     dc:title "The Sixth Sense" ;
     owl:sameAs <http://dbpedia.org/resource/The_Sixth_Sense>,
         <http://www.wikidata.org/entity/Q183063> .
@@ -2756,7 +2756,7 @@
     ont:hasGenre ont:genre_horror ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2004"^^xsd:gYear ;
+    ont:releaseYear 2004 ;
     dc:title "Shaun of the Dead" ;
     owl:sameAs <http://dbpedia.org/resource/Shaun_of_the_Dead>,
         <http://www.wikidata.org/entity/Q858724> .
@@ -2769,7 +2769,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/studio-babelsberg> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/germany> ;
-    ont:releaseYear "2006"^^xsd:gYear ;
+    ont:releaseYear 2006 ;
     dc:title "V for Vendetta" ;
     owl:sameAs <http://dbpedia.org/resource/V_for_Vendetta_(film)>,
         <http://www.wikidata.org/entity/Q5890> .
@@ -2782,7 +2782,7 @@
     ont:hasGenre ont:genre_thriller ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/summit-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "Now You See Me" ;
     owl:sameAs <http://dbpedia.org/resource/Now_You_See_Me_(film)>,
         <http://www.wikidata.org/entity/Q499851> .
@@ -2795,7 +2795,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/python-monty-pictures-limited> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "1975"^^xsd:gYear ;
+    ont:releaseYear 1975 ;
     dc:title "Monty Python and the Holy Grail" ;
     owl:sameAs <http://dbpedia.org/resource/Monty_Python_and_the_Holy_Grail>,
         <http://www.wikidata.org/entity/Q25043> .
@@ -2808,7 +2808,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/plan-b-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "12 Years a Slave" ;
     owl:sameAs <http://dbpedia.org/resource/12_Years_a_Slave_(film)>,
         <http://www.wikidata.org/entity/Q3023357> .
@@ -2821,7 +2821,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/warner-bros> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2009"^^xsd:gYear ;
+    ont:releaseYear 2009 ;
     dc:title "Harry Potter and the Half-Blood Prince" ;
     owl:sameAs <http://dbpedia.org/resource/Harry_Potter_and_the_Half-Blood_Prince_(film)>,
         <http://www.wikidata.org/entity/Q161687> .
@@ -2834,7 +2834,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/winkler-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1990"^^xsd:gYear ;
+    ont:releaseYear 1990 ;
     dc:title "GoodFellas" ;
     owl:sameAs <http://dbpedia.org/resource/Goodfellas>,
         <http://www.wikidata.org/entity/Q42047> .
@@ -2847,7 +2847,7 @@
     ont:hasGenre ont:genre_mystery ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/summit-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2000"^^xsd:gYear ;
+    ont:releaseYear 2000 ;
     dc:title "Memento" ;
     owl:sameAs <http://dbpedia.org/resource/Memento_(film)>,
         <http://www.wikidata.org/entity/Q190525> .
@@ -2860,7 +2860,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/fox-searchlight-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2006"^^xsd:gYear ;
+    ont:releaseYear 2006 ;
     dc:title "Little Miss Sunshine" ;
     owl:sameAs <http://dbpedia.org/resource/Little_Miss_Sunshine>,
         <http://www.wikidata.org/entity/Q192073> .
@@ -2873,7 +2873,7 @@
     ont:hasGenre ont:genre_science_fiction ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/shaw-brothers> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1982"^^xsd:gYear ;
+    ont:releaseYear 1982 ;
     dc:title "Blade Runner" ;
     owl:sameAs <http://dbpedia.org/resource/Blade_Runner>,
         <http://www.wikidata.org/entity/Q184843> .
@@ -2886,7 +2886,7 @@
     ont:hasGenre ont:genre_thriller ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/columbia-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1997"^^xsd:gYear ;
+    ont:releaseYear 1997 ;
     dc:title "Gattaca" ;
     owl:sameAs <http://dbpedia.org/resource/Gattaca>,
         <http://www.wikidata.org/entity/Q491800> .
@@ -2899,7 +2899,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/orion-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "1986"^^xsd:gYear ;
+    ont:releaseYear 1986 ;
     dc:title "Platoon" ;
     owl:sameAs <http://dbpedia.org/resource/Platoon_(film)>,
         <http://www.wikidata.org/entity/Q190643> .
@@ -2912,7 +2912,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/new-line-cinema> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1995"^^xsd:gYear ;
+    ont:releaseYear 1995 ;
     dc:title "Se7en" ;
     owl:sameAs <http://dbpedia.org/resource/Seven_(1995_film)>,
         <http://www.wikidata.org/entity/Q190908> .
@@ -2925,7 +2925,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/dreamworks-skg> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "Shrek" ;
     owl:sameAs <http://dbpedia.org/resource/Shrek>,
         <http://www.wikidata.org/entity/Q483815> .
@@ -2938,7 +2938,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1992"^^xsd:gYear ;
+    ont:releaseYear 1992 ;
     dc:title "Aladdin" ;
     owl:sameAs <http://dbpedia.org/resource/Aladdin_(1992_Disney_film)>,
         <http://www.wikidata.org/entity/Q215518> .
@@ -2951,7 +2951,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/bazmark-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/australia> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "Moulin Rouge!" ;
     owl:sameAs <http://dbpedia.org/resource/Moulin_Rouge!>,
         <http://www.wikidata.org/entity/Q193573> .
@@ -2964,7 +2964,7 @@
     ont:hasGenre ont:genre_fantasy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/dreamworks-animation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "How to Train Your Dragon 2" ;
     owl:sameAs <http://dbpedia.org/resource/How_to_Train_Your_Dragon_2>,
         <http://www.wikidata.org/entity/Q10298666> .
@@ -2977,7 +2977,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/blueprint-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2008"^^xsd:gYear ;
+    ont:releaseYear 2008 ;
     dc:title "In Bruges" ;
     owl:sameAs <http://dbpedia.org/resource/In_Bruges>,
         <http://www.wikidata.org/entity/Q244931> .
@@ -2990,7 +2990,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/dreamworks-skg> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2000"^^xsd:gYear ;
+    ont:releaseYear 2000 ;
     dc:title "Cast Away" ;
     owl:sameAs <http://dbpedia.org/resource/Cast_Away>,
         <http://www.wikidata.org/entity/Q213411> .
@@ -3003,7 +3003,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/scott-rudin-productions> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2012"^^xsd:gYear ;
+    ont:releaseYear 2012 ;
     dc:title "Moonrise Kingdom" ;
     owl:sameAs <http://dbpedia.org/resource/Moonrise_Kingdom>,
         <http://www.wikidata.org/entity/Q217112> .
@@ -3016,7 +3016,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/summit-entertainment> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2012"^^xsd:gYear ;
+    ont:releaseYear 2012 ;
     dc:title "The Perks of Being a Wallflower" ;
     owl:sameAs <http://dbpedia.org/resource/The_Perks_of_Being_a_Wallflower_(film)>,
         <http://www.wikidata.org/entity/Q675468> .
@@ -3029,7 +3029,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/lucasfilm> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1981"^^xsd:gYear ;
+    ont:releaseYear 1981 ;
     dc:title "Raiders of the Lost Ark" ;
     owl:sameAs <http://dbpedia.org/resource/Raiders_of_the_Lost_Ark>,
         <http://www.wikidata.org/entity/Q174284> .
@@ -3042,7 +3042,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/ifc-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2014"^^xsd:gYear ;
+    ont:releaseYear 2014 ;
     dc:title "Boyhood" ;
     owl:sameAs <http://dbpedia.org/resource/Boyhood_(2014_film)>,
         <http://www.wikidata.org/entity/Q4103201> .
@@ -3055,7 +3055,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/paramount-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1998"^^xsd:gYear ;
+    ont:releaseYear 1998 ;
     dc:title "Saving Private Ryan" ;
     owl:sameAs <http://dbpedia.org/resource/Saving_Private_Ryan>,
         <http://www.wikidata.org/entity/Q165817> .
@@ -3068,7 +3068,7 @@
     ont:hasGenre ont:genre_family ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1994"^^xsd:gYear ;
+    ont:releaseYear 1994 ;
     dc:title "The Lion King" ;
     owl:sameAs <http://dbpedia.org/resource/The_Lion_King>,
         <http://www.wikidata.org/entity/Q36479> .
@@ -3081,7 +3081,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/pixar-animation-studios> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1995"^^xsd:gYear ;
+    ont:releaseYear 1995 ;
     dc:title "Toy Story" ;
     owl:sameAs <http://dbpedia.org/resource/Toy_Story>,
         <http://www.wikidata.org/entity/Q171048> .
@@ -3094,7 +3094,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/pixar-animation-studios> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1999"^^xsd:gYear ;
+    ont:releaseYear 1999 ;
     dc:title "Toy Story 2" ;
     owl:sameAs <http://dbpedia.org/resource/Toy_Story_2>,
         <http://www.wikidata.org/entity/Q187266> .
@@ -3107,7 +3107,7 @@
     ont:hasGenre ont:genre_adventure ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/lucasfilm> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1989"^^xsd:gYear ;
+    ont:releaseYear 1989 ;
     dc:title "Indiana Jones and the Last Crusade" ;
     owl:sameAs <http://dbpedia.org/resource/Indiana_Jones_and_the_Last_Crusade>,
         <http://www.wikidata.org/entity/Q185658> .
@@ -3120,7 +3120,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/hawk-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "1964"^^xsd:gYear ;
+    ont:releaseYear 1964 ;
     dc:title "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb" ;
     owl:sameAs <http://dbpedia.org/resource/Dr._Strangelove>,
         <http://www.wikidata.org/entity/Q105702> .
@@ -3133,7 +3133,7 @@
     ont:hasGenre ont:genre_crime ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/tristar-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1997"^^xsd:gYear ;
+    ont:releaseYear 1997 ;
     dc:title "Donnie Brasco" ;
     owl:sameAs <http://dbpedia.org/resource/Donnie_Brasco_(film)>,
         <http://www.wikidata.org/entity/Q738456> .
@@ -3146,7 +3146,7 @@
     ont:hasGenre ont:genre_comedy ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/touchstone-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2001"^^xsd:gYear ;
+    ont:releaseYear 2001 ;
     dc:title "The Royal Tenenbaums" ;
     owl:sameAs <http://dbpedia.org/resource/The_Royal_Tenenbaums>,
         <http://www.wikidata.org/entity/Q935105> .
@@ -3159,7 +3159,7 @@
     ont:hasGenre ont:genre_animation ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/twentieth-century-fox-film-corporation> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1997"^^xsd:gYear ;
+    ont:releaseYear 1997 ;
     dc:title "Anastasia" ;
     owl:sameAs <http://dbpedia.org/resource/Anastasia_(1997_film)>,
         <http://www.wikidata.org/entity/Q486609> .
@@ -3172,7 +3172,7 @@
     ont:hasGenre ont:genre_horror ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/compass-international-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1978"^^xsd:gYear ;
+    ont:releaseYear 1978 ;
     dc:title "Halloween" ;
     owl:sameAs <http://dbpedia.org/resource/Halloween_(1978_film)>,
         <http://www.wikidata.org/entity/Q221103> .
@@ -3185,7 +3185,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/warner-bros> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "1973"^^xsd:gYear ;
+    ont:releaseYear 1973 ;
     dc:title "The Exorcist" ;
     owl:sameAs <http://dbpedia.org/resource/The_Exorcist>,
         <http://www.wikidata.org/entity/Q274167> .
@@ -3198,7 +3198,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/revolution-films> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/germany> ;
-    ont:releaseYear "2013"^^xsd:gYear ;
+    ont:releaseYear 2013 ;
     dc:title "Rush" ;
     owl:sameAs <http://dbpedia.org/resource/Rush_(2013_film)>,
         <http://www.wikidata.org/entity/Q1768437> .
@@ -3211,7 +3211,7 @@
     ont:hasGenre ont:genre_drama ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/universal-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2006"^^xsd:gYear ;
+    ont:releaseYear 2006 ;
     dc:title "Children of Men" ;
     owl:sameAs <http://dbpedia.org/resource/Children_of_Men>,
         <http://www.wikidata.org/entity/Q221090> .
@@ -3224,7 +3224,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/dreamworks-skg> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-kingdom> ;
-    ont:releaseYear "2000"^^xsd:gYear ;
+    ont:releaseYear 2000 ;
     dc:title "Gladiator" ;
     owl:sameAs <http://dbpedia.org/resource/Gladiator_(2000_film)>,
         <http://www.wikidata.org/entity/Q128518> .
@@ -3237,7 +3237,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/walt-disney-pictures> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2004"^^xsd:gYear ;
+    ont:releaseYear 2004 ;
     dc:title "The Incredibles" ;
     owl:sameAs <http://dbpedia.org/resource/The_Incredibles>,
         <http://www.wikidata.org/entity/Q213326> .
@@ -3250,7 +3250,7 @@
     ont:hasGenre ont:genre_action ;
     ont:producedBy <http://it6390e-group2.example.org/ontology/studio/marvel-studios> ;
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
-    ont:releaseYear "2015"^^xsd:gYear ;
+    ont:releaseYear 2015 ;
     dc:title "Avengers: Age of Ultron" ;
     owl:sameAs <http://dbpedia.org/resource/Avengers:_Age_of_Ultron>,
         <http://www.wikidata.org/entity/Q14171368> .
