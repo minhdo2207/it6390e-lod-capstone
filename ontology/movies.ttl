@@ -57,8 +57,21 @@
     rdfs:range xsd:integer ;
     rdfs:label "release year"@en .
 
-# dbo:director / dbo:starring / dc:title / schema:datePublished / foaf:name
-# are reused directly, no local re-declaration needed.
+# dbo:director and dbo:starring are reused from DBpedia, but must be declared
+# here as object properties: undeclared, Protege/HermiT don't treat them as
+# object properties and the SWRL rule below can't use them.
+
+dbo:director a owl:ObjectProperty ;
+    rdfs:domain :Movie ;
+    rdfs:range :Director ;
+    rdfs:label "director"@en .
+
+dbo:starring a owl:ObjectProperty ;
+    rdfs:domain :Movie ;
+    rdfs:range :Actor ;
+    rdfs:label "starring"@en .
+
+# dc:title / foaf:name are annotation-style literals, nothing to declare.
 
 # Genre individuals (kept as named individuals, not literals, so they can be
 # used in hasValue restrictions below)
