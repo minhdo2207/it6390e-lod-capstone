@@ -5,12 +5,15 @@ Usage:
 
 Expected CSV columns:
     id, title, year, director_id, director_name, genre, studio, country
+Optional columns ("|"-separated, same order in both):
+    cast_ids, cast_names
 """
 
 import csv
+import re
 import sys
 
-from rdflib import Graph, Literal, Namespace, RDF, XSD
+from rdflib import Graph, Literal, Namespace, RDF, RDFS, XSD
 
 BASE = Namespace("http://it6390e-group2.example.org/resource/")
 ONT = Namespace("http://it6390e-group2.example.org/ontology/")
@@ -20,11 +23,17 @@ FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 DC = Namespace("http://purl.org/dc/elements/1.1/")
 
 
+def slug(name, sep="-"):
+    """Lowercase ASCII-safe URI segment, e.g. "Warner Bros." -> "warner-bros"."""
+    return re.sub(r"[^a-z0-9]+", sep, name.lower()).strip(sep)
+
+
 def build_graph(rows):
     g = Graph()
     g.bind("ex", BASE)
     g.bind("ont", ONT)
-    g.bind("schema", SCHEMA)
+    # rdflib pre-binds "schema" to https://schema.org/, replace it
+    g.bind("schema", SCHEMA, replace=True)
     g.bind("dbo", DBO)
     g.bind("foaf", FOAF)
     g.bind("dc", DC)
@@ -42,19 +51,34 @@ def build_graph(rows):
             g.add((director_uri, FOAF.name, Literal(row["director_name"])))
             g.add((movie_uri, DBO.director, director_uri))
 
+        if row.get("cast_ids"):
+            cast = zip(row["cast_ids"].split("|"), row["cast_names"].split("|"))
+            for actor_id, actor_name in cast:
+                actor_uri = BASE[f"person/{actor_id}"]
+                g.add((actor_uri, RDF.type, FOAF.Person))
+                g.add((actor_uri, RDF.type, ONT.Actor))
+                g.add((actor_uri, FOAF.name, Literal(actor_name)))
+                g.add((movie_uri, DBO.starring, actor_uri))
+
         if row.get("genre"):
-            genre_uri = ONT[f"genre/{row['genre'].lower().replace(' ', '-')}"]
+            # must match the genre individuals in ontology/movies.ttl
+            # (:genre_action, :genre_comedy) or the hasValue restrictions
+            # behind ActionMovie/ComedyMovie never fire
+            genre_uri = ONT[f"genre_{slug(row['genre'], '_')}"]
             g.add((genre_uri, RDF.type, ONT.Genre))
+            g.add((genre_uri, RDFS.label, Literal(row["genre"], lang="en")))
             g.add((movie_uri, ONT.hasGenre, genre_uri))
 
         if row.get("studio"):
-            studio_uri = ONT[f"studio/{row['studio'].lower().replace(' ', '-')}"]
+            studio_uri = ONT[f"studio/{slug(row['studio'])}"]
             g.add((studio_uri, RDF.type, ONT.Studio))
+            g.add((studio_uri, RDFS.label, Literal(row["studio"], lang="en")))
             g.add((movie_uri, ONT.producedBy, studio_uri))
 
         if row.get("country"):
-            country_uri = ONT[f"country/{row['country'].lower().replace(' ', '-')}"]
+            country_uri = ONT[f"country/{slug(row['country'])}"]
             g.add((country_uri, RDF.type, ONT.Country))
+            g.add((country_uri, RDFS.label, Literal(row["country"], lang="en")))
             g.add((movie_uri, ONT.producedIn, country_uri))
 
     return g

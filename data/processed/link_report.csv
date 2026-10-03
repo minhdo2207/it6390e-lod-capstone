@@ -1,0 +1,923 @@
+kind,uri,label,wikidata,dbpedia
+movie,http://it6390e-group2.example.org/resource/movie/100,"Lock, Stock and Two Smoking Barrels",http://www.wikidata.org/entity/Q851095,"http://dbpedia.org/resource/Lock,_Stock_and_Two_Smoking_Barrels"
+movie,http://it6390e-group2.example.org/resource/movie/100402,Captain America: The Winter Soldier,http://www.wikidata.org/entity/Q1765358,http://dbpedia.org/resource/Captain_America:_The_Winter_Soldier
+movie,http://it6390e-group2.example.org/resource/movie/101299,The Hunger Games: Catching Fire,http://www.wikidata.org/entity/Q574583,http://dbpedia.org/resource/The_Hunger_Games:_Catching_Fire
+movie,http://it6390e-group2.example.org/resource/movie/1018,Mulholland Drive,http://www.wikidata.org/entity/Q272608,http://dbpedia.org/resource/Mulholland_Drive_(film)
+movie,http://it6390e-group2.example.org/resource/movie/10191,How to Train Your Dragon,http://www.wikidata.org/entity/Q373096,http://dbpedia.org/resource/How_to_Train_Your_Dragon_(film)
+movie,http://it6390e-group2.example.org/resource/movie/10193,Toy Story 3,http://www.wikidata.org/entity/Q187278,http://dbpedia.org/resource/Toy_Story_3
+movie,http://it6390e-group2.example.org/resource/movie/10229,A Walk to Remember,http://www.wikidata.org/entity/Q219442,http://dbpedia.org/resource/A_Walk_to_Remember
+movie,http://it6390e-group2.example.org/resource/movie/103,Taxi Driver,http://www.wikidata.org/entity/Q47221,http://dbpedia.org/resource/Taxi_Driver
+movie,http://it6390e-group2.example.org/resource/movie/10315,Fantastic Mr. Fox,http://www.wikidata.org/entity/Q465275,http://dbpedia.org/resource/Fantastic_Mr._Fox_(film)
+movie,http://it6390e-group2.example.org/resource/movie/10386,The Iron Giant,http://www.wikidata.org/entity/Q867283,http://dbpedia.org/resource/The_Iron_Giant
+movie,http://it6390e-group2.example.org/resource/movie/105,Back to the Future,http://www.wikidata.org/entity/Q91540,http://dbpedia.org/resource/Back_to_the_Future
+movie,http://it6390e-group2.example.org/resource/movie/106,Predator,http://www.wikidata.org/entity/Q200804,http://dbpedia.org/resource/Predator_(film)
+movie,http://it6390e-group2.example.org/resource/movie/106646,The Wolf of Wall Street,http://www.wikidata.org/entity/Q1392744,http://dbpedia.org/resource/The_Wolf_of_Wall_Street_(2013_film)
+movie,http://it6390e-group2.example.org/resource/movie/10674,Mulan,http://www.wikidata.org/entity/Q537407,http://dbpedia.org/resource/Mulan_(1998_film)
+movie,http://it6390e-group2.example.org/resource/movie/10681,WALL·E,http://www.wikidata.org/entity/Q104905,http://dbpedia.org/resource/WALL-E
+movie,http://it6390e-group2.example.org/resource/movie/107,Snatch,http://www.wikidata.org/entity/Q335160,http://dbpedia.org/resource/Snatch_(film)
+movie,http://it6390e-group2.example.org/resource/movie/1091,The Thing,http://www.wikidata.org/entity/Q210756,http://dbpedia.org/resource/The_Thing_(1982_film)
+movie,http://it6390e-group2.example.org/resource/movie/109424,Captain Phillips,http://www.wikidata.org/entity/Q2937646,http://dbpedia.org/resource/Captain_Phillips_(film)
+movie,http://it6390e-group2.example.org/resource/movie/109445,Frozen,http://www.wikidata.org/entity/Q246283,http://dbpedia.org/resource/Frozen_(2013_film)
+movie,http://it6390e-group2.example.org/resource/movie/11,Star Wars,http://www.wikidata.org/entity/Q17738,http://dbpedia.org/resource/Star_Wars_(film)
+movie,http://it6390e-group2.example.org/resource/movie/11036,The Notebook,http://www.wikidata.org/entity/Q223374,http://dbpedia.org/resource/The_Notebook
+movie,http://it6390e-group2.example.org/resource/movie/111,Scarface,http://www.wikidata.org/entity/Q47075,http://dbpedia.org/resource/Scarface_(1983_film)
+movie,http://it6390e-group2.example.org/resource/movie/1124,The Prestige,http://www.wikidata.org/entity/Q46551,http://dbpedia.org/resource/The_Prestige_(film)
+movie,http://it6390e-group2.example.org/resource/movie/11321,Seven Pounds,http://www.wikidata.org/entity/Q635924,http://dbpedia.org/resource/Seven_Pounds
+movie,http://it6390e-group2.example.org/resource/movie/11324,Shutter Island,http://www.wikidata.org/entity/Q210364,http://dbpedia.org/resource/Shutter_Island_(film)
+movie,http://it6390e-group2.example.org/resource/movie/114150,Pitch Perfect,http://www.wikidata.org/entity/Q137584,http://dbpedia.org/resource/Pitch_Perfect
+movie,http://it6390e-group2.example.org/resource/movie/115,The Big Lebowski,http://www.wikidata.org/entity/Q337078,http://dbpedia.org/resource/The_Big_Lebowski
+movie,http://it6390e-group2.example.org/resource/movie/117,The Untouchables,http://www.wikidata.org/entity/Q108525,http://dbpedia.org/resource/The_Untouchables_(film)
+movie,http://it6390e-group2.example.org/resource/movie/118340,Guardians of the Galaxy,http://www.wikidata.org/entity/Q5887360,http://dbpedia.org/resource/Guardians_of_the_Galaxy_(film)
+movie,http://it6390e-group2.example.org/resource/movie/119450,Dawn of the Planet of the Apes,http://www.wikidata.org/entity/Q11220194,http://dbpedia.org/resource/Dawn_of_the_Planet_of_the_Apes
+movie,http://it6390e-group2.example.org/resource/movie/12,Finding Nemo,http://www.wikidata.org/entity/Q132863,http://dbpedia.org/resource/Finding_Nemo
+movie,http://it6390e-group2.example.org/resource/movie/120,The Lord of the Rings: The Fellowship of the Ring,http://www.wikidata.org/entity/Q127367,http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring
+movie,http://it6390e-group2.example.org/resource/movie/120467,The Grand Budapest Hotel,http://www.wikidata.org/entity/Q3521099,http://dbpedia.org/resource/The_Grand_Budapest_Hotel
+movie,http://it6390e-group2.example.org/resource/movie/121,The Lord of the Rings: The Two Towers,http://www.wikidata.org/entity/Q164963,http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Two_Towers
+movie,http://it6390e-group2.example.org/resource/movie/122,The Lord of the Rings: The Return of the King,http://www.wikidata.org/entity/Q131074,http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Return_of_the_King
+movie,http://it6390e-group2.example.org/resource/movie/122906,About Time,http://www.wikidata.org/entity/Q4668586,http://dbpedia.org/resource/About_Time_(2013_film)
+movie,http://it6390e-group2.example.org/resource/movie/12405,Slumdog Millionaire,http://www.wikidata.org/entity/Q125076,http://dbpedia.org/resource/Slumdog_Millionaire
+movie,http://it6390e-group2.example.org/resource/movie/127585,X-Men: Days of Future Past,http://www.wikidata.org/entity/Q4985891,http://dbpedia.org/resource/X-Men:_Days_of_Future_Past
+movie,http://it6390e-group2.example.org/resource/movie/128,Princess Mononoke,http://www.wikidata.org/entity/Q186572,http://dbpedia.org/resource/Princess_Mononoke
+movie,http://it6390e-group2.example.org/resource/movie/129,Spirited Away,http://www.wikidata.org/entity/Q155653,http://dbpedia.org/resource/Spirited_Away
+movie,http://it6390e-group2.example.org/resource/movie/13,Forrest Gump,http://www.wikidata.org/entity/Q134773,http://dbpedia.org/resource/Forrest_Gump
+movie,http://it6390e-group2.example.org/resource/movie/13223,Gran Torino,http://www.wikidata.org/entity/Q126699,http://dbpedia.org/resource/Gran_Torino
+movie,http://it6390e-group2.example.org/resource/movie/13475,Star Trek,http://www.wikidata.org/entity/Q213081,http://dbpedia.org/resource/Star_Trek_(film)
+movie,http://it6390e-group2.example.org/resource/movie/1359,American Psycho,http://www.wikidata.org/entity/Q1405126,http://dbpedia.org/resource/American_Psycho_(film)
+movie,http://it6390e-group2.example.org/resource/movie/1366,Rocky,http://www.wikidata.org/entity/Q188652,http://dbpedia.org/resource/Rocky
+movie,http://it6390e-group2.example.org/resource/movie/137,Groundhog Day,http://www.wikidata.org/entity/Q488655,http://dbpedia.org/resource/Groundhog_Day_(film)
+movie,http://it6390e-group2.example.org/resource/movie/137106,The Lego Movie,http://www.wikidata.org/entity/Q2608065,http://dbpedia.org/resource/The_Lego_Movie
+movie,http://it6390e-group2.example.org/resource/movie/137113,Edge of Tomorrow,http://www.wikidata.org/entity/Q1187607,http://dbpedia.org/resource/Edge_of_Tomorrow
+movie,http://it6390e-group2.example.org/resource/movie/1372,Blood Diamond,http://www.wikidata.org/entity/Q74958,http://dbpedia.org/resource/Blood_Diamond
+movie,http://it6390e-group2.example.org/resource/movie/138843,The Conjuring,http://www.wikidata.org/entity/Q5540479,http://dbpedia.org/resource/The_Conjuring
+movie,http://it6390e-group2.example.org/resource/movie/14,American Beauty,http://www.wikidata.org/entity/Q25139,http://dbpedia.org/resource/American_Beauty_(1999_film)
+movie,http://it6390e-group2.example.org/resource/movie/1402,The Pursuit of Happyness,http://www.wikidata.org/entity/Q220515,http://dbpedia.org/resource/The_Pursuit_of_Happyness
+movie,http://it6390e-group2.example.org/resource/movie/141,Donnie Darko,http://www.wikidata.org/entity/Q426828,http://dbpedia.org/resource/Donnie_Darko
+movie,http://it6390e-group2.example.org/resource/movie/14160,Up,http://www.wikidata.org/entity/Q174811,http://dbpedia.org/resource/Up_(2009_film)
+movie,http://it6390e-group2.example.org/resource/movie/1417,Pan's Labyrinth,http://www.wikidata.org/entity/Q216006,http://dbpedia.org/resource/Pan's_Labyrinth
+movie,http://it6390e-group2.example.org/resource/movie/142,Brokeback Mountain,http://www.wikidata.org/entity/Q160618,http://dbpedia.org/resource/Brokeback_Mountain
+movie,http://it6390e-group2.example.org/resource/movie/1422,The Departed,http://www.wikidata.org/entity/Q172975,http://dbpedia.org/resource/The_Departed
+movie,http://it6390e-group2.example.org/resource/movie/14574,The Boy in the Striped Pyjamas,http://www.wikidata.org/entity/Q157556,http://dbpedia.org/resource/The_Boy_in_the_Striped_Pyjamas_(film)
+movie,http://it6390e-group2.example.org/resource/movie/146233,Prisoners,http://www.wikidata.org/entity/Q3404003,http://dbpedia.org/resource/Prisoners_(2013_film)
+movie,http://it6390e-group2.example.org/resource/movie/150540,Inside Out,http://www.wikidata.org/entity/Q6144664,http://dbpedia.org/resource/Inside_Out_(2015_film)
+movie,http://it6390e-group2.example.org/resource/movie/152532,Dallas Buyers Club,http://www.wikidata.org/entity/Q3520498,http://dbpedia.org/resource/Dallas_Buyers_Club
+movie,http://it6390e-group2.example.org/resource/movie/152601,Her,http://www.wikidata.org/entity/Q788822,http://dbpedia.org/resource/Her_(film)
+movie,http://it6390e-group2.example.org/resource/movie/1542,Office Space,http://www.wikidata.org/entity/Q1044523,http://dbpedia.org/resource/Office_Space
+movie,http://it6390e-group2.example.org/resource/movie/155,The Dark Knight,http://www.wikidata.org/entity/Q163872,http://dbpedia.org/resource/The_Dark_Knight
+movie,http://it6390e-group2.example.org/resource/movie/157336,Interstellar,http://www.wikidata.org/entity/Q13417189,http://dbpedia.org/resource/Interstellar_(film)
+movie,http://it6390e-group2.example.org/resource/movie/1585,It's a Wonderful Life,http://www.wikidata.org/entity/Q204191,http://dbpedia.org/resource/It's_a_Wonderful_Life
+movie,http://it6390e-group2.example.org/resource/movie/162,Edward Scissorhands,http://www.wikidata.org/entity/Q217182,http://dbpedia.org/resource/Edward_Scissorhands
+movie,http://it6390e-group2.example.org/resource/movie/16320,Serenity,http://www.wikidata.org/entity/Q691611,http://dbpedia.org/resource/Serenity_(2005_film)
+movie,http://it6390e-group2.example.org/resource/movie/165,Back to the Future Part II,http://www.wikidata.org/entity/Q109331,http://dbpedia.org/resource/Back_to_the_Future_Part_II
+movie,http://it6390e-group2.example.org/resource/movie/168259,Furious 7,http://www.wikidata.org/entity/Q14650496,http://dbpedia.org/resource/Furious_7
+movie,http://it6390e-group2.example.org/resource/movie/16869,Inglourious Basterds,http://www.wikidata.org/entity/Q153723,http://dbpedia.org/resource/Inglourious_Basterds
+movie,http://it6390e-group2.example.org/resource/movie/1726,Iron Man,http://www.wikidata.org/entity/Q192724,http://dbpedia.org/resource/Iron_Man_(2008_film)
+movie,http://it6390e-group2.example.org/resource/movie/17431,Moon,http://www.wikidata.org/entity/Q26751,http://dbpedia.org/resource/Moon_(2009_film)
+movie,http://it6390e-group2.example.org/resource/movie/17654,District 9,http://www.wikidata.org/entity/Q201819,http://dbpedia.org/resource/District_9
+movie,http://it6390e-group2.example.org/resource/movie/177572,Big Hero 6,http://www.wikidata.org/entity/Q13091172,http://dbpedia.org/resource/Big_Hero_6_(film)
+movie,http://it6390e-group2.example.org/resource/movie/18,The Fifth Element,http://www.wikidata.org/entity/Q106506,http://dbpedia.org/resource/The_Fifth_Element
+movie,http://it6390e-group2.example.org/resource/movie/186,Lucky Number Slevin,http://www.wikidata.org/entity/Q684470,http://dbpedia.org/resource/Lucky_Number_Slevin
+movie,http://it6390e-group2.example.org/resource/movie/1891,The Empire Strikes Back,http://www.wikidata.org/entity/Q181795,http://dbpedia.org/resource/The_Empire_Strikes_Back
+movie,http://it6390e-group2.example.org/resource/movie/1892,Return of the Jedi,http://www.wikidata.org/entity/Q181803,http://dbpedia.org/resource/Return_of_the_Jedi
+movie,http://it6390e-group2.example.org/resource/movie/190859,American Sniper,http://www.wikidata.org/entity/Q16970789,http://dbpedia.org/resource/American_Sniper
+movie,http://it6390e-group2.example.org/resource/movie/1933,The Others,http://www.wikidata.org/entity/Q332515,http://dbpedia.org/resource/The_Others_(2001_film)
+movie,http://it6390e-group2.example.org/resource/movie/193756,Lone Survivor,http://www.wikidata.org/entity/Q3258993,http://dbpedia.org/resource/Lone_Survivor
+movie,http://it6390e-group2.example.org/resource/movie/194,Amélie,http://www.wikidata.org/entity/Q484048,http://dbpedia.org/resource/Amélie
+movie,http://it6390e-group2.example.org/resource/movie/194662,Birdman,http://www.wikidata.org/entity/Q13255497,http://dbpedia.org/resource/Birdman_(film)
+movie,http://it6390e-group2.example.org/resource/movie/1949,Zodiac,http://www.wikidata.org/entity/Q218172,http://dbpedia.org/resource/Zodiac_(film)
+movie,http://it6390e-group2.example.org/resource/movie/1954,The Butterfly Effect,http://www.wikidata.org/entity/Q221109,http://dbpedia.org/resource/The_Butterfly_Effect
+movie,http://it6390e-group2.example.org/resource/movie/197,Braveheart,http://www.wikidata.org/entity/Q162729,http://dbpedia.org/resource/Braveheart
+movie,http://it6390e-group2.example.org/resource/movie/203833,The Book Thief,http://www.wikidata.org/entity/Q14511981,http://dbpedia.org/resource/The_Book_Thief_(film)
+movie,http://it6390e-group2.example.org/resource/movie/205596,The Imitation Game,http://www.wikidata.org/entity/Q14918344,http://dbpedia.org/resource/The_Imitation_Game
+movie,http://it6390e-group2.example.org/resource/movie/2062,Ratatouille,http://www.wikidata.org/entity/Q170035,http://dbpedia.org/resource/Ratatouille_(film)
+movie,http://it6390e-group2.example.org/resource/movie/207,Dead Poets Society,http://www.wikidata.org/entity/Q106316,http://dbpedia.org/resource/Dead_Poets_Society
+movie,http://it6390e-group2.example.org/resource/movie/210577,Gone Girl,http://www.wikidata.org/entity/Q14920425,http://dbpedia.org/resource/Gone_Girl_(film)
+movie,http://it6390e-group2.example.org/resource/movie/2118,L.A. Confidential,http://www.wikidata.org/entity/Q339876,http://dbpedia.org/resource/L.A._Confidential_(film)
+movie,http://it6390e-group2.example.org/resource/movie/218,The Terminator,http://www.wikidata.org/entity/Q162255,http://dbpedia.org/resource/The_Terminator
+movie,http://it6390e-group2.example.org/resource/movie/22,Pirates of the Caribbean: The Curse of the Black Pearl,http://www.wikidata.org/entity/Q46717,http://dbpedia.org/resource/Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl
+movie,http://it6390e-group2.example.org/resource/movie/222935,The Fault in Our Stars,http://www.wikidata.org/entity/Q14704171,http://dbpedia.org/resource/The_Fault_in_Our_Stars_(film)
+movie,http://it6390e-group2.example.org/resource/movie/228150,Fury,http://www.wikidata.org/entity/Q14786561,http://dbpedia.org/resource/Fury_(2014_film)
+movie,http://it6390e-group2.example.org/resource/movie/235,Stand by Me,http://www.wikidata.org/entity/Q494722,http://dbpedia.org/resource/Stand_by_Me_(film)
+movie,http://it6390e-group2.example.org/resource/movie/238,The Godfather,http://www.wikidata.org/entity/Q47703,http://dbpedia.org/resource/The_Godfather
+movie,http://it6390e-group2.example.org/resource/movie/24,Kill Bill: Vol. 1,http://www.wikidata.org/entity/Q165325,http://dbpedia.org/resource/Kill_Bill:_Volume_1
+movie,http://it6390e-group2.example.org/resource/movie/240,The Godfather: Part II,http://www.wikidata.org/entity/Q184768,http://dbpedia.org/resource/The_Godfather_Part_II
+movie,http://it6390e-group2.example.org/resource/movie/242582,Nightcrawler,http://www.wikidata.org/entity/Q15154975,http://dbpedia.org/resource/Nightcrawler_(film)
+movie,http://it6390e-group2.example.org/resource/movie/244267,I Origins,http://www.wikidata.org/entity/Q15635667,http://dbpedia.org/resource/I_Origins
+movie,http://it6390e-group2.example.org/resource/movie/24428,The Avengers,http://www.wikidata.org/entity/Q182218,http://dbpedia.org/resource/The_Avengers_(2012_film)
+movie,http://it6390e-group2.example.org/resource/movie/244786,Whiplash,http://www.wikidata.org/entity/Q15648198,http://dbpedia.org/resource/Whiplash_(2014_film)
+movie,http://it6390e-group2.example.org/resource/movie/2493,The Princess Bride,http://www.wikidata.org/entity/Q506418,http://dbpedia.org/resource/The_Princess_Bride_(film)
+movie,http://it6390e-group2.example.org/resource/movie/2501,The Bourne Identity,http://www.wikidata.org/entity/Q105624,http://dbpedia.org/resource/The_Bourne_Identity_(2002_film)
+movie,http://it6390e-group2.example.org/resource/movie/2503,The Bourne Ultimatum,http://www.wikidata.org/entity/Q107226,http://dbpedia.org/resource/The_Bourne_Ultimatum_(film)
+movie,http://it6390e-group2.example.org/resource/movie/264644,Room,http://www.wikidata.org/entity/Q18703032,http://dbpedia.org/resource/Room_(2015_film)
+movie,http://it6390e-group2.example.org/resource/movie/264660,Ex Machina,http://www.wikidata.org/entity/Q16635326,http://dbpedia.org/resource/Ex_Machina_(film)
+movie,http://it6390e-group2.example.org/resource/movie/2649,The Game,http://www.wikidata.org/entity/Q723187,http://dbpedia.org/resource/The_Game_(1997_film)
+movie,http://it6390e-group2.example.org/resource/movie/266856,The Theory of Everything,http://www.wikidata.org/entity/Q15079318,http://dbpedia.org/resource/The_Theory_of_Everything_(2014_film)
+movie,http://it6390e-group2.example.org/resource/movie/272,Batman Begins,http://www.wikidata.org/entity/Q166262,http://dbpedia.org/resource/Batman_Begins
+movie,http://it6390e-group2.example.org/resource/movie/27205,Inception,http://www.wikidata.org/entity/Q25188,http://dbpedia.org/resource/Inception
+movie,http://it6390e-group2.example.org/resource/movie/273248,The Hateful Eight,http://www.wikidata.org/entity/Q18225084,http://dbpedia.org/resource/The_Hateful_Eight
+movie,http://it6390e-group2.example.org/resource/movie/274,The Silence of the Lambs,http://www.wikidata.org/entity/Q133654,http://dbpedia.org/resource/The_Silence_of_the_Lambs_(film)
+movie,http://it6390e-group2.example.org/resource/movie/277216,Straight Outta Compton,http://www.wikidata.org/entity/Q18154625,http://dbpedia.org/resource/Straight_Outta_Compton_(film)
+movie,http://it6390e-group2.example.org/resource/movie/278,The Shawshank Redemption,http://www.wikidata.org/entity/Q172241,http://dbpedia.org/resource/The_Shawshank_Redemption
+movie,http://it6390e-group2.example.org/resource/movie/279,Amadeus,http://www.wikidata.org/entity/Q190956,http://dbpedia.org/resource/Amadeus_(film)
+movie,http://it6390e-group2.example.org/resource/movie/28,Apocalypse Now,,
+movie,http://it6390e-group2.example.org/resource/movie/280,Terminator 2: Judgment Day,http://www.wikidata.org/entity/Q170564,http://dbpedia.org/resource/Terminator_2:_Judgment_Day
+movie,http://it6390e-group2.example.org/resource/movie/28178,Hachi: A Dog's Tale,http://www.wikidata.org/entity/Q59249,http://dbpedia.org/resource/Hachi:_A_Dog's_Tale
+movie,http://it6390e-group2.example.org/resource/movie/281957,The Revenant,http://www.wikidata.org/entity/Q18002795,http://dbpedia.org/resource/The_Revenant_(2015_film)
+movie,http://it6390e-group2.example.org/resource/movie/284293,Still Alice,http://www.wikidata.org/entity/Q16354843,http://dbpedia.org/resource/Still_Alice
+movie,http://it6390e-group2.example.org/resource/movie/286217,The Martian,http://www.wikidata.org/entity/Q18547944,http://dbpedia.org/resource/The_Martian_(film)
+movie,http://it6390e-group2.example.org/resource/movie/289,Casablanca,http://www.wikidata.org/entity/Q132689,http://dbpedia.org/resource/Casablanca_(film)
+movie,http://it6390e-group2.example.org/resource/movie/293660,Deadpool,http://www.wikidata.org/entity/Q19347291,http://dbpedia.org/resource/Deadpool_(film)
+movie,http://it6390e-group2.example.org/resource/movie/293863,The Age of Adaline,http://www.wikidata.org/entity/Q16242543,http://dbpedia.org/resource/The_Age_of_Adaline
+movie,http://it6390e-group2.example.org/resource/movie/296096,Me Before You,http://www.wikidata.org/entity/Q20735644,http://dbpedia.org/resource/Me_Before_You_(film)
+movie,http://it6390e-group2.example.org/resource/movie/307081,Southpaw,http://www.wikidata.org/entity/Q17276718,http://dbpedia.org/resource/Southpaw_(film)
+movie,http://it6390e-group2.example.org/resource/movie/311,Once Upon a Time in America,http://www.wikidata.org/entity/Q206388,http://dbpedia.org/resource/Once_Upon_a_Time_in_America
+movie,http://it6390e-group2.example.org/resource/movie/312221,Creed,http://www.wikidata.org/entity/Q18822138,http://dbpedia.org/resource/Creed_(film)
+movie,http://it6390e-group2.example.org/resource/movie/314365,Spotlight,http://www.wikidata.org/entity/Q18154496,http://dbpedia.org/resource/Spotlight_(film)
+movie,http://it6390e-group2.example.org/resource/movie/318846,The Big Short,http://www.wikidata.org/entity/Q19850715,http://dbpedia.org/resource/The_Big_Short_(film)
+movie,http://it6390e-group2.example.org/resource/movie/322,Mystic River,http://www.wikidata.org/entity/Q221586,http://dbpedia.org/resource/Mystic_River_(film)
+movie,http://it6390e-group2.example.org/resource/movie/329,Jurassic Park,http://www.wikidata.org/entity/Q167726,http://dbpedia.org/resource/Jurassic_Park_(film)
+movie,http://it6390e-group2.example.org/resource/movie/33,Unforgiven,http://www.wikidata.org/entity/Q104137,http://dbpedia.org/resource/Unforgiven
+movie,http://it6390e-group2.example.org/resource/movie/335,Once Upon a Time in the West,http://www.wikidata.org/entity/Q168154,http://dbpedia.org/resource/Once_Upon_a_Time_in_the_West
+movie,http://it6390e-group2.example.org/resource/movie/348,Alien,http://www.wikidata.org/entity/Q103569,http://dbpedia.org/resource/Alien_(film)
+movie,http://it6390e-group2.example.org/resource/movie/36557,Casino Royale,http://www.wikidata.org/entity/Q151904,http://dbpedia.org/resource/Casino_Royale_(2006_film)
+movie,http://it6390e-group2.example.org/resource/movie/37165,The Truman Show,http://www.wikidata.org/entity/Q214801,http://dbpedia.org/resource/The_Truman_Show
+movie,http://it6390e-group2.example.org/resource/movie/38,Eternal Sunshine of the Spotless Mind,http://www.wikidata.org/entity/Q208269,http://dbpedia.org/resource/Eternal_Sunshine_of_the_Spotless_Mind
+movie,http://it6390e-group2.example.org/resource/movie/380,Rain Man,http://www.wikidata.org/entity/Q188845,http://dbpedia.org/resource/Rain_Man
+movie,http://it6390e-group2.example.org/resource/movie/38757,Tangled,http://www.wikidata.org/entity/Q188439,http://dbpedia.org/resource/Tangled
+movie,http://it6390e-group2.example.org/resource/movie/389,12 Angry Men,http://www.wikidata.org/entity/Q2345,http://dbpedia.org/resource/12_Angry_Men_(1957_film)
+movie,http://it6390e-group2.example.org/resource/movie/393,Kill Bill: Vol. 2,http://www.wikidata.org/entity/Q928019,http://dbpedia.org/resource/Kill_Bill:_Volume_2
+movie,http://it6390e-group2.example.org/resource/movie/4133,Blow,http://www.wikidata.org/entity/Q631515,http://dbpedia.org/resource/Blow_(film)
+movie,http://it6390e-group2.example.org/resource/movie/423,The Pianist,http://www.wikidata.org/entity/Q150804,http://dbpedia.org/resource/The_Pianist_(2002_film)
+movie,http://it6390e-group2.example.org/resource/movie/424,Schindler's List,http://www.wikidata.org/entity/Q483941,http://dbpedia.org/resource/Schindler's_List
+movie,http://it6390e-group2.example.org/resource/movie/429,"The Good, the Bad and the Ugly",http://www.wikidata.org/entity/Q41483,"http://dbpedia.org/resource/The_Good,_the_Bad_and_the_Ugly"
+movie,http://it6390e-group2.example.org/resource/movie/433,Mary Poppins,http://www.wikidata.org/entity/Q209170,http://dbpedia.org/resource/Mary_Poppins_(film)
+movie,http://it6390e-group2.example.org/resource/movie/4347,Atonement,http://www.wikidata.org/entity/Q1626186,http://dbpedia.org/resource/Atonement_(2007_film)
+movie,http://it6390e-group2.example.org/resource/movie/4348,Pride & Prejudice,http://www.wikidata.org/entity/Q270385,http://dbpedia.org/resource/Pride_&_Prejudice_(2005_film)
+movie,http://it6390e-group2.example.org/resource/movie/44214,Black Swan,http://www.wikidata.org/entity/Q180214,http://dbpedia.org/resource/Black_Swan_(film)
+movie,http://it6390e-group2.example.org/resource/movie/45269,The King's Speech,http://www.wikidata.org/entity/Q160060,http://dbpedia.org/resource/The_King's_Speech
+movie,http://it6390e-group2.example.org/resource/movie/453,A Beautiful Mind,http://www.wikidata.org/entity/Q164103,http://dbpedia.org/resource/A_Beautiful_Mind_(film)
+movie,http://it6390e-group2.example.org/resource/movie/4638,Hot Fuzz,http://www.wikidata.org/entity/Q729788,http://dbpedia.org/resource/Hot_Fuzz
+movie,http://it6390e-group2.example.org/resource/movie/489,Good Will Hunting,http://www.wikidata.org/entity/Q193835,http://dbpedia.org/resource/Good_Will_Hunting
+movie,http://it6390e-group2.example.org/resource/movie/49026,The Dark Knight Rises,http://www.wikidata.org/entity/Q189330,http://dbpedia.org/resource/The_Dark_Knight_Rises
+movie,http://it6390e-group2.example.org/resource/movie/49047,Gravity,http://www.wikidata.org/entity/Q2579784,http://dbpedia.org/resource/Gravity_(2013_film)
+movie,http://it6390e-group2.example.org/resource/movie/4922,The Curious Case of Benjamin Button,http://www.wikidata.org/entity/Q183239,http://dbpedia.org/resource/The_Curious_Case_of_Benjamin_Button_(film)
+movie,http://it6390e-group2.example.org/resource/movie/4935,Howl's Moving Castle,http://www.wikidata.org/entity/Q29011,http://dbpedia.org/resource/Howl's_Moving_Castle_(film)
+movie,http://it6390e-group2.example.org/resource/movie/497,The Green Mile,http://www.wikidata.org/entity/Q208263,http://dbpedia.org/resource/The_Green_Mile_(film)
+movie,http://it6390e-group2.example.org/resource/movie/4982,American Gangster,http://www.wikidata.org/entity/Q270351,http://dbpedia.org/resource/American_Gangster_(film)
+movie,http://it6390e-group2.example.org/resource/movie/500,Reservoir Dogs,http://www.wikidata.org/entity/Q72962,http://dbpedia.org/resource/Reservoir_Dogs
+movie,http://it6390e-group2.example.org/resource/movie/50014,The Help,http://www.wikidata.org/entity/Q204374,http://dbpedia.org/resource/The_Help_(film)
+movie,http://it6390e-group2.example.org/resource/movie/510,One Flew Over the Cuckoo's Nest,http://www.wikidata.org/entity/Q171669,http://dbpedia.org/resource/One_Flew_Over_the_Cuckoo's_Nest_(film)
+movie,http://it6390e-group2.example.org/resource/movie/524,Casino,http://www.wikidata.org/entity/Q220910,http://dbpedia.org/resource/Casino_(1995_film)
+movie,http://it6390e-group2.example.org/resource/movie/525,The Blues Brothers,http://www.wikidata.org/entity/Q109767,http://dbpedia.org/resource/The_Blues_Brothers_(film)
+movie,http://it6390e-group2.example.org/resource/movie/539,Psycho,http://www.wikidata.org/entity/Q163038,http://dbpedia.org/resource/Psycho_(1960_film)
+movie,http://it6390e-group2.example.org/resource/movie/54138,Star Trek Into Darkness,http://www.wikidata.org/entity/Q171711,http://dbpedia.org/resource/Star_Trek_Into_Darkness
+movie,http://it6390e-group2.example.org/resource/movie/550,Fight Club,http://www.wikidata.org/entity/Q190050,http://dbpedia.org/resource/Fight_Club
+movie,http://it6390e-group2.example.org/resource/movie/562,Die Hard,http://www.wikidata.org/entity/Q105598,http://dbpedia.org/resource/Die_Hard
+movie,http://it6390e-group2.example.org/resource/movie/57158,The Hobbit: The Desolation of Smaug,http://www.wikidata.org/entity/Q719915,http://dbpedia.org/resource/The_Hobbit:_The_Desolation_of_Smaug
+movie,http://it6390e-group2.example.org/resource/movie/578,Jaws,http://www.wikidata.org/entity/Q189505,http://dbpedia.org/resource/Jaws_(film)
+movie,http://it6390e-group2.example.org/resource/movie/581,Dances with Wolves,http://www.wikidata.org/entity/Q20456,http://dbpedia.org/resource/Dances_with_Wolves
+movie,http://it6390e-group2.example.org/resource/movie/585,"Monsters, Inc.",http://www.wikidata.org/entity/Q187726,"http://dbpedia.org/resource/Monsters,_Inc."
+movie,http://it6390e-group2.example.org/resource/movie/587,Big Fish,http://www.wikidata.org/entity/Q278997,http://dbpedia.org/resource/Big_Fish
+movie,http://it6390e-group2.example.org/resource/movie/5915,Into the Wild,http://www.wikidata.org/entity/Q269912,http://dbpedia.org/resource/Into_the_Wild_(film)
+movie,http://it6390e-group2.example.org/resource/movie/59436,Midnight in Paris,http://www.wikidata.org/entity/Q206124,http://dbpedia.org/resource/Midnight_in_Paris
+movie,http://it6390e-group2.example.org/resource/movie/59440,Warrior,http://www.wikidata.org/entity/Q1415964,http://dbpedia.org/resource/Warrior_(2011_film)
+movie,http://it6390e-group2.example.org/resource/movie/597,Titanic,http://www.wikidata.org/entity/Q44578,http://dbpedia.org/resource/Titanic_(1997_film)
+movie,http://it6390e-group2.example.org/resource/movie/598,City of God,http://www.wikidata.org/entity/Q220741,http://dbpedia.org/resource/City_of_God_(2002_film)
+movie,http://it6390e-group2.example.org/resource/movie/601,E.T. the Extra-Terrestrial,http://www.wikidata.org/entity/Q11621,http://dbpedia.org/resource/E.T._the_Extra-Terrestrial
+movie,http://it6390e-group2.example.org/resource/movie/603,The Matrix,http://www.wikidata.org/entity/Q83495,http://dbpedia.org/resource/The_Matrix
+movie,http://it6390e-group2.example.org/resource/movie/613,Downfall,http://www.wikidata.org/entity/Q152857,http://dbpedia.org/resource/Downfall_(2004_film)
+movie,http://it6390e-group2.example.org/resource/movie/616,The Last Samurai,http://www.wikidata.org/entity/Q207130,http://dbpedia.org/resource/The_Last_Samurai
+movie,http://it6390e-group2.example.org/resource/movie/62,2001: A Space Odyssey,http://www.wikidata.org/entity/Q103474,http://dbpedia.org/resource/2001:_A_Space_Odyssey_(film)
+movie,http://it6390e-group2.example.org/resource/movie/627,Trainspotting,http://www.wikidata.org/entity/Q109135,http://dbpedia.org/resource/Trainspotting_(film)
+movie,http://it6390e-group2.example.org/resource/movie/629,The Usual Suspects,http://www.wikidata.org/entity/Q132351,http://dbpedia.org/resource/The_Usual_Suspects
+movie,http://it6390e-group2.example.org/resource/movie/630,The Wizard of Oz,http://www.wikidata.org/entity/Q193695,http://dbpedia.org/resource/The_Wizard_of_Oz_(1939_film)
+movie,http://it6390e-group2.example.org/resource/movie/640,Catch Me If You Can,http://www.wikidata.org/entity/Q208108,http://dbpedia.org/resource/Catch_Me_If_You_Can
+movie,http://it6390e-group2.example.org/resource/movie/641,Requiem for a Dream,http://www.wikidata.org/entity/Q487181,http://dbpedia.org/resource/Requiem_for_a_Dream
+movie,http://it6390e-group2.example.org/resource/movie/64682,The Great Gatsby,http://www.wikidata.org/entity/Q892735,http://dbpedia.org/resource/The_Great_Gatsby_(2013_film)
+movie,http://it6390e-group2.example.org/resource/movie/64690,Drive,http://www.wikidata.org/entity/Q732960,http://dbpedia.org/resource/Drive_(2011_film)
+movie,http://it6390e-group2.example.org/resource/movie/670,Oldboy,http://www.wikidata.org/entity/Q475693,http://dbpedia.org/resource/Oldboy_(2003_film)
+movie,http://it6390e-group2.example.org/resource/movie/671,Harry Potter and the Philosopher's Stone,http://www.wikidata.org/entity/Q102438,http://dbpedia.org/resource/Harry_Potter_and_the_Philosopher's_Stone_(film)
+movie,http://it6390e-group2.example.org/resource/movie/672,Harry Potter and the Chamber of Secrets,http://www.wikidata.org/entity/Q102244,http://dbpedia.org/resource/Harry_Potter_and_the_Chamber_of_Secrets_(film)
+movie,http://it6390e-group2.example.org/resource/movie/673,Harry Potter and the Prisoner of Azkaban,http://www.wikidata.org/entity/Q102448,http://dbpedia.org/resource/Harry_Potter_and_the_Prisoner_of_Azkaban_(film)
+movie,http://it6390e-group2.example.org/resource/movie/674,Harry Potter and the Goblet of Fire,http://www.wikidata.org/entity/Q102225,http://dbpedia.org/resource/Harry_Potter_and_the_Goblet_of_Fire_(film)
+movie,http://it6390e-group2.example.org/resource/movie/675,Harry Potter and the Order of the Phoenix,http://www.wikidata.org/entity/Q102235,http://dbpedia.org/resource/Harry_Potter_and_the_Order_of_the_Phoenix_(film)
+movie,http://it6390e-group2.example.org/resource/movie/679,Aliens,http://www.wikidata.org/entity/Q104814,http://dbpedia.org/resource/Aliens_(film)
+movie,http://it6390e-group2.example.org/resource/movie/680,Pulp Fiction,http://www.wikidata.org/entity/Q104123,http://dbpedia.org/resource/Pulp_Fiction
+movie,http://it6390e-group2.example.org/resource/movie/68718,Django Unchained,http://www.wikidata.org/entity/Q571032,http://dbpedia.org/resource/Django_Unchained
+movie,http://it6390e-group2.example.org/resource/movie/694,The Shining,http://www.wikidata.org/entity/Q186341,http://dbpedia.org/resource/The_Shining_(film)
+movie,http://it6390e-group2.example.org/resource/movie/6977,No Country for Old Men,http://www.wikidata.org/entity/Q183081,http://dbpedia.org/resource/No_Country_for_Old_Men
+movie,http://it6390e-group2.example.org/resource/movie/70,Million Dollar Baby,http://www.wikidata.org/entity/Q184255,http://dbpedia.org/resource/Million_Dollar_Baby
+movie,http://it6390e-group2.example.org/resource/movie/703,Annie Hall,http://www.wikidata.org/entity/Q233464,http://dbpedia.org/resource/Annie_Hall
+movie,http://it6390e-group2.example.org/resource/movie/73,American History X,http://www.wikidata.org/entity/Q208572,http://dbpedia.org/resource/American_History_X
+movie,http://it6390e-group2.example.org/resource/movie/7345,There Will Be Blood,http://www.wikidata.org/entity/Q244315,http://dbpedia.org/resource/There_Will_Be_Blood
+movie,http://it6390e-group2.example.org/resource/movie/745,The Sixth Sense,http://www.wikidata.org/entity/Q183063,http://dbpedia.org/resource/The_Sixth_Sense
+movie,http://it6390e-group2.example.org/resource/movie/747,Shaun of the Dead,http://www.wikidata.org/entity/Q858724,http://dbpedia.org/resource/Shaun_of_the_Dead
+movie,http://it6390e-group2.example.org/resource/movie/752,V for Vendetta,http://www.wikidata.org/entity/Q5890,http://dbpedia.org/resource/V_for_Vendetta_(film)
+movie,http://it6390e-group2.example.org/resource/movie/75656,Now You See Me,http://www.wikidata.org/entity/Q499851,http://dbpedia.org/resource/Now_You_See_Me_(film)
+movie,http://it6390e-group2.example.org/resource/movie/762,Monty Python and the Holy Grail,http://www.wikidata.org/entity/Q25043,http://dbpedia.org/resource/Monty_Python_and_the_Holy_Grail
+movie,http://it6390e-group2.example.org/resource/movie/76203,12 Years a Slave,http://www.wikidata.org/entity/Q3023357,http://dbpedia.org/resource/12_Years_a_Slave_(film)
+movie,http://it6390e-group2.example.org/resource/movie/767,Harry Potter and the Half-Blood Prince,http://www.wikidata.org/entity/Q161687,http://dbpedia.org/resource/Harry_Potter_and_the_Half-Blood_Prince_(film)
+movie,http://it6390e-group2.example.org/resource/movie/769,GoodFellas,http://www.wikidata.org/entity/Q42047,http://dbpedia.org/resource/Goodfellas
+movie,http://it6390e-group2.example.org/resource/movie/77,Memento,http://www.wikidata.org/entity/Q190525,http://dbpedia.org/resource/Memento_(film)
+movie,http://it6390e-group2.example.org/resource/movie/773,Little Miss Sunshine,http://www.wikidata.org/entity/Q192073,http://dbpedia.org/resource/Little_Miss_Sunshine
+movie,http://it6390e-group2.example.org/resource/movie/78,Blade Runner,http://www.wikidata.org/entity/Q184843,http://dbpedia.org/resource/Blade_Runner
+movie,http://it6390e-group2.example.org/resource/movie/782,Gattaca,http://www.wikidata.org/entity/Q491800,http://dbpedia.org/resource/Gattaca
+movie,http://it6390e-group2.example.org/resource/movie/792,Platoon,http://www.wikidata.org/entity/Q190643,http://dbpedia.org/resource/Platoon_(film)
+movie,http://it6390e-group2.example.org/resource/movie/807,Se7en,http://www.wikidata.org/entity/Q190908,http://dbpedia.org/resource/Seven_(1995_film)
+movie,http://it6390e-group2.example.org/resource/movie/808,Shrek,http://www.wikidata.org/entity/Q483815,http://dbpedia.org/resource/Shrek
+movie,http://it6390e-group2.example.org/resource/movie/812,Aladdin,http://www.wikidata.org/entity/Q215518,http://dbpedia.org/resource/Aladdin_(1992_Disney_film)
+movie,http://it6390e-group2.example.org/resource/movie/824,Moulin Rouge!,http://www.wikidata.org/entity/Q193573,http://dbpedia.org/resource/Moulin_Rouge!
+movie,http://it6390e-group2.example.org/resource/movie/82702,How to Train Your Dragon 2,http://www.wikidata.org/entity/Q10298666,http://dbpedia.org/resource/How_to_Train_Your_Dragon_2
+movie,http://it6390e-group2.example.org/resource/movie/8321,In Bruges,http://www.wikidata.org/entity/Q244931,http://dbpedia.org/resource/In_Bruges
+movie,http://it6390e-group2.example.org/resource/movie/8358,Cast Away,http://www.wikidata.org/entity/Q213411,http://dbpedia.org/resource/Cast_Away
+movie,http://it6390e-group2.example.org/resource/movie/83666,Moonrise Kingdom,http://www.wikidata.org/entity/Q217112,http://dbpedia.org/resource/Moonrise_Kingdom
+movie,http://it6390e-group2.example.org/resource/movie/84892,The Perks of Being a Wallflower,http://www.wikidata.org/entity/Q675468,http://dbpedia.org/resource/The_Perks_of_Being_a_Wallflower_(film)
+movie,http://it6390e-group2.example.org/resource/movie/85,Raiders of the Lost Ark,http://www.wikidata.org/entity/Q174284,http://dbpedia.org/resource/Raiders_of_the_Lost_Ark
+movie,http://it6390e-group2.example.org/resource/movie/85350,Boyhood,http://www.wikidata.org/entity/Q4103201,http://dbpedia.org/resource/Boyhood_(2014_film)
+movie,http://it6390e-group2.example.org/resource/movie/857,Saving Private Ryan,http://www.wikidata.org/entity/Q165817,http://dbpedia.org/resource/Saving_Private_Ryan
+movie,http://it6390e-group2.example.org/resource/movie/8587,The Lion King,http://www.wikidata.org/entity/Q36479,http://dbpedia.org/resource/The_Lion_King
+movie,http://it6390e-group2.example.org/resource/movie/862,Toy Story,http://www.wikidata.org/entity/Q171048,http://dbpedia.org/resource/Toy_Story
+movie,http://it6390e-group2.example.org/resource/movie/863,Toy Story 2,http://www.wikidata.org/entity/Q187266,http://dbpedia.org/resource/Toy_Story_2
+movie,http://it6390e-group2.example.org/resource/movie/89,Indiana Jones and the Last Crusade,http://www.wikidata.org/entity/Q185658,http://dbpedia.org/resource/Indiana_Jones_and_the_Last_Crusade
+movie,http://it6390e-group2.example.org/resource/movie/935,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,http://www.wikidata.org/entity/Q105702,http://dbpedia.org/resource/Dr._Strangelove
+movie,http://it6390e-group2.example.org/resource/movie/9366,Donnie Brasco,http://www.wikidata.org/entity/Q738456,http://dbpedia.org/resource/Donnie_Brasco_(film)
+movie,http://it6390e-group2.example.org/resource/movie/9428,The Royal Tenenbaums,http://www.wikidata.org/entity/Q935105,http://dbpedia.org/resource/The_Royal_Tenenbaums
+movie,http://it6390e-group2.example.org/resource/movie/9444,Anastasia,http://www.wikidata.org/entity/Q486609,http://dbpedia.org/resource/Anastasia_(1997_film)
+movie,http://it6390e-group2.example.org/resource/movie/948,Halloween,http://www.wikidata.org/entity/Q221103,http://dbpedia.org/resource/Halloween_(1978_film)
+movie,http://it6390e-group2.example.org/resource/movie/9552,The Exorcist,http://www.wikidata.org/entity/Q274167,http://dbpedia.org/resource/The_Exorcist
+movie,http://it6390e-group2.example.org/resource/movie/96721,Rush,http://www.wikidata.org/entity/Q1768437,http://dbpedia.org/resource/Rush_(2013_film)
+movie,http://it6390e-group2.example.org/resource/movie/9693,Children of Men,http://www.wikidata.org/entity/Q221090,http://dbpedia.org/resource/Children_of_Men
+movie,http://it6390e-group2.example.org/resource/movie/98,Gladiator,http://www.wikidata.org/entity/Q128518,http://dbpedia.org/resource/Gladiator_(2000_film)
+movie,http://it6390e-group2.example.org/resource/movie/9806,The Incredibles,http://www.wikidata.org/entity/Q213326,http://dbpedia.org/resource/The_Incredibles
+movie,http://it6390e-group2.example.org/resource/movie/99861,Avengers: Age of Ultron,http://www.wikidata.org/entity/Q14171368,http://dbpedia.org/resource/Avengers:_Age_of_Ultron
+person,http://it6390e-group2.example.org/resource/person/1,George Lucas,http://www.wikidata.org/entity/Q38222,http://dbpedia.org/resource/George_Lucas
+person,http://it6390e-group2.example.org/resource/person/1008607,Sophie Nélisse,http://www.wikidata.org/entity/Q3491020,http://dbpedia.org/resource/Sophie_Nélisse
+person,http://it6390e-group2.example.org/resource/person/10099,Park Chan-wook,http://www.wikidata.org/entity/Q315484,http://dbpedia.org/resource/Park_Chan-wook
+person,http://it6390e-group2.example.org/resource/person/10112,Yoo Ji-tae,http://www.wikidata.org/entity/Q489475,http://dbpedia.org/resource/Yoo_Ji-tae
+person,http://it6390e-group2.example.org/resource/person/1019,Mads Mikkelsen,http://www.wikidata.org/entity/Q294647,http://dbpedia.org/resource/Mads_Mikkelsen
+person,http://it6390e-group2.example.org/resource/person/10205,Sigourney Weaver,http://www.wikidata.org/entity/Q102124,http://dbpedia.org/resource/Sigourney_Weaver
+person,http://it6390e-group2.example.org/resource/person/10297,Matthew McConaughey,http://www.wikidata.org/entity/Q188955,http://dbpedia.org/resource/Matthew_McConaughey
+person,http://it6390e-group2.example.org/resource/person/103,Mark Ruffalo,http://www.wikidata.org/entity/Q41422,http://dbpedia.org/resource/Mark_Ruffalo
+person,http://it6390e-group2.example.org/resource/person/1032,Martin Scorsese,http://www.wikidata.org/entity/Q41148,http://dbpedia.org/resource/Martin_Scorsese
+person,http://it6390e-group2.example.org/resource/person/1036,Cybill Shepherd,http://www.wikidata.org/entity/Q175142,http://dbpedia.org/resource/Cybill_Shepherd
+person,http://it6390e-group2.example.org/resource/person/1037,Harvey Keitel,http://www.wikidata.org/entity/Q191132,http://dbpedia.org/resource/Harvey_Keitel
+person,http://it6390e-group2.example.org/resource/person/1038,Jodie Foster,http://www.wikidata.org/entity/Q41351,http://dbpedia.org/resource/Jodie_Foster
+person,http://it6390e-group2.example.org/resource/person/10409,Shelley Duvall,http://www.wikidata.org/entity/Q235478,http://dbpedia.org/resource/Shelley_Duvall
+person,http://it6390e-group2.example.org/resource/person/10410,Danny Lloyd,http://www.wikidata.org/entity/Q959299,http://dbpedia.org/resource/Danny_Lloyd
+person,http://it6390e-group2.example.org/resource/person/10431,Jennifer Jason Leigh,http://www.wikidata.org/entity/Q232902,http://dbpedia.org/resource/Jennifer_Jason_Leigh
+person,http://it6390e-group2.example.org/resource/person/1047649,Ed Skrein,http://www.wikidata.org/entity/Q5335413,http://dbpedia.org/resource/Ed_Skrein
+person,http://it6390e-group2.example.org/resource/person/1053420,Josh Boone,http://www.wikidata.org/entity/Q6288682,http://dbpedia.org/resource/Josh_Boone_(director)
+person,http://it6390e-group2.example.org/resource/person/10555,Tony Roberts,http://www.wikidata.org/entity/Q1235479,http://dbpedia.org/resource/Tony_Roberts_(actor)
+person,http://it6390e-group2.example.org/resource/person/1056121,Ryan Coogler,http://www.wikidata.org/entity/Q7383978,http://dbpedia.org/resource/Ryan_Coogler
+person,http://it6390e-group2.example.org/resource/person/1062,Christopher Lloyd,http://www.wikidata.org/entity/Q109324,http://dbpedia.org/resource/Christopher_Lloyd
+person,http://it6390e-group2.example.org/resource/person/1063,Lea Thompson,http://www.wikidata.org/entity/Q230605,http://dbpedia.org/resource/Lea_Thompson
+person,http://it6390e-group2.example.org/resource/person/10692,Michael Pitt,http://www.wikidata.org/entity/Q352540,http://dbpedia.org/resource/Michael_Pitt
+person,http://it6390e-group2.example.org/resource/person/10702,Martin Campbell,http://www.wikidata.org/entity/Q282033,http://dbpedia.org/resource/Martin_Campbell
+person,http://it6390e-group2.example.org/resource/person/10722,Graham Chapman,http://www.wikidata.org/entity/Q24962,http://dbpedia.org/resource/Graham_Chapman
+person,http://it6390e-group2.example.org/resource/person/10723,Mike Newell,http://www.wikidata.org/entity/Q312088,http://dbpedia.org/resource/Mike_Newell_(director)
+person,http://it6390e-group2.example.org/resource/person/107446,Phil Lord,http://www.wikidata.org/entity/Q3378803,
+person,http://it6390e-group2.example.org/resource/person/108,Peter Jackson,http://www.wikidata.org/entity/Q4465,http://dbpedia.org/resource/Peter_Jackson
+person,http://it6390e-group2.example.org/resource/person/10828,Guillermo del Toro,http://www.wikidata.org/entity/Q219124,http://dbpedia.org/resource/Guillermo_del_Toro
+person,http://it6390e-group2.example.org/resource/person/10859,Ryan Reynolds,http://www.wikidata.org/entity/Q192682,http://dbpedia.org/resource/Ryan_Reynolds
+person,http://it6390e-group2.example.org/resource/person/10872,Patton Oswalt,http://www.wikidata.org/entity/Q374065,http://dbpedia.org/resource/Patton_Oswalt
+person,http://it6390e-group2.example.org/resource/person/10882,Rosamund Pike,http://www.wikidata.org/entity/Q230004,http://dbpedia.org/resource/Rosamund_Pike
+person,http://it6390e-group2.example.org/resource/person/108916,Rooney Mara,http://www.wikidata.org/entity/Q228766,http://dbpedia.org/resource/Rooney_Mara
+person,http://it6390e-group2.example.org/resource/person/109,Elijah Wood,http://www.wikidata.org/entity/Q483771,http://dbpedia.org/resource/Elijah_Wood
+person,http://it6390e-group2.example.org/resource/person/1090,John McTiernan,http://www.wikidata.org/entity/Q270639,http://dbpedia.org/resource/John_McTiernan
+person,http://it6390e-group2.example.org/resource/person/10912,Eva Green,http://www.wikidata.org/entity/Q191644,http://dbpedia.org/resource/Eva_Green
+person,http://it6390e-group2.example.org/resource/person/10930,Irvin Kershner,http://www.wikidata.org/entity/Q119348,http://dbpedia.org/resource/Irvin_Kershner
+person,http://it6390e-group2.example.org/resource/person/10943,Francis Lawrence,http://www.wikidata.org/entity/Q561387,http://dbpedia.org/resource/Francis_Lawrence
+person,http://it6390e-group2.example.org/resource/person/10959,Shia LaBeouf,http://www.wikidata.org/entity/Q180942,http://dbpedia.org/resource/Shia_LaBeouf
+person,http://it6390e-group2.example.org/resource/person/10965,Chris Columbus,http://www.wikidata.org/entity/Q75079,http://dbpedia.org/resource/Chris_Columbus_(filmmaker)
+person,http://it6390e-group2.example.org/resource/person/1096867,Thea Sharrock,http://www.wikidata.org/entity/Q7777218,http://dbpedia.org/resource/Thea_Sharrock
+person,http://it6390e-group2.example.org/resource/person/109745,Lee Toland Krieger,http://www.wikidata.org/entity/Q6515302,http://dbpedia.org/resource/Lee_Toland_Krieger
+person,http://it6390e-group2.example.org/resource/person/10980,Daniel Radcliffe,http://www.wikidata.org/entity/Q38119,http://dbpedia.org/resource/Daniel_Radcliffe
+person,http://it6390e-group2.example.org/resource/person/10989,Rupert Grint,http://www.wikidata.org/entity/Q19190,http://dbpedia.org/resource/Rupert_Grint
+person,http://it6390e-group2.example.org/resource/person/10990,Emma Watson,http://www.wikidata.org/entity/Q39476,http://dbpedia.org/resource/Emma_Watson
+person,http://it6390e-group2.example.org/resource/person/110,Viggo Mortensen,http://www.wikidata.org/entity/Q171363,http://dbpedia.org/resource/Viggo_Mortensen
+person,http://it6390e-group2.example.org/resource/person/1100,Arnold Schwarzenegger,http://www.wikidata.org/entity/Q2685,http://dbpedia.org/resource/Arnold_Schwarzenegger
+person,http://it6390e-group2.example.org/resource/person/1101,Carl Weathers,http://www.wikidata.org/entity/Q320218,http://dbpedia.org/resource/Carl_Weathers
+person,http://it6390e-group2.example.org/resource/person/1102,Elpidia Carrillo,http://www.wikidata.org/entity/Q455010,http://dbpedia.org/resource/Elpidia_Carrillo
+person,http://it6390e-group2.example.org/resource/person/11064,David Strathairn,http://www.wikidata.org/entity/Q310318,http://dbpedia.org/resource/David_Strathairn
+person,http://it6390e-group2.example.org/resource/person/11065,Wilford Brimley,http://www.wikidata.org/entity/Q712180,http://dbpedia.org/resource/Wilford_Brimley
+person,http://it6390e-group2.example.org/resource/person/11090,Edgar Wright,http://www.wikidata.org/entity/Q522057,http://dbpedia.org/resource/Edgar_Wright
+person,http://it6390e-group2.example.org/resource/person/11108,Simon Pegg,http://www.wikidata.org/entity/Q238464,http://dbpedia.org/resource/Simon_Pegg
+person,http://it6390e-group2.example.org/resource/person/11109,Nick Frost,http://www.wikidata.org/entity/Q363400,http://dbpedia.org/resource/Nick_Frost
+person,http://it6390e-group2.example.org/resource/person/11110,Kate Ashfield,http://www.wikidata.org/entity/Q509628,http://dbpedia.org/resource/Kate_Ashfield
+person,http://it6390e-group2.example.org/resource/person/11148,Joan Allen,http://www.wikidata.org/entity/Q229305,http://dbpedia.org/resource/Joan_Allen
+person,http://it6390e-group2.example.org/resource/person/11151,Nick Cassavetes,http://www.wikidata.org/entity/Q431191,http://dbpedia.org/resource/Nick_Cassavetes
+person,http://it6390e-group2.example.org/resource/person/1115984,Jason Mitchell,http://www.wikidata.org/entity/Q20895485,http://dbpedia.org/resource/Jason_Mitchell
+person,http://it6390e-group2.example.org/resource/person/112,Cate Blanchett,http://www.wikidata.org/entity/Q80966,http://dbpedia.org/resource/Cate_Blanchett
+person,http://it6390e-group2.example.org/resource/person/11218,Alfonso Cuarón,http://www.wikidata.org/entity/Q28028,http://dbpedia.org/resource/Alfonso_Cuarón
+person,http://it6390e-group2.example.org/resource/person/1125,Ewen Bremner,http://www.wikidata.org/entity/Q520651,http://dbpedia.org/resource/Ewen_Bremner
+person,http://it6390e-group2.example.org/resource/person/11266,James McTeigue,http://www.wikidata.org/entity/Q456008,http://dbpedia.org/resource/James_McTeigue
+person,http://it6390e-group2.example.org/resource/person/11315,Noah Emmerich,http://www.wikidata.org/entity/Q720530,http://dbpedia.org/resource/Noah_Emmerich
+person,http://it6390e-group2.example.org/resource/person/11343,David Yates,http://www.wikidata.org/entity/Q312988,http://dbpedia.org/resource/David_Yates
+person,http://it6390e-group2.example.org/resource/person/114,Orlando Bloom,http://www.wikidata.org/entity/Q44467,http://dbpedia.org/resource/Orlando_Bloom
+person,http://it6390e-group2.example.org/resource/person/11477,Ray Liotta,http://www.wikidata.org/entity/Q211280,http://dbpedia.org/resource/Ray_Liotta
+person,http://it6390e-group2.example.org/resource/person/1150,Brian De Palma,http://www.wikidata.org/entity/Q189526,http://dbpedia.org/resource/Brian_De_Palma
+person,http://it6390e-group2.example.org/resource/person/115146,Dominique McElligott,http://www.wikidata.org/entity/Q456651,http://dbpedia.org/resource/Dominique_McElligott
+person,http://it6390e-group2.example.org/resource/person/1152,Oliver Stone,http://www.wikidata.org/entity/Q179497,http://dbpedia.org/resource/Oliver_Stone
+person,http://it6390e-group2.example.org/resource/person/1154054,Corey Hawkins,http://www.wikidata.org/entity/Q20740941,http://dbpedia.org/resource/Corey_Hawkins
+person,http://it6390e-group2.example.org/resource/person/1158,Al Pacino,http://www.wikidata.org/entity/Q41163,http://dbpedia.org/resource/Al_Pacino
+person,http://it6390e-group2.example.org/resource/person/1159,Steven Bauer,http://www.wikidata.org/entity/Q705477,http://dbpedia.org/resource/Steven_Bauer
+person,http://it6390e-group2.example.org/resource/person/1159982,Ansel Elgort,http://www.wikidata.org/entity/Q13426679,http://dbpedia.org/resource/Ansel_Elgort
+person,http://it6390e-group2.example.org/resource/person/116,Keira Knightley,http://www.wikidata.org/entity/Q42581,http://dbpedia.org/resource/Keira_Knightley
+person,http://it6390e-group2.example.org/resource/person/1160,Michelle Pfeiffer,http://www.wikidata.org/entity/Q159778,http://dbpedia.org/resource/Michelle_Pfeiffer
+person,http://it6390e-group2.example.org/resource/person/116027,Eli Marienthal,http://www.wikidata.org/entity/Q1328845,http://dbpedia.org/resource/Eli_Marienthal
+person,http://it6390e-group2.example.org/resource/person/11614,M. Night Shyamalan,http://www.wikidata.org/entity/Q51489,http://dbpedia.org/resource/M._Night_Shyamalan
+person,http://it6390e-group2.example.org/resource/person/11616,Olivia Williams,http://www.wikidata.org/entity/Q231163,http://dbpedia.org/resource/Olivia_Williams
+person,http://it6390e-group2.example.org/resource/person/11626,Gore Vidal,http://www.wikidata.org/entity/Q167821,http://dbpedia.org/resource/Gore_Vidal
+person,http://it6390e-group2.example.org/resource/person/1164,F. Murray Abraham,http://www.wikidata.org/entity/Q181936,http://dbpedia.org/resource/F._Murray_Abraham
+person,http://it6390e-group2.example.org/resource/person/11694,Doug Liman,http://www.wikidata.org/entity/Q349339,http://dbpedia.org/resource/Doug_Liman
+person,http://it6390e-group2.example.org/resource/person/11770,John Carpenter,http://www.wikidata.org/entity/Q95008,http://dbpedia.org/resource/John_Carpenter
+person,http://it6390e-group2.example.org/resource/person/118,Geoffrey Rush,http://www.wikidata.org/entity/Q166272,http://dbpedia.org/resource/Geoffrey_Rush
+person,http://it6390e-group2.example.org/resource/person/11856,Daniel Day-Lewis,http://www.wikidata.org/entity/Q166389,http://dbpedia.org/resource/Daniel_Day-Lewis
+person,http://it6390e-group2.example.org/resource/person/12,Alexander Gould,http://www.wikidata.org/entity/Q462065,http://dbpedia.org/resource/Alexander_Gould
+person,http://it6390e-group2.example.org/resource/person/12041,Julia Stiles,http://www.wikidata.org/entity/Q210120,http://dbpedia.org/resource/Julia_Stiles
+person,http://it6390e-group2.example.org/resource/person/1205,Richard Gere,http://www.wikidata.org/entity/Q48410,http://dbpedia.org/resource/Richard_Gere
+person,http://it6390e-group2.example.org/resource/person/12052,Gwyneth Paltrow,http://www.wikidata.org/entity/Q34460,http://dbpedia.org/resource/Gwyneth_Paltrow
+person,http://it6390e-group2.example.org/resource/person/1206,Jason Alexander,http://www.wikidata.org/entity/Q311754,http://dbpedia.org/resource/Jason_Alexander
+person,http://it6390e-group2.example.org/resource/person/120724,Jaden Smith,http://www.wikidata.org/entity/Q221364,http://dbpedia.org/resource/Jaden_Smith
+person,http://it6390e-group2.example.org/resource/person/12073,Mike Myers,http://www.wikidata.org/entity/Q185724,http://dbpedia.org/resource/Mike_Myers
+person,http://it6390e-group2.example.org/resource/person/1223,Joel Coen,http://www.wikidata.org/entity/Q13595311,http://dbpedia.org/resource/Joel_Coen
+person,http://it6390e-group2.example.org/resource/person/1223786,Emilia Clarke,http://www.wikidata.org/entity/Q235132,http://dbpedia.org/resource/Emilia_Clarke
+person,http://it6390e-group2.example.org/resource/person/1229,Jeff Bridges,http://www.wikidata.org/entity/Q174843,http://dbpedia.org/resource/Jeff_Bridges
+person,http://it6390e-group2.example.org/resource/person/1230,John Goodman,http://www.wikidata.org/entity/Q215072,http://dbpedia.org/resource/John_Goodman
+person,http://it6390e-group2.example.org/resource/person/1231,Julianne Moore,http://www.wikidata.org/entity/Q80405,http://dbpedia.org/resource/Julianne_Moore
+person,http://it6390e-group2.example.org/resource/person/1243,Woody Allen,http://www.wikidata.org/entity/Q25089,http://dbpedia.org/resource/Woody_Allen
+person,http://it6390e-group2.example.org/resource/person/12446,Peter Sellers,http://www.wikidata.org/entity/Q177984,http://dbpedia.org/resource/Peter_Sellers
+person,http://it6390e-group2.example.org/resource/person/1245,Scarlett Johansson,http://www.wikidata.org/entity/Q34436,http://dbpedia.org/resource/Scarlett_Johansson
+person,http://it6390e-group2.example.org/resource/person/1247,Matthew Goode,http://www.wikidata.org/entity/Q317337,http://dbpedia.org/resource/Matthew_Goode
+person,http://it6390e-group2.example.org/resource/person/12670,Takuya Kimura,http://www.wikidata.org/entity/Q362254,http://dbpedia.org/resource/Takuya_Kimura
+person,http://it6390e-group2.example.org/resource/person/1267329,Lupita Nyong'o,http://www.wikidata.org/entity/Q3840847,http://dbpedia.org/resource/Lupita_Nyong'o
+person,http://it6390e-group2.example.org/resource/person/1269,Kevin Costner,http://www.wikidata.org/entity/Q11930,http://dbpedia.org/resource/Kevin_Costner
+person,http://it6390e-group2.example.org/resource/person/126945,Brian Percival,http://www.wikidata.org/entity/Q2924979,http://dbpedia.org/resource/Brian_Percival
+person,http://it6390e-group2.example.org/resource/person/1270,Charles Martin Smith,http://www.wikidata.org/entity/Q730100,http://dbpedia.org/resource/Charles_Martin_Smith
+person,http://it6390e-group2.example.org/resource/person/1277188,Jacob Tremblay,http://www.wikidata.org/entity/Q20965633,http://dbpedia.org/resource/Jacob_Tremblay
+person,http://it6390e-group2.example.org/resource/person/1283,Helena Bonham Carter,http://www.wikidata.org/entity/Q170428,http://dbpedia.org/resource/Helena_Bonham_Carter
+person,http://it6390e-group2.example.org/resource/person/12835,Vin Diesel,http://www.wikidata.org/entity/Q178166,http://dbpedia.org/resource/Vin_Diesel
+person,http://it6390e-group2.example.org/resource/person/12881,Gary Goldman,http://www.wikidata.org/entity/Q667959,http://dbpedia.org/resource/Gary_Goldman
+person,http://it6390e-group2.example.org/resource/person/12890,Pete Docter,http://www.wikidata.org/entity/Q357627,http://dbpedia.org/resource/Pete_Docter
+person,http://it6390e-group2.example.org/resource/person/12891,Joss Whedon,http://www.wikidata.org/entity/Q298025,http://dbpedia.org/resource/Joss_Whedon
+person,http://it6390e-group2.example.org/resource/person/12898,Tim Allen,http://www.wikidata.org/entity/Q208408,http://dbpedia.org/resource/Tim_Allen
+person,http://it6390e-group2.example.org/resource/person/129104,Melissa Benoist,http://www.wikidata.org/entity/Q46677,http://dbpedia.org/resource/Melissa_Benoist
+person,http://it6390e-group2.example.org/resource/person/1291350,Tony Revolori,http://www.wikidata.org/entity/Q16237562,http://dbpedia.org/resource/Tony_Revolori
+person,http://it6390e-group2.example.org/resource/person/1299317,Kang Hye-jung,http://www.wikidata.org/entity/Q485387,http://dbpedia.org/resource/Kang_Hye-jung
+person,http://it6390e-group2.example.org/resource/person/13,Albert Brooks,http://www.wikidata.org/entity/Q356303,http://dbpedia.org/resource/Albert_Brooks
+person,http://it6390e-group2.example.org/resource/person/13022,Tom Berenger,http://www.wikidata.org/entity/Q299317,http://dbpedia.org/resource/Tom_Berenger
+person,http://it6390e-group2.example.org/resource/person/1308445,Carrie Coon,http://www.wikidata.org/entity/Q17317909,http://dbpedia.org/resource/Carrie_Coon
+person,http://it6390e-group2.example.org/resource/person/131,Jake Gyllenhaal,http://www.wikidata.org/entity/Q133313,http://dbpedia.org/resource/Jake_Gyllenhaal
+person,http://it6390e-group2.example.org/resource/person/132157,Ezra Miller,http://www.wikidata.org/entity/Q508049,http://dbpedia.org/resource/Ezra_Miller
+person,http://it6390e-group2.example.org/resource/person/13240,Mark Wahlberg,http://www.wikidata.org/entity/Q164119,http://dbpedia.org/resource/Mark_Wahlberg
+person,http://it6390e-group2.example.org/resource/person/1327,Ian McKellen,http://www.wikidata.org/entity/Q170510,http://dbpedia.org/resource/Ian_McKellen
+person,http://it6390e-group2.example.org/resource/person/1331,Hugo Weaving,http://www.wikidata.org/entity/Q42204,http://dbpedia.org/resource/Hugo_Weaving
+person,http://it6390e-group2.example.org/resource/person/1333,Andy Serkis,http://www.wikidata.org/entity/Q206922,http://dbpedia.org/resource/Andy_Serkis
+person,http://it6390e-group2.example.org/resource/person/134,Jamie Foxx,http://www.wikidata.org/entity/Q171905,http://dbpedia.org/resource/Jamie_Foxx
+person,http://it6390e-group2.example.org/resource/person/13549,Deborah Kara Unger,http://www.wikidata.org/entity/Q233801,http://dbpedia.org/resource/Deborah_Kara_Unger
+person,http://it6390e-group2.example.org/resource/person/135651,Michael B. Jordan,http://www.wikidata.org/entity/Q3308007,http://dbpedia.org/resource/Michael_B._Jordan
+person,http://it6390e-group2.example.org/resource/person/136495,Damien Chazelle,http://www.wikidata.org/entity/Q18350026,http://dbpedia.org/resource/Damien_Chazelle
+person,http://it6390e-group2.example.org/resource/person/1371398,O'Shea Jackson Jr.,http://www.wikidata.org/entity/Q19667862,http://dbpedia.org/resource/O'Shea_Jackson_Jr.
+person,http://it6390e-group2.example.org/resource/person/13726,Ned Beatty,http://www.wikidata.org/entity/Q4212,http://dbpedia.org/resource/Ned_Beatty
+person,http://it6390e-group2.example.org/resource/person/137427,Denis Villeneuve,http://www.wikidata.org/entity/Q548823,http://dbpedia.org/resource/Denis_Villeneuve
+person,http://it6390e-group2.example.org/resource/person/138,Quentin Tarantino,http://www.wikidata.org/entity/Q3772,http://dbpedia.org/resource/Quentin_Tarantino
+person,http://it6390e-group2.example.org/resource/person/139,Uma Thurman,http://www.wikidata.org/entity/Q125017,http://dbpedia.org/resource/Uma_Thurman
+person,http://it6390e-group2.example.org/resource/person/14,Ellen DeGeneres,http://www.wikidata.org/entity/Q483325,http://dbpedia.org/resource/Ellen_DeGeneres
+person,http://it6390e-group2.example.org/resource/person/140,Lucy Liu,http://www.wikidata.org/entity/Q188375,http://dbpedia.org/resource/Lucy_Liu
+person,http://it6390e-group2.example.org/resource/person/141,David Carradine,http://www.wikidata.org/entity/Q187038,http://dbpedia.org/resource/David_Carradine
+person,http://it6390e-group2.example.org/resource/person/14343,Rene Russo,http://www.wikidata.org/entity/Q229612,http://dbpedia.org/resource/Rene_Russo
+person,http://it6390e-group2.example.org/resource/person/1461,George Clooney,http://www.wikidata.org/entity/Q23844,http://dbpedia.org/resource/George_Clooney
+person,http://it6390e-group2.example.org/resource/person/147,Michael Madsen,http://www.wikidata.org/entity/Q220584,http://dbpedia.org/resource/Michael_Madsen
+person,http://it6390e-group2.example.org/resource/person/15007,Laura Harring,http://www.wikidata.org/entity/Q233536,http://dbpedia.org/resource/Laura_Harring
+person,http://it6390e-group2.example.org/resource/person/15008,Ann Miller,http://www.wikidata.org/entity/Q241701,http://dbpedia.org/resource/Ann_Miller
+person,http://it6390e-group2.example.org/resource/person/15152,James Earl Jones,http://www.wikidata.org/entity/Q203960,http://dbpedia.org/resource/James_Earl_Jones
+person,http://it6390e-group2.example.org/resource/person/15175,William Friedkin,http://www.wikidata.org/entity/Q51582,http://dbpedia.org/resource/William_Friedkin
+person,http://it6390e-group2.example.org/resource/person/15218,James Gunn,http://www.wikidata.org/entity/Q717015,http://dbpedia.org/resource/James_Gunn
+person,http://it6390e-group2.example.org/resource/person/1524,Harold Ramis,http://www.wikidata.org/entity/Q286890,http://dbpedia.org/resource/Harold_Ramis
+person,http://it6390e-group2.example.org/resource/person/15277,Jon Favreau,http://www.wikidata.org/entity/Q295964,http://dbpedia.org/resource/Jon_Favreau
+person,http://it6390e-group2.example.org/resource/person/1532,Bill Murray,http://www.wikidata.org/entity/Q29250,http://dbpedia.org/resource/Bill_Murray
+person,http://it6390e-group2.example.org/resource/person/1533,Andie MacDowell,http://www.wikidata.org/entity/Q208558,http://dbpedia.org/resource/Andie_MacDowell
+person,http://it6390e-group2.example.org/resource/person/1534,Chris Elliott,http://www.wikidata.org/entity/Q377424,http://dbpedia.org/resource/Chris_Elliott
+person,http://it6390e-group2.example.org/resource/person/15344,J.J. Abrams,http://www.wikidata.org/entity/Q188137,http://dbpedia.org/resource/J._J._Abrams
+person,http://it6390e-group2.example.org/resource/person/15500,P.J. Soles,http://www.wikidata.org/entity/Q270079,http://dbpedia.org/resource/P._J._Soles
+person,http://it6390e-group2.example.org/resource/person/15576,Matthew Macfadyen,http://www.wikidata.org/entity/Q314954,http://dbpedia.org/resource/Matthew_Macfadyen
+person,http://it6390e-group2.example.org/resource/person/1577,Richard Kelly,http://www.wikidata.org/entity/Q711022,http://dbpedia.org/resource/Richard_Kelly_(filmmaker)
+person,http://it6390e-group2.example.org/resource/person/15774,Chris Buck,http://www.wikidata.org/entity/Q156596,http://dbpedia.org/resource/Chris_Buck
+person,http://it6390e-group2.example.org/resource/person/1581,Mary McDonnell,http://www.wikidata.org/entity/Q117500,http://dbpedia.org/resource/Mary_McDonnell
+person,http://it6390e-group2.example.org/resource/person/15810,Ron Clements,http://www.wikidata.org/entity/Q930209,http://dbpedia.org/resource/Ron_Clements
+person,http://it6390e-group2.example.org/resource/person/15812,Roger Allers,http://www.wikidata.org/entity/Q847468,http://dbpedia.org/resource/Roger_Allers
+person,http://it6390e-group2.example.org/resource/person/15827,Scott Weinger,http://www.wikidata.org/entity/Q892444,http://dbpedia.org/resource/Scott_Weinger
+person,http://it6390e-group2.example.org/resource/person/15829,Linda Larkin,http://www.wikidata.org/entity/Q2709659,http://dbpedia.org/resource/Linda_Larkin
+person,http://it6390e-group2.example.org/resource/person/1614,Ang Lee,http://www.wikidata.org/entity/Q160726,http://dbpedia.org/resource/Ang_Lee
+person,http://it6390e-group2.example.org/resource/person/16294,Jonathan Demme,http://www.wikidata.org/entity/Q48987,http://dbpedia.org/resource/Jonathan_Demme
+person,http://it6390e-group2.example.org/resource/person/16378,Mary Harron,http://www.wikidata.org/entity/Q348868,http://dbpedia.org/resource/Mary_Harron
+person,http://it6390e-group2.example.org/resource/person/1639,Emily Watson,http://www.wikidata.org/entity/Q229535,http://dbpedia.org/resource/Emily_Watson
+person,http://it6390e-group2.example.org/resource/person/16483,Sylvester Stallone,http://www.wikidata.org/entity/Q40026,http://dbpedia.org/resource/Sylvester_Stallone
+person,http://it6390e-group2.example.org/resource/person/16513,John G. Avildsen,http://www.wikidata.org/entity/Q260125,http://dbpedia.org/resource/John_G._Avildsen
+person,http://it6390e-group2.example.org/resource/person/16828,Chris Evans,http://www.wikidata.org/entity/Q178348,http://dbpedia.org/resource/Chris_Evans_(actor)
+person,http://it6390e-group2.example.org/resource/person/16851,Josh Brolin,http://www.wikidata.org/entity/Q41396,http://dbpedia.org/resource/Josh_Brolin
+person,http://it6390e-group2.example.org/resource/person/16855,Mandy Moore,http://www.wikidata.org/entity/Q187832,http://dbpedia.org/resource/Mandy_Moore
+person,http://it6390e-group2.example.org/resource/person/168667,Jason Moore,http://www.wikidata.org/entity/Q724795,http://dbpedia.org/resource/Jason_Moore_(director)
+person,http://it6390e-group2.example.org/resource/person/169200,Phyllis Smith,http://www.wikidata.org/entity/Q508280,http://dbpedia.org/resource/Phyllis_Smith
+person,http://it6390e-group2.example.org/resource/person/16959,Jonathan Dayton,http://www.wikidata.org/entity/Q13644938,
+person,http://it6390e-group2.example.org/resource/person/16970,Ivana Baquero,http://www.wikidata.org/entity/Q236089,http://dbpedia.org/resource/Ivana_Baquero
+person,http://it6390e-group2.example.org/resource/person/16971,Maribel Verdú,http://www.wikidata.org/entity/Q235391,http://dbpedia.org/resource/Maribel_Verdú
+person,http://it6390e-group2.example.org/resource/person/16972,Sergi López,http://www.wikidata.org/entity/Q543814,http://dbpedia.org/resource/Sergi_López_(actor)
+person,http://it6390e-group2.example.org/resource/person/1704,Gore Verbinski,http://www.wikidata.org/entity/Q295463,http://dbpedia.org/resource/Gore_Verbinski
+person,http://it6390e-group2.example.org/resource/person/17141,Greg Kinnear,http://www.wikidata.org/entity/Q269869,http://dbpedia.org/resource/Greg_Kinnear
+person,http://it6390e-group2.example.org/resource/person/17142,Paul Dano,http://www.wikidata.org/entity/Q343616,http://dbpedia.org/resource/Paul_Dano
+person,http://it6390e-group2.example.org/resource/person/17178,Patrick Wilson,http://www.wikidata.org/entity/Q351290,http://dbpedia.org/resource/Patrick_Wilson_(actor)
+person,http://it6390e-group2.example.org/resource/person/17276,Gerard Butler,http://www.wikidata.org/entity/Q169982,http://dbpedia.org/resource/Gerard_Butler
+person,http://it6390e-group2.example.org/resource/person/17288,Michael Fassbender,http://www.wikidata.org/entity/Q57147,http://dbpedia.org/resource/Michael_Fassbender
+person,http://it6390e-group2.example.org/resource/person/17306,Zachary Quinto,http://www.wikidata.org/entity/Q139642,http://dbpedia.org/resource/Zachary_Quinto
+person,http://it6390e-group2.example.org/resource/person/1733,Nick Nolte,http://www.wikidata.org/entity/Q188018,http://dbpedia.org/resource/Nick_Nolte
+person,http://it6390e-group2.example.org/resource/person/1736,James Remar,http://www.wikidata.org/entity/Q441913,http://dbpedia.org/resource/James_Remar
+person,http://it6390e-group2.example.org/resource/person/17402,Ron Livingston,http://www.wikidata.org/entity/Q528126,http://dbpedia.org/resource/Ron_Livingston
+person,http://it6390e-group2.example.org/resource/person/17403,Mike Judge,http://www.wikidata.org/entity/Q434585,http://dbpedia.org/resource/Mike_Judge
+person,http://it6390e-group2.example.org/resource/person/17419,Bryan Cranston,http://www.wikidata.org/entity/Q23547,http://dbpedia.org/resource/Bryan_Cranston
+person,http://it6390e-group2.example.org/resource/person/1749,Leonard Nimoy,http://www.wikidata.org/entity/Q16345,http://dbpedia.org/resource/Leonard_Nimoy
+person,http://it6390e-group2.example.org/resource/person/17752,Donna Reed,http://www.wikidata.org/entity/Q224021,http://dbpedia.org/resource/Donna_Reed
+person,http://it6390e-group2.example.org/resource/person/17753,Lionel Barrymore,http://www.wikidata.org/entity/Q295593,http://dbpedia.org/resource/Lionel_Barrymore
+person,http://it6390e-group2.example.org/resource/person/1776,Francis Ford Coppola,http://www.wikidata.org/entity/Q56094,http://dbpedia.org/resource/Francis_Ford_Coppola
+person,http://it6390e-group2.example.org/resource/person/17867,Tom McCarthy,http://www.wikidata.org/entity/Q514527,http://dbpedia.org/resource/Tom_McCarthy_(director)
+person,http://it6390e-group2.example.org/resource/person/17881,Jason Schwartzman,http://www.wikidata.org/entity/Q313705,http://dbpedia.org/resource/Jason_Schwartzman
+person,http://it6390e-group2.example.org/resource/person/1810,Heath Ledger,http://www.wikidata.org/entity/Q40572,http://dbpedia.org/resource/Heath_Ledger
+person,http://it6390e-group2.example.org/resource/person/1811,Randy Quaid,http://www.wikidata.org/entity/Q316647,http://dbpedia.org/resource/Randy_Quaid
+person,http://it6390e-group2.example.org/resource/person/1813,Anne Hathaway,http://www.wikidata.org/entity/Q36301,http://dbpedia.org/resource/Anne_Hathaway
+person,http://it6390e-group2.example.org/resource/person/18277,Sandra Bullock,http://www.wikidata.org/entity/Q40791,http://dbpedia.org/resource/Sandra_Bullock
+person,http://it6390e-group2.example.org/resource/person/18288,Terrence Howard,http://www.wikidata.org/entity/Q296500,http://dbpedia.org/resource/Terrence_Howard
+person,http://it6390e-group2.example.org/resource/person/18686,Holly Hunter,http://www.wikidata.org/entity/Q105660,http://dbpedia.org/resource/Holly_Hunter
+person,http://it6390e-group2.example.org/resource/person/18865,Louis Leterrier,http://www.wikidata.org/entity/Q525332,http://dbpedia.org/resource/Louis_Leterrier
+person,http://it6390e-group2.example.org/resource/person/18897,Jackie Chan,http://www.wikidata.org/entity/Q36970,http://dbpedia.org/resource/Jackie_Chan
+person,http://it6390e-group2.example.org/resource/person/18918,Dwayne Johnson,http://www.wikidata.org/entity/Q10738,http://dbpedia.org/resource/Dwayne_Johnson
+person,http://it6390e-group2.example.org/resource/person/1892,Matt Damon,http://www.wikidata.org/entity/Q175535,http://dbpedia.org/resource/Matt_Damon
+person,http://it6390e-group2.example.org/resource/person/18973,Mila Kunis,http://www.wikidata.org/entity/Q37628,http://dbpedia.org/resource/Mila_Kunis
+person,http://it6390e-group2.example.org/resource/person/18976,Ashton Kutcher,http://www.wikidata.org/entity/Q164782,http://dbpedia.org/resource/Ashton_Kutcher
+person,http://it6390e-group2.example.org/resource/person/18999,J.K. Simmons,,
+person,http://it6390e-group2.example.org/resource/person/190,Clint Eastwood,http://www.wikidata.org/entity/Q43203,http://dbpedia.org/resource/Clint_Eastwood
+person,http://it6390e-group2.example.org/resource/person/1902,Dianne Wiest,http://www.wikidata.org/entity/Q217573,http://dbpedia.org/resource/Dianne_Wiest
+person,http://it6390e-group2.example.org/resource/person/19119,Mélanie Laurent,http://www.wikidata.org/entity/Q234581,http://dbpedia.org/resource/Mélanie_Laurent
+person,http://it6390e-group2.example.org/resource/person/192,Morgan Freeman,http://www.wikidata.org/entity/Q48337,http://dbpedia.org/resource/Morgan_Freeman
+person,http://it6390e-group2.example.org/resource/person/1920,Winona Ryder,http://www.wikidata.org/entity/Q101797,http://dbpedia.org/resource/Winona_Ryder
+person,http://it6390e-group2.example.org/resource/person/1925,Vincent Cassel,http://www.wikidata.org/entity/Q193504,http://dbpedia.org/resource/Vincent_Cassel
+person,http://it6390e-group2.example.org/resource/person/19271,Anthony Russo,http://www.wikidata.org/entity/Q18018415,http://dbpedia.org/resource/Anthony_Russo_(director)
+person,http://it6390e-group2.example.org/resource/person/193,Gene Hackman,http://www.wikidata.org/entity/Q150943,http://dbpedia.org/resource/Gene_Hackman
+person,http://it6390e-group2.example.org/resource/person/19311,Stephen Chbosky,http://www.wikidata.org/entity/Q2070360,http://dbpedia.org/resource/Stephen_Chbosky
+person,http://it6390e-group2.example.org/resource/person/1936,Martin Balsam,http://www.wikidata.org/entity/Q312107,http://dbpedia.org/resource/Martin_Balsam
+person,http://it6390e-group2.example.org/resource/person/19394,Idina Menzel,http://www.wikidata.org/entity/Q157400,http://dbpedia.org/resource/Idina_Menzel
+person,http://it6390e-group2.example.org/resource/person/19492,Viola Davis,http://www.wikidata.org/entity/Q229181,http://dbpedia.org/resource/Viola_Davis
+person,http://it6390e-group2.example.org/resource/person/1957,Sophie Marceau,http://www.wikidata.org/entity/Q162753,http://dbpedia.org/resource/Sophie_Marceau
+person,http://it6390e-group2.example.org/resource/person/19587,Rumi Hiiragi,http://www.wikidata.org/entity/Q2500252,http://dbpedia.org/resource/Rumi_Hiiragi
+person,http://it6390e-group2.example.org/resource/person/19588,Miyu Irino,http://www.wikidata.org/entity/Q2994624,http://dbpedia.org/resource/Miyu_Irino
+person,http://it6390e-group2.example.org/resource/person/19589,Mari Natsuki,http://www.wikidata.org/entity/Q1190336,http://dbpedia.org/resource/Mari_Natsuki
+person,http://it6390e-group2.example.org/resource/person/19592,Tatsuya Gashûin,http://www.wikidata.org/entity/Q11495841,
+person,http://it6390e-group2.example.org/resource/person/19769,David Ayer,http://www.wikidata.org/entity/Q1091339,http://dbpedia.org/resource/David_Ayer
+person,http://it6390e-group2.example.org/resource/person/1979,Kevin Spacey,http://www.wikidata.org/entity/Q25144,http://dbpedia.org/resource/Kevin_Spacey
+person,http://it6390e-group2.example.org/resource/person/19800,Richard Marquand,http://www.wikidata.org/entity/Q471402,http://dbpedia.org/resource/Richard_Marquand
+person,http://it6390e-group2.example.org/resource/person/19840,Alejandro Amenábar,http://www.wikidata.org/entity/Q274070,http://dbpedia.org/resource/Alejandro_Amenábar
+person,http://it6390e-group2.example.org/resource/person/2,Mark Hamill,http://www.wikidata.org/entity/Q210447,http://dbpedia.org/resource/Mark_Hamill
+person,http://it6390e-group2.example.org/resource/person/20051,Alakina Mann,http://www.wikidata.org/entity/Q2535137,http://dbpedia.org/resource/Alakina_Mann
+person,http://it6390e-group2.example.org/resource/person/20089,Jena Malone,http://www.wikidata.org/entity/Q233368,http://dbpedia.org/resource/Jena_Malone
+person,http://it6390e-group2.example.org/resource/person/201,Michel Gondry,http://www.wikidata.org/entity/Q126098,http://dbpedia.org/resource/Michel_Gondry
+person,http://it6390e-group2.example.org/resource/person/20189,Amy Smart,http://www.wikidata.org/entity/Q235272,http://dbpedia.org/resource/Amy_Smart
+person,http://it6390e-group2.example.org/resource/person/20218,Eric Bress,http://www.wikidata.org/entity/Q2446029,http://dbpedia.org/resource/Eric_Bress
+person,http://it6390e-group2.example.org/resource/person/20330,Yuriko Ishida,http://www.wikidata.org/entity/Q1065638,http://dbpedia.org/resource/Yuriko_Ishida
+person,http://it6390e-group2.example.org/resource/person/20331,Yūko Tanaka,http://www.wikidata.org/entity/Q3276491,http://dbpedia.org/resource/Yūko_Tanaka
+person,http://it6390e-group2.example.org/resource/person/20338,Akihiro Miwa,http://www.wikidata.org/entity/Q1076203,http://dbpedia.org/resource/Akihiro_Miwa
+person,http://it6390e-group2.example.org/resource/person/2034,Danny Boyle,http://www.wikidata.org/entity/Q134867,http://dbpedia.org/resource/Danny_Boyle
+person,http://it6390e-group2.example.org/resource/person/2036,Alex Garland,http://www.wikidata.org/entity/Q542634,http://dbpedia.org/resource/Alex_Garland
+person,http://it6390e-group2.example.org/resource/person/2039,Brendan Gleeson,http://www.wikidata.org/entity/Q206659,http://dbpedia.org/resource/Brendan_Gleeson
+person,http://it6390e-group2.example.org/resource/person/204,Kate Winslet,http://www.wikidata.org/entity/Q202765,http://dbpedia.org/resource/Kate_Winslet
+person,http://it6390e-group2.example.org/resource/person/2040,Christopher Eccleston,http://www.wikidata.org/entity/Q312380,http://dbpedia.org/resource/Christopher_Eccleston
+person,http://it6390e-group2.example.org/resource/person/205,Kirsten Dunst,http://www.wikidata.org/entity/Q76478,http://dbpedia.org/resource/Kirsten_Dunst
+person,http://it6390e-group2.example.org/resource/person/206,Jim Carrey,http://www.wikidata.org/entity/Q40504,http://dbpedia.org/resource/Jim_Carrey
+person,http://it6390e-group2.example.org/resource/person/20646,Gabriele Muccino,http://www.wikidata.org/entity/Q558822,http://dbpedia.org/resource/Gabriele_Muccino
+person,http://it6390e-group2.example.org/resource/person/20739,Adam Shankman,http://www.wikidata.org/entity/Q350903,http://dbpedia.org/resource/Adam_Shankman
+person,http://it6390e-group2.example.org/resource/person/20907,Antoine Fuqua,http://www.wikidata.org/entity/Q465139,http://dbpedia.org/resource/Antoine_Fuqua
+person,http://it6390e-group2.example.org/resource/person/21007,Jonah Hill,http://www.wikidata.org/entity/Q313388,http://dbpedia.org/resource/Jonah_Hill
+person,http://it6390e-group2.example.org/resource/person/21088,Alan Tudyk,http://www.wikidata.org/entity/Q349350,http://dbpedia.org/resource/Alan_Tudyk
+person,http://it6390e-group2.example.org/resource/person/21125,Richard Kind,http://www.wikidata.org/entity/Q449959,http://dbpedia.org/resource/Richard_Kind
+person,http://it6390e-group2.example.org/resource/person/21183,Nicolas Winding Refn,http://www.wikidata.org/entity/Q359397,http://dbpedia.org/resource/Nicolas_Winding_Refn
+person,http://it6390e-group2.example.org/resource/person/2127,James Wan,http://www.wikidata.org/entity/Q108047434,http://dbpedia.org/resource/James_Wan
+person,http://it6390e-group2.example.org/resource/person/2130,Cary Elwes,http://www.wikidata.org/entity/Q311093,http://dbpedia.org/resource/Cary_Elwes
+person,http://it6390e-group2.example.org/resource/person/2155,Thora Birch,http://www.wikidata.org/entity/Q236875,http://dbpedia.org/resource/Thora_Birch
+person,http://it6390e-group2.example.org/resource/person/2157,Robin Williams,http://www.wikidata.org/entity/Q83338,http://dbpedia.org/resource/Robin_Williams
+person,http://it6390e-group2.example.org/resource/person/21657,Vera Farmiga,http://www.wikidata.org/entity/Q264840,http://dbpedia.org/resource/Vera_Farmiga
+person,http://it6390e-group2.example.org/resource/person/21702,Ming-Na Wen,http://www.wikidata.org/entity/Q254205,http://dbpedia.org/resource/Ming-Na_Wen
+person,http://it6390e-group2.example.org/resource/person/2176,Tommy Lee Jones,http://www.wikidata.org/entity/Q170587,http://dbpedia.org/resource/Tommy_Lee_Jones
+person,http://it6390e-group2.example.org/resource/person/2178,Forest Whitaker,http://www.wikidata.org/entity/Q182763,http://dbpedia.org/resource/Forest_Whitaker
+person,http://it6390e-group2.example.org/resource/person/2201,Max von Sydow,http://www.wikidata.org/entity/Q203215,http://dbpedia.org/resource/Max_von_Sydow
+person,http://it6390e-group2.example.org/resource/person/221611,Jonathan Groff,http://www.wikidata.org/entity/Q556644,http://dbpedia.org/resource/Jonathan_Groff
+person,http://it6390e-group2.example.org/resource/person/2219,Tobey Maguire,http://www.wikidata.org/entity/Q165524,http://dbpedia.org/resource/Tobey_Maguire
+person,http://it6390e-group2.example.org/resource/person/222330,Brit Marling,http://www.wikidata.org/entity/Q289380,http://dbpedia.org/resource/Brit_Marling
+person,http://it6390e-group2.example.org/resource/person/2227,Nicole Kidman,http://www.wikidata.org/entity/Q37459,http://dbpedia.org/resource/Nicole_Kidman
+person,http://it6390e-group2.example.org/resource/person/2228,Sean Penn,http://www.wikidata.org/entity/Q44221,http://dbpedia.org/resource/Sean_Penn
+person,http://it6390e-group2.example.org/resource/person/2229,Catherine Keener,http://www.wikidata.org/entity/Q230378,http://dbpedia.org/resource/Catherine_Keener
+person,http://it6390e-group2.example.org/resource/person/223,Alejandro González Iñárritu,http://www.wikidata.org/entity/Q55215,http://dbpedia.org/resource/Alejandro_González_Iñárritu
+person,http://it6390e-group2.example.org/resource/person/2231,Samuel L. Jackson,http://www.wikidata.org/entity/Q172678,http://dbpedia.org/resource/Samuel_L._Jackson
+person,http://it6390e-group2.example.org/resource/person/2232,Michael Keaton,http://www.wikidata.org/entity/Q138005,http://dbpedia.org/resource/Michael_Keaton
+person,http://it6390e-group2.example.org/resource/person/224188,Jack Scanlon,http://www.wikidata.org/entity/Q1321533,http://dbpedia.org/resource/Jack_Scanlon
+person,http://it6390e-group2.example.org/resource/person/227,William Hurt,http://www.wikidata.org/entity/Q105825,http://dbpedia.org/resource/William_Hurt
+person,http://it6390e-group2.example.org/resource/person/227454,Alicia Vikander,http://www.wikidata.org/entity/Q439314,http://dbpedia.org/resource/Alicia_Vikander
+person,http://it6390e-group2.example.org/resource/person/228,Ed Harris,http://www.wikidata.org/entity/Q104791,http://dbpedia.org/resource/Ed_Harris
+person,http://it6390e-group2.example.org/resource/person/2282,Ben Kingsley,http://www.wikidata.org/entity/Q173158,http://dbpedia.org/resource/Ben_Kingsley
+person,http://it6390e-group2.example.org/resource/person/2291,Paul McGuigan,http://www.wikidata.org/entity/Q1377534,http://dbpedia.org/resource/Paul_McGuigan_(filmmaker)
+person,http://it6390e-group2.example.org/resource/person/2296,Clive Owen,http://www.wikidata.org/entity/Q183178,http://dbpedia.org/resource/Clive_Owen
+person,http://it6390e-group2.example.org/resource/person/2299,Josh Hartnett,http://www.wikidata.org/entity/Q303957,http://dbpedia.org/resource/Josh_Hartnett
+person,http://it6390e-group2.example.org/resource/person/2310,Bruno Ganz,http://www.wikidata.org/entity/Q123206,http://dbpedia.org/resource/Bruno_Ganz
+person,http://it6390e-group2.example.org/resource/person/232006,Nat Wolff,http://www.wikidata.org/entity/Q1249010,http://dbpedia.org/resource/Nat_Wolff
+person,http://it6390e-group2.example.org/resource/person/234352,Margot Robbie,http://www.wikidata.org/entity/Q1924847,http://dbpedia.org/resource/Margot_Robbie
+person,http://it6390e-group2.example.org/resource/person/23458,Charlie Cox,http://www.wikidata.org/entity/Q454231,http://dbpedia.org/resource/Charlie_Cox
+person,http://it6390e-group2.example.org/resource/person/23459,Sienna Miller,http://www.wikidata.org/entity/Q193458,http://dbpedia.org/resource/Sienna_Miller
+person,http://it6390e-group2.example.org/resource/person/23659,Will Ferrell,http://www.wikidata.org/entity/Q218503,http://dbpedia.org/resource/Will_Ferrell
+person,http://it6390e-group2.example.org/resource/person/237455,Sam Claflin,http://www.wikidata.org/entity/Q366833,http://dbpedia.org/resource/Sam_Claflin
+person,http://it6390e-group2.example.org/resource/person/24,Robert Zemeckis,http://www.wikidata.org/entity/Q187364,http://dbpedia.org/resource/Robert_Zemeckis
+person,http://it6390e-group2.example.org/resource/person/240,Stanley Kubrick,http://www.wikidata.org/entity/Q2001,http://dbpedia.org/resource/Stanley_Kubrick
+person,http://it6390e-group2.example.org/resource/person/24045,Joseph Gordon-Levitt,http://www.wikidata.org/entity/Q177311,http://dbpedia.org/resource/Joseph_Gordon-Levitt
+person,http://it6390e-group2.example.org/resource/person/2405,Audrey Tautou,http://www.wikidata.org/entity/Q304123,http://dbpedia.org/resource/Audrey_Tautou
+person,http://it6390e-group2.example.org/resource/person/2406,Mathieu Kassovitz,http://www.wikidata.org/entity/Q491766,http://dbpedia.org/resource/Mathieu_Kassovitz
+person,http://it6390e-group2.example.org/resource/person/2407,Rufus,http://www.wikidata.org/entity/Q715111,http://dbpedia.org/resource/Rufus_(actor)
+person,http://it6390e-group2.example.org/resource/person/2419,Jean-Pierre Jeunet,http://www.wikidata.org/entity/Q217324,http://dbpedia.org/resource/Jean-Pierre_Jeunet
+person,http://it6390e-group2.example.org/resource/person/24264,Craig Ferguson,http://www.wikidata.org/entity/Q72867,http://dbpedia.org/resource/Craig_Ferguson
+person,http://it6390e-group2.example.org/resource/person/2440,Bill Nighy,http://www.wikidata.org/entity/Q207179,http://dbpedia.org/resource/Bill_Nighy
+person,http://it6390e-group2.example.org/resource/person/245,Keir Dullea,http://www.wikidata.org/entity/Q692979,http://dbpedia.org/resource/Keir_Dullea
+person,http://it6390e-group2.example.org/resource/person/246,Gary Lockwood,http://www.wikidata.org/entity/Q640929,http://dbpedia.org/resource/Gary_Lockwood
+person,http://it6390e-group2.example.org/resource/person/2461,Mel Gibson,http://www.wikidata.org/entity/Q42229,http://dbpedia.org/resource/Mel_Gibson
+person,http://it6390e-group2.example.org/resource/person/2462,Catherine McCormack,http://www.wikidata.org/entity/Q138327,http://dbpedia.org/resource/Catherine_McCormack
+person,http://it6390e-group2.example.org/resource/person/247,William Sylvester,http://www.wikidata.org/entity/Q1754108,http://dbpedia.org/resource/William_Sylvester
+person,http://it6390e-group2.example.org/resource/person/25072,Oscar Isaac,http://www.wikidata.org/entity/Q336788,http://dbpedia.org/resource/Oscar_Isaac
+person,http://it6390e-group2.example.org/resource/person/2517,Donna Murphy,http://www.wikidata.org/entity/Q439457,http://dbpedia.org/resource/Donna_Murphy
+person,http://it6390e-group2.example.org/resource/person/2524,Tom Hardy,http://www.wikidata.org/entity/Q208026,http://dbpedia.org/resource/Tom_Hardy
+person,http://it6390e-group2.example.org/resource/person/2535,Vivica A. Fox,http://www.wikidata.org/entity/Q220396,http://dbpedia.org/resource/Vivica_A._Fox
+person,http://it6390e-group2.example.org/resource/person/25503,Mandy Patinkin,http://www.wikidata.org/entity/Q267097,http://dbpedia.org/resource/Mandy_Patinkin
+person,http://it6390e-group2.example.org/resource/person/25598,Paul Greengrass,http://www.wikidata.org/entity/Q356275,http://dbpedia.org/resource/Paul_Greengrass
+person,http://it6390e-group2.example.org/resource/person/2636,Alfred Hitchcock,http://www.wikidata.org/entity/Q7374,http://dbpedia.org/resource/Alfred_Hitchcock
+person,http://it6390e-group2.example.org/resource/person/2662,Frank Capra,http://www.wikidata.org/entity/Q51492,http://dbpedia.org/resource/Frank_Capra
+person,http://it6390e-group2.example.org/resource/person/2690,Peter Weir,http://www.wikidata.org/entity/Q55424,http://dbpedia.org/resource/Peter_Weir
+person,http://it6390e-group2.example.org/resource/person/2692,Robert Sean Leonard,http://www.wikidata.org/entity/Q193160,http://dbpedia.org/resource/Robert_Sean_Leonard
+person,http://it6390e-group2.example.org/resource/person/2710,James Cameron,http://www.wikidata.org/entity/Q42574,http://dbpedia.org/resource/James_Cameron
+person,http://it6390e-group2.example.org/resource/person/2712,Michael Biehn,http://www.wikidata.org/entity/Q241510,http://dbpedia.org/resource/Michael_Biehn
+person,http://it6390e-group2.example.org/resource/person/2713,Linda Hamilton,http://www.wikidata.org/entity/Q208214,http://dbpedia.org/resource/Linda_Hamilton
+person,http://it6390e-group2.example.org/resource/person/27319,Christoph Waltz,http://www.wikidata.org/entity/Q76819,http://dbpedia.org/resource/Christoph_Waltz
+person,http://it6390e-group2.example.org/resource/person/27578,Ellen Page,http://www.wikidata.org/entity/Q173399,http://dbpedia.org/resource/Elliot_Page
+person,http://it6390e-group2.example.org/resource/person/27972,Josh Hutcherson,http://www.wikidata.org/entity/Q217004,http://dbpedia.org/resource/Josh_Hutcherson
+person,http://it6390e-group2.example.org/resource/person/280,Terry Gilliam,http://www.wikidata.org/entity/Q25078,http://dbpedia.org/resource/Terry_Gilliam
+person,http://it6390e-group2.example.org/resource/person/287,Brad Pitt,http://www.wikidata.org/entity/Q35332,http://dbpedia.org/resource/Brad_Pitt
+person,http://it6390e-group2.example.org/resource/person/2888,Will Smith,http://www.wikidata.org/entity/Q40096,http://dbpedia.org/resource/Will_Smith
+person,http://it6390e-group2.example.org/resource/person/290,Christopher Plummer,http://www.wikidata.org/entity/Q190523,http://dbpedia.org/resource/Christopher_Plummer
+person,http://it6390e-group2.example.org/resource/person/29221,Brittany Snow,http://www.wikidata.org/entity/Q229975,http://dbpedia.org/resource/Brittany_Snow
+person,http://it6390e-group2.example.org/resource/person/2955,Chris Cooper,http://www.wikidata.org/entity/Q273208,http://dbpedia.org/resource/Chris_Cooper
+person,http://it6390e-group2.example.org/resource/person/29685,Kurt Fuller,http://www.wikidata.org/entity/Q712647,http://dbpedia.org/resource/Kurt_Fuller
+person,http://it6390e-group2.example.org/resource/person/2975,Laurence Fishburne,http://www.wikidata.org/entity/Q193048,http://dbpedia.org/resource/Laurence_Fishburne
+person,http://it6390e-group2.example.org/resource/person/3,Harrison Ford,http://www.wikidata.org/entity/Q81328,http://dbpedia.org/resource/Harrison_Ford
+person,http://it6390e-group2.example.org/resource/person/3026,Rob Reiner,http://www.wikidata.org/entity/Q287607,http://dbpedia.org/resource/Rob_Reiner
+person,http://it6390e-group2.example.org/resource/person/30315,Richard Armitage,http://www.wikidata.org/entity/Q181806,http://dbpedia.org/resource/Richard_Armitage_(actor)
+person,http://it6390e-group2.example.org/resource/person/3033,Wil Wheaton,http://www.wikidata.org/entity/Q264699,http://dbpedia.org/resource/Wil_Wheaton
+person,http://it6390e-group2.example.org/resource/person/3034,Corey Feldman,http://www.wikidata.org/entity/Q375419,http://dbpedia.org/resource/Corey_Feldman
+person,http://it6390e-group2.example.org/resource/person/3036,John Cusack,http://www.wikidata.org/entity/Q106175,http://dbpedia.org/resource/John_Cusack
+person,http://it6390e-group2.example.org/resource/person/3037,Richard Dreyfuss,http://www.wikidata.org/entity/Q181799,http://dbpedia.org/resource/Richard_Dreyfuss
+person,http://it6390e-group2.example.org/resource/person/3051,Toni Collette,http://www.wikidata.org/entity/Q229291,http://dbpedia.org/resource/Toni_Collette
+person,http://it6390e-group2.example.org/resource/person/3061,Ewan McGregor,http://www.wikidata.org/entity/Q165518,http://dbpedia.org/resource/Ewan_McGregor
+person,http://it6390e-group2.example.org/resource/person/30614,Ryan Gosling,http://www.wikidata.org/entity/Q193815,http://dbpedia.org/resource/Ryan_Gosling
+person,http://it6390e-group2.example.org/resource/person/3063,Tilda Swinton,http://www.wikidata.org/entity/Q200534,http://dbpedia.org/resource/Tilda_Swinton
+person,http://it6390e-group2.example.org/resource/person/3084,Marlon Brando,http://www.wikidata.org/entity/Q34012,http://dbpedia.org/resource/Marlon_Brando
+person,http://it6390e-group2.example.org/resource/person/3085,James Caan,http://www.wikidata.org/entity/Q95043,http://dbpedia.org/resource/James_Caan
+person,http://it6390e-group2.example.org/resource/person/3087,Robert Duvall,http://www.wikidata.org/entity/Q171736,http://dbpedia.org/resource/Robert_Duvall
+person,http://it6390e-group2.example.org/resource/person/3088,Sterling Hayden,http://www.wikidata.org/entity/Q323166,http://dbpedia.org/resource/Sterling_Hayden
+person,http://it6390e-group2.example.org/resource/person/3092,Diane Keaton,http://www.wikidata.org/entity/Q102642,http://dbpedia.org/resource/Diane_Keaton
+person,http://it6390e-group2.example.org/resource/person/3094,Talia Shire,http://www.wikidata.org/entity/Q108622,http://dbpedia.org/resource/Talia_Shire
+person,http://it6390e-group2.example.org/resource/person/31,Tom Hanks,http://www.wikidata.org/entity/Q2263,http://dbpedia.org/resource/Tom_Hanks
+person,http://it6390e-group2.example.org/resource/person/3124,Valeria Golino,http://www.wikidata.org/entity/Q230710,http://dbpedia.org/resource/Valeria_Golino
+person,http://it6390e-group2.example.org/resource/person/3127,Lili Taylor,http://www.wikidata.org/entity/Q233502,http://dbpedia.org/resource/Lili_Taylor
+person,http://it6390e-group2.example.org/resource/person/3129,Tim Roth,http://www.wikidata.org/entity/Q203804,http://dbpedia.org/resource/Tim_Roth
+person,http://it6390e-group2.example.org/resource/person/32,Robin Wright,http://www.wikidata.org/entity/Q272972,http://dbpedia.org/resource/Robin_Wright
+person,http://it6390e-group2.example.org/resource/person/3223,Robert Downey Jr.,http://www.wikidata.org/entity/Q165219,http://dbpedia.org/resource/Robert_Downey_Jr.
+person,http://it6390e-group2.example.org/resource/person/32278,Matt Reeves,http://www.wikidata.org/entity/Q931613,http://dbpedia.org/resource/Matt_Reeves
+person,http://it6390e-group2.example.org/resource/person/323,Curtis Hanson,http://www.wikidata.org/entity/Q263486,http://dbpedia.org/resource/Curtis_Hanson
+person,http://it6390e-group2.example.org/resource/person/3234,Joan Cusack,http://www.wikidata.org/entity/Q272946,http://dbpedia.org/resource/Joan_Cusack
+person,http://it6390e-group2.example.org/resource/person/3265,Eli Wallach,http://www.wikidata.org/entity/Q104067,http://dbpedia.org/resource/Eli_Wallach
+person,http://it6390e-group2.example.org/resource/person/33,Gary Sinise,http://www.wikidata.org/entity/Q180272,http://dbpedia.org/resource/Gary_Sinise
+person,http://it6390e-group2.example.org/resource/person/33235,Logan Lerman,http://www.wikidata.org/entity/Q221068,http://dbpedia.org/resource/Logan_Lerman
+person,http://it6390e-group2.example.org/resource/person/3392,Michael Douglas,http://www.wikidata.org/entity/Q119798,http://dbpedia.org/resource/Michael_Douglas
+person,http://it6390e-group2.example.org/resource/person/34849,Ted Demme,http://www.wikidata.org/entity/Q654513,http://dbpedia.org/resource/Ted_Demme
+person,http://it6390e-group2.example.org/resource/person/3489,Naomi Watts,http://www.wikidata.org/entity/Q132616,http://dbpedia.org/resource/Naomi_Watts
+person,http://it6390e-group2.example.org/resource/person/349,Scott Glenn,http://www.wikidata.org/entity/Q114179,http://dbpedia.org/resource/Scott_Glenn
+person,http://it6390e-group2.example.org/resource/person/3490,Adrien Brody,http://www.wikidata.org/entity/Q104514,http://dbpedia.org/resource/Adrien_Brody
+person,http://it6390e-group2.example.org/resource/person/3491,Thomas Kretschmann,http://www.wikidata.org/entity/Q57614,http://dbpedia.org/resource/Thomas_Kretschmann
+person,http://it6390e-group2.example.org/resource/person/350,Laura Linney,http://www.wikidata.org/entity/Q223281,http://dbpedia.org/resource/Laura_Linney
+person,http://it6390e-group2.example.org/resource/person/3556,Roman Polanski,http://www.wikidata.org/entity/Q51552,http://dbpedia.org/resource/Roman_Polanski
+person,http://it6390e-group2.example.org/resource/person/36588,Joe Wright,http://www.wikidata.org/entity/Q118817,http://dbpedia.org/resource/Joe_Wright
+person,http://it6390e-group2.example.org/resource/person/36602,Peter Berg,http://www.wikidata.org/entity/Q183141,http://dbpedia.org/resource/Peter_Berg
+person,http://it6390e-group2.example.org/resource/person/36662,Carey Mulligan,http://www.wikidata.org/entity/Q219655,http://dbpedia.org/resource/Carey_Mulligan
+person,http://it6390e-group2.example.org/resource/person/3713,Frances Fisher,http://www.wikidata.org/entity/Q35011,http://dbpedia.org/resource/Frances_Fisher
+person,http://it6390e-group2.example.org/resource/person/37366,Linda Blair,http://www.wikidata.org/entity/Q232280,http://dbpedia.org/resource/Linda_Blair
+person,http://it6390e-group2.example.org/resource/person/37632,Eddie Redmayne,http://www.wikidata.org/entity/Q28288,http://dbpedia.org/resource/Eddie_Redmayne
+person,http://it6390e-group2.example.org/resource/person/37917,Kristen Stewart,http://www.wikidata.org/entity/Q126599,http://dbpedia.org/resource/Kristen_Stewart
+person,http://it6390e-group2.example.org/resource/person/37932,F. Gary Gray,http://www.wikidata.org/entity/Q462078,http://dbpedia.org/resource/F._Gary_Gray
+person,http://it6390e-group2.example.org/resource/person/380,Robert De Niro,http://www.wikidata.org/entity/Q36949,http://dbpedia.org/resource/Robert_De_Niro
+person,http://it6390e-group2.example.org/resource/person/38026,Chris Noth,http://www.wikidata.org/entity/Q336185,http://dbpedia.org/resource/Chris_Noth
+person,http://it6390e-group2.example.org/resource/person/3810,Javier Bardem,http://www.wikidata.org/entity/Q134895,http://dbpedia.org/resource/Javier_Bardem
+person,http://it6390e-group2.example.org/resource/person/3872,Daniel Brühl,http://www.wikidata.org/entity/Q58592,http://dbpedia.org/resource/Daniel_Brühl
+person,http://it6390e-group2.example.org/resource/person/388,Jim Broadbent,http://www.wikidata.org/entity/Q185079,http://dbpedia.org/resource/Jim_Broadbent
+person,http://it6390e-group2.example.org/resource/person/3894,Christian Bale,http://www.wikidata.org/entity/Q45772,http://dbpedia.org/resource/Christian_Bale
+person,http://it6390e-group2.example.org/resource/person/3895,Michael Caine,http://www.wikidata.org/entity/Q123351,http://dbpedia.org/resource/Michael_Caine
+person,http://it6390e-group2.example.org/resource/person/3896,Liam Neeson,http://www.wikidata.org/entity/Q58444,http://dbpedia.org/resource/Liam_Neeson
+person,http://it6390e-group2.example.org/resource/person/3899,Ken Watanabe,http://www.wikidata.org/entity/Q211553,http://dbpedia.org/resource/Ken_Watanabe
+person,http://it6390e-group2.example.org/resource/person/39,Sam Mendes,http://www.wikidata.org/entity/Q223233,http://dbpedia.org/resource/Sam_Mendes
+person,http://it6390e-group2.example.org/resource/person/3926,Albert Finney,http://www.wikidata.org/entity/Q219546,http://dbpedia.org/resource/Albert_Finney
+person,http://it6390e-group2.example.org/resource/person/3974,Miloš Forman,http://www.wikidata.org/entity/Q51525,http://dbpedia.org/resource/Miloš_Forman
+person,http://it6390e-group2.example.org/resource/person/3999,Tom Hulce,http://www.wikidata.org/entity/Q315039,http://dbpedia.org/resource/Tom_Hulce
+person,http://it6390e-group2.example.org/resource/person/39996,Sidney Lumet,http://www.wikidata.org/entity/Q51559,http://dbpedia.org/resource/Sidney_Lumet
+person,http://it6390e-group2.example.org/resource/person/4,Carrie Fisher,http://www.wikidata.org/entity/Q108941,http://dbpedia.org/resource/Carrie_Fisher
+person,http://it6390e-group2.example.org/resource/person/4000,Elizabeth Berridge,http://www.wikidata.org/entity/Q436905,http://dbpedia.org/resource/Elizabeth_Berridge_(actress)
+person,http://it6390e-group2.example.org/resource/person/4027,Frank Darabont,http://www.wikidata.org/entity/Q295445,http://dbpedia.org/resource/Frank_Darabont
+person,http://it6390e-group2.example.org/resource/person/4029,Bob Gunton,http://www.wikidata.org/entity/Q352203,http://dbpedia.org/resource/Bob_Gunton
+person,http://it6390e-group2.example.org/resource/person/40462,Kristen Bell,http://www.wikidata.org/entity/Q178882,http://dbpedia.org/resource/Kristen_Bell
+person,http://it6390e-group2.example.org/resource/person/4078,Lee Van Cleef,http://www.wikidata.org/entity/Q193278,http://dbpedia.org/resource/Lee_Van_Cleef
+person,http://it6390e-group2.example.org/resource/person/4109,Michael Curtiz,http://www.wikidata.org/entity/Q51491,http://dbpedia.org/resource/Michael_Curtiz
+person,http://it6390e-group2.example.org/resource/person/41091,Kristen Wiig,http://www.wikidata.org/entity/Q231382,http://dbpedia.org/resource/Kristen_Wiig
+person,http://it6390e-group2.example.org/resource/person/4110,Humphrey Bogart,http://www.wikidata.org/entity/Q16390,http://dbpedia.org/resource/Humphrey_Bogart
+person,http://it6390e-group2.example.org/resource/person/4111,Ingrid Bergman,http://www.wikidata.org/entity/Q43247,http://dbpedia.org/resource/Ingrid_Bergman
+person,http://it6390e-group2.example.org/resource/person/4112,Paul Henreid,http://www.wikidata.org/entity/Q93467,http://dbpedia.org/resource/Paul_Henreid
+person,http://it6390e-group2.example.org/resource/person/4139,Tom Skerritt,http://www.wikidata.org/entity/Q320093,http://dbpedia.org/resource/Tom_Skerritt
+person,http://it6390e-group2.example.org/resource/person/41421,Jennifer Morrison,http://www.wikidata.org/entity/Q199929,http://dbpedia.org/resource/Jennifer_Morrison
+person,http://it6390e-group2.example.org/resource/person/4173,Anthony Hopkins,http://www.wikidata.org/entity/Q65932,http://dbpedia.org/resource/Anthony_Hopkins
+person,http://it6390e-group2.example.org/resource/person/418,Robert Patrick,http://www.wikidata.org/entity/Q272977,http://dbpedia.org/resource/Robert_Patrick
+person,http://it6390e-group2.example.org/resource/person/4385,Sergio Leone,http://www.wikidata.org/entity/Q164562,http://dbpedia.org/resource/Sergio_Leone
+person,http://it6390e-group2.example.org/resource/person/4430,Sharon Stone,http://www.wikidata.org/entity/Q62975,http://dbpedia.org/resource/Sharon_Stone
+person,http://it6390e-group2.example.org/resource/person/44735,Jesse Eisenberg,http://www.wikidata.org/entity/Q219512,http://dbpedia.org/resource/Jesse_Eisenberg
+person,http://it6390e-group2.example.org/resource/person/448,Hilary Swank,http://www.wikidata.org/entity/Q93187,http://dbpedia.org/resource/Hilary_Swank
+person,http://it6390e-group2.example.org/resource/person/4483,Dustin Hoffman,http://www.wikidata.org/entity/Q42930,http://dbpedia.org/resource/Dustin_Hoffman
+person,http://it6390e-group2.example.org/resource/person/449,Jay Baruchel,http://www.wikidata.org/entity/Q316756,http://dbpedia.org/resource/Jay_Baruchel
+person,http://it6390e-group2.example.org/resource/person/4491,Jennifer Aniston,http://www.wikidata.org/entity/Q32522,http://dbpedia.org/resource/Jennifer_Aniston
+person,http://it6390e-group2.example.org/resource/person/4495,Steve Carell,http://www.wikidata.org/entity/Q216221,http://dbpedia.org/resource/Steve_Carell
+person,http://it6390e-group2.example.org/resource/person/4512,James Woods,http://www.wikidata.org/entity/Q193105,http://dbpedia.org/resource/James_Woods
+person,http://it6390e-group2.example.org/resource/person/4513,Elizabeth McGovern,http://www.wikidata.org/entity/Q233868,http://dbpedia.org/resource/Elizabeth_McGovern
+person,http://it6390e-group2.example.org/resource/person/4517,Joe Pesci,http://www.wikidata.org/entity/Q20178,http://dbpedia.org/resource/Joe_Pesci
+person,http://it6390e-group2.example.org/resource/person/4521,Burt Young,http://www.wikidata.org/entity/Q329700,http://dbpedia.org/resource/Burt_Young
+person,http://it6390e-group2.example.org/resource/person/45459,Mike Cahill,http://www.wikidata.org/entity/Q704287,http://dbpedia.org/resource/Mike_Cahill_(filmmaker)
+person,http://it6390e-group2.example.org/resource/person/4566,Alan Rickman,http://www.wikidata.org/entity/Q106481,http://dbpedia.org/resource/Alan_Rickman
+person,http://it6390e-group2.example.org/resource/person/4610,John Landis,http://www.wikidata.org/entity/Q51564,http://dbpedia.org/resource/John_Landis
+person,http://it6390e-group2.example.org/resource/person/46593,Emile Hirsch,http://www.wikidata.org/entity/Q244678,http://dbpedia.org/resource/Emile_Hirsch
+person,http://it6390e-group2.example.org/resource/person/4687,Patricia Arquette,http://www.wikidata.org/entity/Q215976,http://dbpedia.org/resource/Patricia_Arquette
+person,http://it6390e-group2.example.org/resource/person/4690,Christopher Walken,http://www.wikidata.org/entity/Q185051,http://dbpedia.org/resource/Christopher_Walken
+person,http://it6390e-group2.example.org/resource/person/469759,Astrid Bergès-Frisbey,http://www.wikidata.org/entity/Q234015,http://dbpedia.org/resource/Àstrid_Bergès-Frisbey
+person,http://it6390e-group2.example.org/resource/person/4724,Kevin Bacon,http://www.wikidata.org/entity/Q3454165,http://dbpedia.org/resource/Kevin_Bacon
+person,http://it6390e-group2.example.org/resource/person/4726,Marcia Gay Harden,http://www.wikidata.org/entity/Q228931,http://dbpedia.org/resource/Marcia_Gay_Harden
+person,http://it6390e-group2.example.org/resource/person/4756,Matthew Broderick,http://www.wikidata.org/entity/Q28755,http://dbpedia.org/resource/Matthew_Broderick
+person,http://it6390e-group2.example.org/resource/person/4762,Paul Thomas Anderson,http://www.wikidata.org/entity/Q25132,http://dbpedia.org/resource/Paul_Thomas_Anderson
+person,http://it6390e-group2.example.org/resource/person/47627,Janet McTeer,http://www.wikidata.org/entity/Q232292,http://dbpedia.org/resource/Janet_McTeer
+person,http://it6390e-group2.example.org/resource/person/4765,Jason Robards,http://www.wikidata.org/entity/Q296630,http://dbpedia.org/resource/Jason_Robards
+person,http://it6390e-group2.example.org/resource/person/4766,Melora Walters,http://www.wikidata.org/entity/Q242763,http://dbpedia.org/resource/Melora_Walters
+person,http://it6390e-group2.example.org/resource/person/4783,Sam Neill,http://www.wikidata.org/entity/Q214309,http://dbpedia.org/resource/Sam_Neill
+person,http://it6390e-group2.example.org/resource/person/4784,Laura Dern,http://www.wikidata.org/entity/Q220901,http://dbpedia.org/resource/Laura_Dern
+person,http://it6390e-group2.example.org/resource/person/4785,Jeff Goldblum,http://www.wikidata.org/entity/Q106706,http://dbpedia.org/resource/Jeff_Goldblum
+person,http://it6390e-group2.example.org/resource/person/4800,Gena Rowlands,http://www.wikidata.org/entity/Q229258,http://dbpedia.org/resource/Gena_Rowlands
+person,http://it6390e-group2.example.org/resource/person/488,Steven Spielberg,http://www.wikidata.org/entity/Q8877,http://dbpedia.org/resource/Steven_Spielberg
+person,http://it6390e-group2.example.org/resource/person/4958,Henry Fonda,http://www.wikidata.org/entity/Q19155,http://dbpedia.org/resource/Henry_Fonda
+person,http://it6390e-group2.example.org/resource/person/4959,Claudia Cardinale,http://www.wikidata.org/entity/Q107006,http://dbpedia.org/resource/Claudia_Cardinale
+person,http://it6390e-group2.example.org/resource/person/500,Tom Cruise,http://www.wikidata.org/entity/Q37079,http://dbpedia.org/resource/Tom_Cruise
+person,http://it6390e-group2.example.org/resource/person/504,Tim Robbins,http://www.wikidata.org/entity/Q95048,http://dbpedia.org/resource/Tim_Robbins
+person,http://it6390e-group2.example.org/resource/person/5047,Veronica Cartwright,http://www.wikidata.org/entity/Q283872,http://dbpedia.org/resource/Veronica_Cartwright
+person,http://it6390e-group2.example.org/resource/person/5064,Meryl Streep,http://www.wikidata.org/entity/Q873,http://dbpedia.org/resource/Meryl_Streep
+person,http://it6390e-group2.example.org/resource/person/5081,Emily Blunt,http://www.wikidata.org/entity/Q193517,http://dbpedia.org/resource/Emily_Blunt
+person,http://it6390e-group2.example.org/resource/person/510,Tim Burton,http://www.wikidata.org/entity/Q56008,http://dbpedia.org/resource/Tim_Burton
+person,http://it6390e-group2.example.org/resource/person/51329,Bradley Cooper,http://www.wikidata.org/entity/Q205707,http://dbpedia.org/resource/Bradley_Cooper
+person,http://it6390e-group2.example.org/resource/person/514,Jack Nicholson,http://www.wikidata.org/entity/Q39792,http://dbpedia.org/resource/Jack_Nicholson
+person,http://it6390e-group2.example.org/resource/person/515510,Ryan Potter,http://www.wikidata.org/entity/Q1258756,http://dbpedia.org/resource/Ryan_Potter
+person,http://it6390e-group2.example.org/resource/person/516,Annette Bening,http://www.wikidata.org/entity/Q190602,http://dbpedia.org/resource/Annette_Bening
+person,http://it6390e-group2.example.org/resource/person/5168,Gabriel Byrne,http://www.wikidata.org/entity/Q296616,http://dbpedia.org/resource/Gabriel_Byrne
+person,http://it6390e-group2.example.org/resource/person/51797,Nathan Fillion,http://www.wikidata.org/entity/Q342549,http://dbpedia.org/resource/Nathan_Fillion
+person,http://it6390e-group2.example.org/resource/person/518,Danny DeVito,http://www.wikidata.org/entity/Q26806,http://dbpedia.org/resource/Danny_DeVito
+person,http://it6390e-group2.example.org/resource/person/52,David Morse,http://www.wikidata.org/entity/Q296370,http://dbpedia.org/resource/David_Morse
+person,http://it6390e-group2.example.org/resource/person/521,Michael J. Fox,http://www.wikidata.org/entity/Q395274,http://dbpedia.org/resource/Michael_J._Fox
+person,http://it6390e-group2.example.org/resource/person/5216,Gus Van Sant,http://www.wikidata.org/entity/Q25186,http://dbpedia.org/resource/Gus_Van_Sant
+person,http://it6390e-group2.example.org/resource/person/524,Natalie Portman,http://www.wikidata.org/entity/Q37876,http://dbpedia.org/resource/Natalie_Portman
+person,http://it6390e-group2.example.org/resource/person/5247,John Fiedler,http://www.wikidata.org/entity/Q944638,http://dbpedia.org/resource/John_Fiedler
+person,http://it6390e-group2.example.org/resource/person/525,Christopher Nolan,http://www.wikidata.org/entity/Q25191,http://dbpedia.org/resource/Christopher_Nolan
+person,http://it6390e-group2.example.org/resource/person/52564,Dillon Freasier,http://www.wikidata.org/entity/Q5276933,http://dbpedia.org/resource/Dillon_Freasier
+person,http://it6390e-group2.example.org/resource/person/52794,David Herman,http://www.wikidata.org/entity/Q1174721,http://dbpedia.org/resource/David_Herman
+person,http://it6390e-group2.example.org/resource/person/529,Guy Pearce,http://www.wikidata.org/entity/Q223745,http://dbpedia.org/resource/Guy_Pearce
+person,http://it6390e-group2.example.org/resource/person/5292,Denzel Washington,http://www.wikidata.org/entity/Q42101,http://dbpedia.org/resource/Denzel_Washington
+person,http://it6390e-group2.example.org/resource/person/5293,Willem Dafoe,http://www.wikidata.org/entity/Q188772,http://dbpedia.org/resource/Willem_Dafoe
+person,http://it6390e-group2.example.org/resource/person/5294,Chiwetel Ejiofor,http://www.wikidata.org/entity/Q317343,http://dbpedia.org/resource/Chiwetel_Ejiofor
+person,http://it6390e-group2.example.org/resource/person/530,Carrie-Anne Moss,http://www.wikidata.org/entity/Q206890,http://dbpedia.org/resource/Carrie-Anne_Moss
+person,http://it6390e-group2.example.org/resource/person/5306,Lasse Hallström,http://www.wikidata.org/entity/Q316051,http://dbpedia.org/resource/Lasse_Hallström
+person,http://it6390e-group2.example.org/resource/person/532,Joe Pantoliano,http://www.wikidata.org/entity/Q296883,http://dbpedia.org/resource/Joe_Pantoliano
+person,http://it6390e-group2.example.org/resource/person/53240,Riz Ahmed,http://www.wikidata.org/entity/Q1861917,http://dbpedia.org/resource/Riz_Ahmed
+person,http://it6390e-group2.example.org/resource/person/53283,Jonathan Taylor Thomas,http://www.wikidata.org/entity/Q460882,http://dbpedia.org/resource/Jonathan_Taylor_Thomas
+person,http://it6390e-group2.example.org/resource/person/5344,Meg Ryan,http://www.wikidata.org/entity/Q167498,http://dbpedia.org/resource/Meg_Ryan
+person,http://it6390e-group2.example.org/resource/person/53714,Rachel McAdams,http://www.wikidata.org/entity/Q190386,http://dbpedia.org/resource/Rachel_McAdams
+person,http://it6390e-group2.example.org/resource/person/543530,Dave Bautista,http://www.wikidata.org/entity/Q44158,http://dbpedia.org/resource/Dave_Bautista
+person,http://it6390e-group2.example.org/resource/person/54472,Martin McDonagh,http://www.wikidata.org/entity/Q372394,http://dbpedia.org/resource/Martin_McDonagh
+person,http://it6390e-group2.example.org/resource/person/5469,Ralph Fiennes,http://www.wikidata.org/entity/Q28493,http://dbpedia.org/resource/Ralph_Fiennes
+person,http://it6390e-group2.example.org/resource/person/54693,Emma Stone,http://www.wikidata.org/entity/Q147077,http://dbpedia.org/resource/Emma_Stone
+person,http://it6390e-group2.example.org/resource/person/5472,Colin Firth,http://www.wikidata.org/entity/Q162492,http://dbpedia.org/resource/Colin_Firth
+person,http://it6390e-group2.example.org/resource/person/54882,Morena Baccarin,http://www.wikidata.org/entity/Q231091,http://dbpedia.org/resource/Morena_Baccarin
+person,http://it6390e-group2.example.org/resource/person/5524,Andrew Adamson,http://www.wikidata.org/entity/Q432845,http://dbpedia.org/resource/Andrew_Adamson
+person,http://it6390e-group2.example.org/resource/person/55252,Tim Miller,http://www.wikidata.org/entity/Q19561563,http://dbpedia.org/resource/Tim_Miller_(director)
+person,http://it6390e-group2.example.org/resource/person/55299,Mark Herman,http://www.wikidata.org/entity/Q1900142,http://dbpedia.org/resource/Mark_Herman
+person,http://it6390e-group2.example.org/resource/person/5530,James McAvoy,http://www.wikidata.org/entity/Q193659,http://dbpedia.org/resource/James_McAvoy
+person,http://it6390e-group2.example.org/resource/person/55710,Adam McKay,http://www.wikidata.org/entity/Q350405,http://dbpedia.org/resource/Adam_McKay
+person,http://it6390e-group2.example.org/resource/person/55789,Tate Taylor,http://www.wikidata.org/entity/Q2639828,http://dbpedia.org/resource/Tate_Taylor
+person,http://it6390e-group2.example.org/resource/person/5602,David Lynch,http://www.wikidata.org/entity/Q2071,http://dbpedia.org/resource/David_Lynch
+person,http://it6390e-group2.example.org/resource/person/56322,Amy Poehler,http://www.wikidata.org/entity/Q230203,http://dbpedia.org/resource/Amy_Poehler
+person,http://it6390e-group2.example.org/resource/person/564,Richard Linklater,http://www.wikidata.org/entity/Q40035,http://dbpedia.org/resource/Richard_Linklater
+person,http://it6390e-group2.example.org/resource/person/5644,Alexandra Maria Lara,http://www.wikidata.org/entity/Q65106,http://dbpedia.org/resource/Alexandra_Maria_Lara
+person,http://it6390e-group2.example.org/resource/person/5655,Wes Anderson,http://www.wikidata.org/entity/Q223687,http://dbpedia.org/resource/Wes_Anderson
+person,http://it6390e-group2.example.org/resource/person/5657,Anjelica Huston,http://www.wikidata.org/entity/Q190998,http://dbpedia.org/resource/Anjelica_Huston
+person,http://it6390e-group2.example.org/resource/person/569,Ethan Hawke,http://www.wikidata.org/entity/Q484615,http://dbpedia.org/resource/Ethan_Hawke
+person,http://it6390e-group2.example.org/resource/person/57113,Dan Gilroy,http://www.wikidata.org/entity/Q1159073,http://dbpedia.org/resource/Dan_Gilroy
+person,http://it6390e-group2.example.org/resource/person/5723,John Leguizamo,http://www.wikidata.org/entity/Q295233,http://dbpedia.org/resource/John_Leguizamo
+person,http://it6390e-group2.example.org/resource/person/57755,Woody Harrelson,http://www.wikidata.org/entity/Q201279,http://dbpedia.org/resource/Woody_Harrelson
+person,http://it6390e-group2.example.org/resource/person/578,Ridley Scott,http://www.wikidata.org/entity/Q56005,http://dbpedia.org/resource/Ridley_Scott
+person,http://it6390e-group2.example.org/resource/person/58225,Zach Galifianakis,http://www.wikidata.org/entity/Q139325,http://dbpedia.org/resource/Zach_Galifianakis
+person,http://it6390e-group2.example.org/resource/person/5823,Julie Andrews,http://www.wikidata.org/entity/Q161819,http://dbpedia.org/resource/Julie_Andrews
+person,http://it6390e-group2.example.org/resource/person/5825,David Tomlinson,http://www.wikidata.org/entity/Q933980,http://dbpedia.org/resource/David_Tomlinson
+person,http://it6390e-group2.example.org/resource/person/5834,Robert Stevenson,http://www.wikidata.org/entity/Q725060,http://dbpedia.org/resource/Robert_Stevenson_(filmmaker)
+person,http://it6390e-group2.example.org/resource/person/585,Rutger Hauer,http://www.wikidata.org/entity/Q213574,http://dbpedia.org/resource/Rutger_Hauer
+person,http://it6390e-group2.example.org/resource/person/586,Sean Young,http://www.wikidata.org/entity/Q230736,http://dbpedia.org/resource/Sean_Young
+person,http://it6390e-group2.example.org/resource/person/589,Daryl Hannah,http://www.wikidata.org/entity/Q207596,http://dbpedia.org/resource/Daryl_Hannah
+person,http://it6390e-group2.example.org/resource/person/59,Luc Besson,http://www.wikidata.org/entity/Q484779,http://dbpedia.org/resource/Luc_Besson
+person,http://it6390e-group2.example.org/resource/person/5916,Rosario Dawson,http://www.wikidata.org/entity/Q228692,http://dbpedia.org/resource/Rosario_Dawson
+person,http://it6390e-group2.example.org/resource/person/59175,Blake Lively,http://www.wikidata.org/entity/Q162959,http://dbpedia.org/resource/Blake_Lively
+person,http://it6390e-group2.example.org/resource/person/59219,Kyle Gallner,http://www.wikidata.org/entity/Q704395,http://dbpedia.org/resource/Kyle_Gallner
+person,http://it6390e-group2.example.org/resource/person/59315,Olivia Wilde,http://www.wikidata.org/entity/Q200355,http://dbpedia.org/resource/Olivia_Wilde
+person,http://it6390e-group2.example.org/resource/person/5953,Spike Jonze,http://www.wikidata.org/entity/Q259913,http://dbpedia.org/resource/Spike_Jonze
+person,http://it6390e-group2.example.org/resource/person/60073,Brie Larson,http://www.wikidata.org/entity/Q29328,http://dbpedia.org/resource/Brie_Larson
+person,http://it6390e-group2.example.org/resource/person/60074,Jeff Garlin,http://www.wikidata.org/entity/Q983082,http://dbpedia.org/resource/Jeff_Garlin
+person,http://it6390e-group2.example.org/resource/person/608,Hayao Miyazaki,http://www.wikidata.org/entity/Q55400,http://dbpedia.org/resource/Hayao_Miyazaki
+person,http://it6390e-group2.example.org/resource/person/60900,Taylor Kitsch,http://www.wikidata.org/entity/Q335880,http://dbpedia.org/resource/Taylor_Kitsch
+person,http://it6390e-group2.example.org/resource/person/61303,Dick Van Dyke,http://www.wikidata.org/entity/Q310295,http://dbpedia.org/resource/Dick_Van_Dyke
+person,http://it6390e-group2.example.org/resource/person/6159,Ron Howard,http://www.wikidata.org/entity/Q103646,http://dbpedia.org/resource/Ron_Howard
+person,http://it6390e-group2.example.org/resource/person/6161,Jennifer Connelly,http://www.wikidata.org/entity/Q103343,http://dbpedia.org/resource/Jennifer_Connelly
+person,http://it6390e-group2.example.org/resource/person/6193,Leonardo DiCaprio,http://www.wikidata.org/entity/Q38111,http://dbpedia.org/resource/Leonardo_DiCaprio
+person,http://it6390e-group2.example.org/resource/person/61981,Michael Clarke Duncan,http://www.wikidata.org/entity/Q483148,http://dbpedia.org/resource/Michael_Clarke_Duncan
+person,http://it6390e-group2.example.org/resource/person/62,Bruce Willis,http://www.wikidata.org/entity/Q2680,http://dbpedia.org/resource/Bruce_Willis
+person,http://it6390e-group2.example.org/resource/person/6201,Baz Luhrmann,http://www.wikidata.org/entity/Q250545,http://dbpedia.org/resource/Baz_Luhrmann
+person,http://it6390e-group2.example.org/resource/person/62064,Chris Pine,http://www.wikidata.org/entity/Q23466,http://dbpedia.org/resource/Chris_Pine
+person,http://it6390e-group2.example.org/resource/person/622,Yōji Matsuda,http://www.wikidata.org/entity/Q1075103,http://dbpedia.org/resource/Yōji_Matsuda
+person,http://it6390e-group2.example.org/resource/person/6355,Roy Scheider,http://www.wikidata.org/entity/Q216569,http://dbpedia.org/resource/Roy_Scheider
+person,http://it6390e-group2.example.org/resource/person/6383,Aaron Eckhart,http://www.wikidata.org/entity/Q192643,http://dbpedia.org/resource/Aaron_Eckhart
+person,http://it6390e-group2.example.org/resource/person/6384,Keanu Reeves,http://www.wikidata.org/entity/Q43416,http://dbpedia.org/resource/Keanu_Reeves
+person,http://it6390e-group2.example.org/resource/person/64,Gary Oldman,http://www.wikidata.org/entity/Q83492,http://dbpedia.org/resource/Gary_Oldman
+person,http://it6390e-group2.example.org/resource/person/6431,Darren Aronofsky,http://www.wikidata.org/entity/Q192762,http://dbpedia.org/resource/Darren_Aronofsky
+person,http://it6390e-group2.example.org/resource/person/64880,Choi Min-sik,http://www.wikidata.org/entity/Q484575,http://dbpedia.org/resource/Choi_Min-sik
+person,http://it6390e-group2.example.org/resource/person/65,Ian Holm,http://www.wikidata.org/entity/Q223091,http://dbpedia.org/resource/Ian_Holm
+person,http://it6390e-group2.example.org/resource/person/650,Karen Allen,http://www.wikidata.org/entity/Q229137,http://dbpedia.org/resource/Karen_Allen
+person,http://it6390e-group2.example.org/resource/person/652,Paul Freeman,http://www.wikidata.org/entity/Q1378684,http://dbpedia.org/resource/Paul_Freeman_(actor)
+person,http://it6390e-group2.example.org/resource/person/656,Denholm Elliott,http://www.wikidata.org/entity/Q313047,http://dbpedia.org/resource/Denholm_Elliott
+person,http://it6390e-group2.example.org/resource/person/65827,Keith David,http://www.wikidata.org/entity/Q370918,http://dbpedia.org/resource/Keith_David
+person,http://it6390e-group2.example.org/resource/person/66190,Tony Bancroft,http://www.wikidata.org/entity/Q3531686,http://dbpedia.org/resource/Tony_Bancroft
+person,http://it6390e-group2.example.org/resource/person/66193,Chris Sanders,http://www.wikidata.org/entity/Q201641,http://dbpedia.org/resource/Chris_Sanders
+person,http://it6390e-group2.example.org/resource/person/6637,Frank Finlay,http://www.wikidata.org/entity/Q738521,http://dbpedia.org/resource/Frank_Finlay
+person,http://it6390e-group2.example.org/resource/person/66580,Scott Adsit,http://www.wikidata.org/entity/Q3952813,http://dbpedia.org/resource/Scott_Adsit
+person,http://it6390e-group2.example.org/resource/person/670,Ben Burtt,http://www.wikidata.org/entity/Q816456,http://dbpedia.org/resource/Ben_Burtt
+person,http://it6390e-group2.example.org/resource/person/679,Franka Potente,http://www.wikidata.org/entity/Q65105,http://dbpedia.org/resource/Franka_Potente
+person,http://it6390e-group2.example.org/resource/person/680,Corinna Harfouch,http://www.wikidata.org/entity/Q65116,http://dbpedia.org/resource/Corinna_Harfouch
+person,http://it6390e-group2.example.org/resource/person/6804,Graham Greene,http://www.wikidata.org/entity/Q311169,http://dbpedia.org/resource/Graham_Greene_(actor)
+person,http://it6390e-group2.example.org/resource/person/6807,Sam Rockwell,http://www.wikidata.org/entity/Q316446,http://dbpedia.org/resource/Sam_Rockwell
+person,http://it6390e-group2.example.org/resource/person/6856,Kurt Russell,http://www.wikidata.org/entity/Q103157,http://dbpedia.org/resource/Kurt_Russell
+person,http://it6390e-group2.example.org/resource/person/68812,Ed Asner,http://www.wikidata.org/entity/Q154421,http://dbpedia.org/resource/Ed_Asner
+person,http://it6390e-group2.example.org/resource/person/69371,Jean-Marc Vallée,http://www.wikidata.org/entity/Q500611,http://dbpedia.org/resource/Jean-Marc_Vallée
+person,http://it6390e-group2.example.org/resource/person/6941,Cameron Diaz,http://www.wikidata.org/entity/Q44380,http://dbpedia.org/resource/Cameron_Diaz
+person,http://it6390e-group2.example.org/resource/person/6944,Octavia Spencer,http://www.wikidata.org/entity/Q229254,http://dbpedia.org/resource/Octavia_Spencer
+person,http://it6390e-group2.example.org/resource/person/6952,Charlie Sheen,http://www.wikidata.org/entity/Q103939,http://dbpedia.org/resource/Charlie_Sheen
+person,http://it6390e-group2.example.org/resource/person/69597,Drew Barrymore,http://www.wikidata.org/entity/Q676094,http://dbpedia.org/resource/Drew_Barrymore
+person,http://it6390e-group2.example.org/resource/person/6968,Hugh Jackman,http://www.wikidata.org/entity/Q129591,http://dbpedia.org/resource/Hugh_Jackman
+person,http://it6390e-group2.example.org/resource/person/6979,Romola Garai,http://www.wikidata.org/entity/Q234546,http://dbpedia.org/resource/Romola_Garai
+person,http://it6390e-group2.example.org/resource/person/69797,Dean DeBlois,http://www.wikidata.org/entity/Q1181049,http://dbpedia.org/resource/Dean_DeBlois
+person,http://it6390e-group2.example.org/resource/person/69899,Zachary Levi,http://www.wikidata.org/entity/Q139638,http://dbpedia.org/resource/Zachary_Levi
+person,http://it6390e-group2.example.org/resource/person/7,Andrew Stanton,http://www.wikidata.org/entity/Q328723,http://dbpedia.org/resource/Andrew_Stanton
+person,http://it6390e-group2.example.org/resource/person/7018,Richard Curtis,http://www.wikidata.org/entity/Q355300,http://dbpedia.org/resource/Richard_Curtis
+person,http://it6390e-group2.example.org/resource/person/70238,Chris Williams,http://www.wikidata.org/entity/Q1077862,http://dbpedia.org/resource/Chris_Williams_(director)
+person,http://it6390e-group2.example.org/resource/person/70304,Sarah Jane Morris,http://www.wikidata.org/entity/Q508007,http://dbpedia.org/resource/Sarah_Jane_Morris_(actress)
+person,http://it6390e-group2.example.org/resource/person/70500,Tom Hooper,http://www.wikidata.org/entity/Q295912,http://dbpedia.org/resource/Tom_Hooper
+person,http://it6390e-group2.example.org/resource/person/7060,Martin Freeman,http://www.wikidata.org/entity/Q309486,http://dbpedia.org/resource/Martin_Freeman
+person,http://it6390e-group2.example.org/resource/person/707,Dan Aykroyd,http://www.wikidata.org/entity/Q105221,http://dbpedia.org/resource/Dan_Aykroyd
+person,http://it6390e-group2.example.org/resource/person/7071,Louise Fletcher,http://www.wikidata.org/entity/Q182372,http://dbpedia.org/resource/Louise_Fletcher
+person,http://it6390e-group2.example.org/resource/person/7087,Brad Bird,http://www.wikidata.org/entity/Q310960,http://dbpedia.org/resource/Brad_Bird
+person,http://it6390e-group2.example.org/resource/person/71580,Benedict Cumberbatch,http://www.wikidata.org/entity/Q244674,http://dbpedia.org/resource/Benedict_Cumberbatch
+person,http://it6390e-group2.example.org/resource/person/7167,Don Rickles,http://www.wikidata.org/entity/Q269890,http://dbpedia.org/resource/Don_Rickles
+person,http://it6390e-group2.example.org/resource/person/7171,John Belushi,http://www.wikidata.org/entity/Q23858,http://dbpedia.org/resource/John_Belushi
+person,http://it6390e-group2.example.org/resource/person/7172,James Brown,http://www.wikidata.org/entity/Q5950,http://dbpedia.org/resource/James_Brown
+person,http://it6390e-group2.example.org/resource/person/72118,Anil Kapoor,http://www.wikidata.org/entity/Q313956,http://dbpedia.org/resource/Anil_Kapoor
+person,http://it6390e-group2.example.org/resource/person/72129,Jennifer Lawrence,http://www.wikidata.org/entity/Q189490,http://dbpedia.org/resource/Jennifer_Lawrence
+person,http://it6390e-group2.example.org/resource/person/723,Patrick Swayze,http://www.wikidata.org/entity/Q49004,http://dbpedia.org/resource/Patrick_Swayze
+person,http://it6390e-group2.example.org/resource/person/72466,Colin Farrell,http://www.wikidata.org/entity/Q172035,http://dbpedia.org/resource/Colin_Farrell
+person,http://it6390e-group2.example.org/resource/person/72754,Elissa Knight,http://www.wikidata.org/entity/Q3723336,http://dbpedia.org/resource/Elissa_Knight
+person,http://it6390e-group2.example.org/resource/person/72757,Steve McQueen,http://www.wikidata.org/entity/Q706475,http://dbpedia.org/resource/Steve_McQueen_(director)
+person,http://it6390e-group2.example.org/resource/person/72855,Felicity Jones,http://www.wikidata.org/entity/Q234447,http://dbpedia.org/resource/Felicity_Jones
+person,http://it6390e-group2.example.org/resource/person/7301,Anthony Perkins,http://www.wikidata.org/entity/Q193146,http://dbpedia.org/resource/Anthony_Perkins
+person,http://it6390e-group2.example.org/resource/person/7303,Vera Miles,http://www.wikidata.org/entity/Q237864,http://dbpedia.org/resource/Vera_Miles
+person,http://it6390e-group2.example.org/resource/person/7304,John Gavin,http://www.wikidata.org/entity/Q145627,
+person,http://it6390e-group2.example.org/resource/person/73128,Skylar Astin,http://www.wikidata.org/entity/Q2046436,http://dbpedia.org/resource/Skylar_Astin
+person,http://it6390e-group2.example.org/resource/person/73421,Joaquin Phoenix,http://www.wikidata.org/entity/Q185140,http://dbpedia.org/resource/Joaquin_Phoenix
+person,http://it6390e-group2.example.org/resource/person/73457,Chris Pratt,http://www.wikidata.org/entity/Q503706,http://dbpedia.org/resource/Chris_Pratt
+person,http://it6390e-group2.example.org/resource/person/738,Sean Connery,http://www.wikidata.org/entity/Q4573,http://dbpedia.org/resource/Sean_Connery
+person,http://it6390e-group2.example.org/resource/person/7399,Ben Stiller,http://www.wikidata.org/entity/Q47100,http://dbpedia.org/resource/Ben_Stiller
+person,http://it6390e-group2.example.org/resource/person/741,River Phoenix,http://www.wikidata.org/entity/Q106514,http://dbpedia.org/resource/River_Phoenix
+person,http://it6390e-group2.example.org/resource/person/74308,Christopher Carley,http://www.wikidata.org/entity/Q3675841,http://dbpedia.org/resource/Christopher_Carley
+person,http://it6390e-group2.example.org/resource/person/74309,Bee Vang,http://www.wikidata.org/entity/Q813986,http://dbpedia.org/resource/Bee_Vang
+person,http://it6390e-group2.example.org/resource/person/7447,Alec Baldwin,http://www.wikidata.org/entity/Q170572,http://dbpedia.org/resource/Alec_Baldwin
+person,http://it6390e-group2.example.org/resource/person/74568,Chris Hemsworth,http://www.wikidata.org/entity/Q54314,http://dbpedia.org/resource/Chris_Hemsworth
+person,http://it6390e-group2.example.org/resource/person/7467,David Fincher,http://www.wikidata.org/entity/Q184903,http://dbpedia.org/resource/David_Fincher
+person,http://it6390e-group2.example.org/resource/person/7470,Meat Loaf,http://www.wikidata.org/entity/Q152929,http://dbpedia.org/resource/Meat_Loaf
+person,http://it6390e-group2.example.org/resource/person/7499,Jared Leto,http://www.wikidata.org/entity/Q484523,http://dbpedia.org/resource/Jared_Leto
+person,http://it6390e-group2.example.org/resource/person/76512,Jason Clarke,http://www.wikidata.org/entity/Q402764,http://dbpedia.org/resource/Jason_Clarke
+person,http://it6390e-group2.example.org/resource/person/76595,Byron Howard,http://www.wikidata.org/entity/Q1018606,http://dbpedia.org/resource/Byron_Howard
+person,http://it6390e-group2.example.org/resource/person/7674,Alexander Godunov,http://www.wikidata.org/entity/Q435124,http://dbpedia.org/resource/Alexander_Godunov
+person,http://it6390e-group2.example.org/resource/person/7676,William Atherton,http://www.wikidata.org/entity/Q495487,http://dbpedia.org/resource/William_Atherton
+person,http://it6390e-group2.example.org/resource/person/76788,Dev Patel,http://www.wikidata.org/entity/Q245075,http://dbpedia.org/resource/Dev_Patel
+person,http://it6390e-group2.example.org/resource/person/76792,Freida Pinto,http://www.wikidata.org/entity/Q188744,http://dbpedia.org/resource/Freida_Pinto
+person,http://it6390e-group2.example.org/resource/person/76998,James Marsh,http://www.wikidata.org/entity/Q2720543,http://dbpedia.org/resource/James_Marsh_(director)
+person,http://it6390e-group2.example.org/resource/person/77003,Gavin O'Connor,http://www.wikidata.org/entity/Q3099599,http://dbpedia.org/resource/Gavin_O'Connor_(filmmaker)
+person,http://it6390e-group2.example.org/resource/person/776,Eddie Murphy,http://www.wikidata.org/entity/Q43874,http://dbpedia.org/resource/Eddie_Murphy
+person,http://it6390e-group2.example.org/resource/person/77965,Morten Tyldum,http://www.wikidata.org/entity/Q3425142,http://dbpedia.org/resource/Morten_Tyldum
+person,http://it6390e-group2.example.org/resource/person/77996,Asa Butterfield,http://www.wikidata.org/entity/Q312524,http://dbpedia.org/resource/Asa_Butterfield
+person,http://it6390e-group2.example.org/resource/person/7832,Oliver Hirschbiegel,http://www.wikidata.org/entity/Q60634,http://dbpedia.org/resource/Oliver_Hirschbiegel
+person,http://it6390e-group2.example.org/resource/person/7879,John Lasseter,http://www.wikidata.org/entity/Q269214,http://dbpedia.org/resource/John_Lasseter
+person,http://it6390e-group2.example.org/resource/person/7904,Billy Crystal,http://www.wikidata.org/entity/Q186485,http://dbpedia.org/resource/Billy_Crystal
+person,http://it6390e-group2.example.org/resource/person/7905,Mary Gibbs,http://www.wikidata.org/entity/Q3296178,http://dbpedia.org/resource/Mary_Gibbs_(actress)
+person,http://it6390e-group2.example.org/resource/person/7930,Jan Pinkava,http://www.wikidata.org/entity/Q1455793,http://dbpedia.org/resource/Jan_Pinkava
+person,http://it6390e-group2.example.org/resource/person/7962,Lou Romano,http://www.wikidata.org/entity/Q1841344,http://dbpedia.org/resource/Lou_Romano
+person,http://it6390e-group2.example.org/resource/person/8,Lee Unkrich,http://www.wikidata.org/entity/Q380920,http://dbpedia.org/resource/Lee_Unkrich
+person,http://it6390e-group2.example.org/resource/person/80676,Jordan Nagai,http://www.wikidata.org/entity/Q4259780,http://dbpedia.org/resource/Jordan_Nagai
+person,http://it6390e-group2.example.org/resource/person/81295,Shane West,http://www.wikidata.org/entity/Q239415,http://dbpedia.org/resource/Shane_West
+person,http://it6390e-group2.example.org/resource/person/814,Tony Kaye,http://www.wikidata.org/entity/Q1070690,http://dbpedia.org/resource/Tony_Kaye_(director)
+person,http://it6390e-group2.example.org/resource/person/8167,Paul Walker,http://www.wikidata.org/entity/Q213864,http://dbpedia.org/resource/Paul_Walker
+person,http://it6390e-group2.example.org/resource/person/81850,Duncan Jones,http://www.wikidata.org/entity/Q552731,http://dbpedia.org/resource/Duncan_Jones
+person,http://it6390e-group2.example.org/resource/person/819,Edward Norton,http://www.wikidata.org/entity/Q125904,http://dbpedia.org/resource/Edward_Norton
+person,http://it6390e-group2.example.org/resource/person/820,Edward Furlong,http://www.wikidata.org/entity/Q309631,http://dbpedia.org/resource/Edward_Furlong
+person,http://it6390e-group2.example.org/resource/person/82093,Daniel Henney,http://www.wikidata.org/entity/Q529413,http://dbpedia.org/resource/Daniel_Henney
+person,http://it6390e-group2.example.org/resource/person/821,Beverly D'Angelo,http://www.wikidata.org/entity/Q234551,http://dbpedia.org/resource/Beverly_D'Angelo
+person,http://it6390e-group2.example.org/resource/person/82191,Sharlto Copley,http://www.wikidata.org/entity/Q512353,http://dbpedia.org/resource/Sharlto_Copley
+person,http://it6390e-group2.example.org/resource/person/82193,Jason Cope,http://www.wikidata.org/entity/Q5611881,http://dbpedia.org/resource/Jason_Cope
+person,http://it6390e-group2.example.org/resource/person/82194,Neill Blomkamp,http://www.wikidata.org/entity/Q715838,http://dbpedia.org/resource/Neill_Blomkamp
+person,http://it6390e-group2.example.org/resource/person/82335,Richard Glatzer,http://www.wikidata.org/entity/Q6047738,http://dbpedia.org/resource/Richard_Glatzer
+person,http://it6390e-group2.example.org/resource/person/824,Ethan Suplee,http://www.wikidata.org/entity/Q314610,http://dbpedia.org/resource/Ethan_Suplee
+person,http://it6390e-group2.example.org/resource/person/8246,Barry Levinson,http://www.wikidata.org/entity/Q269692,http://dbpedia.org/resource/Barry_Levinson
+person,http://it6390e-group2.example.org/resource/person/8289,Billy Crudup,http://www.wikidata.org/entity/Q313650,http://dbpedia.org/resource/Billy_Crudup
+person,http://it6390e-group2.example.org/resource/person/83002,Jessica Chastain,http://www.wikidata.org/entity/Q229313,http://dbpedia.org/resource/Jessica_Chastain
+person,http://it6390e-group2.example.org/resource/person/83281,Lenny Abrahamson,http://www.wikidata.org/entity/Q6522913,http://dbpedia.org/resource/Lenny_Abrahamson
+person,http://it6390e-group2.example.org/resource/person/8349,Martin Sheen,http://www.wikidata.org/entity/Q184572,http://dbpedia.org/resource/Martin_Sheen
+person,http://it6390e-group2.example.org/resource/person/84223,Anna Kendrick,http://www.wikidata.org/entity/Q67701,http://dbpedia.org/resource/Anna_Kendrick
+person,http://it6390e-group2.example.org/resource/person/85,Johnny Depp,http://www.wikidata.org/entity/Q37175,http://dbpedia.org/resource/Johnny_Depp
+person,http://it6390e-group2.example.org/resource/person/854,James Stewart,http://www.wikidata.org/entity/Q102462,http://dbpedia.org/resource/James_Stewart
+person,http://it6390e-group2.example.org/resource/person/8557,Fernando Meirelles,http://www.wikidata.org/entity/Q343293,http://dbpedia.org/resource/Fernando_Meirelles
+person,http://it6390e-group2.example.org/resource/person/8595,Alexandre Rodrigues,http://www.wikidata.org/entity/Q943325,http://dbpedia.org/resource/Alexandre_Rodrigues_(actor)
+person,http://it6390e-group2.example.org/resource/person/8596,Leandro Firmino,http://www.wikidata.org/entity/Q943776,http://dbpedia.org/resource/Leandro_Firmino
+person,http://it6390e-group2.example.org/resource/person/8597,Phellipe Haagensen,http://www.wikidata.org/entity/Q5780895,http://dbpedia.org/resource/Phellipe_Haagensen
+person,http://it6390e-group2.example.org/resource/person/8606,Robert Shaw,http://www.wikidata.org/entity/Q313727,http://dbpedia.org/resource/Robert_Shaw_(actor)
+person,http://it6390e-group2.example.org/resource/person/862,George C. Scott,http://www.wikidata.org/entity/Q182450,http://dbpedia.org/resource/George_C._Scott
+person,http://it6390e-group2.example.org/resource/person/8685,Andrew Niccol,http://www.wikidata.org/entity/Q360737,http://dbpedia.org/resource/Andrew_Niccol
+person,http://it6390e-group2.example.org/resource/person/8691,Zoe Saldana,http://www.wikidata.org/entity/Q190162,http://dbpedia.org/resource/Zoe_Saldaña
+person,http://it6390e-group2.example.org/resource/person/8784,Daniel Craig,http://www.wikidata.org/entity/Q4547,http://dbpedia.org/resource/Daniel_Craig
+person,http://it6390e-group2.example.org/resource/person/880,Ben Affleck,http://www.wikidata.org/entity/Q483118,http://dbpedia.org/resource/Ben_Affleck
+person,http://it6390e-group2.example.org/resource/person/887,Owen Wilson,http://www.wikidata.org/entity/Q161916,http://dbpedia.org/resource/Owen_Wilson
+person,http://it6390e-group2.example.org/resource/person/8891,John Travolta,http://www.wikidata.org/entity/Q80938,http://dbpedia.org/resource/John_Travolta
+person,http://it6390e-group2.example.org/resource/person/8930,John Cleese,http://www.wikidata.org/entity/Q25014,http://dbpedia.org/resource/John_Cleese
+person,http://it6390e-group2.example.org/resource/person/8944,Jamie Lee Curtis,http://www.wikidata.org/entity/Q106997,http://dbpedia.org/resource/Jamie_Lee_Curtis
+person,http://it6390e-group2.example.org/resource/person/8977,Craig T. Nelson,http://www.wikidata.org/entity/Q329807,http://dbpedia.org/resource/Craig_T._Nelson
+person,http://it6390e-group2.example.org/resource/person/9012,Jonny Lee Miller,http://www.wikidata.org/entity/Q7516,http://dbpedia.org/resource/Jonny_Lee_Miller
+person,http://it6390e-group2.example.org/resource/person/9029,Stephen Rea,http://www.wikidata.org/entity/Q313042,http://dbpedia.org/resource/Stephen_Rea
+person,http://it6390e-group2.example.org/resource/person/9030,Thandie Newton,http://www.wikidata.org/entity/Q229029,http://dbpedia.org/resource/Thandiwe_Newton
+person,http://it6390e-group2.example.org/resource/person/9032,Bryan Singer,http://www.wikidata.org/entity/Q220751,http://dbpedia.org/resource/Bryan_Singer
+person,http://it6390e-group2.example.org/resource/person/9045,Stephen Baldwin,http://www.wikidata.org/entity/Q310947,http://dbpedia.org/resource/Stephen_Baldwin
+person,http://it6390e-group2.example.org/resource/person/9046,Chazz Palminteri,http://www.wikidata.org/entity/Q338812,http://dbpedia.org/resource/Chazz_Palminteri
+person,http://it6390e-group2.example.org/resource/person/9049,Victor Fleming,http://www.wikidata.org/entity/Q62503,http://dbpedia.org/resource/Victor_Fleming
+person,http://it6390e-group2.example.org/resource/person/9066,Judy Garland,http://www.wikidata.org/entity/Q11637,http://dbpedia.org/resource/Judy_Garland
+person,http://it6390e-group2.example.org/resource/person/9067,Frank Morgan,http://www.wikidata.org/entity/Q200514,http://dbpedia.org/resource/Frank_Morgan
+person,http://it6390e-group2.example.org/resource/person/9068,Ray Bolger,http://www.wikidata.org/entity/Q240886,http://dbpedia.org/resource/Ray_Bolger
+person,http://it6390e-group2.example.org/resource/person/91520,Michiel Huisman,http://www.wikidata.org/entity/Q2262485,http://dbpedia.org/resource/Michiel_Huisman
+person,http://it6390e-group2.example.org/resource/person/9181,Edward Zwick,http://www.wikidata.org/entity/Q314142,http://dbpedia.org/resource/Edward_Zwick
+person,http://it6390e-group2.example.org/resource/person/9221,Donald Pleasence,http://www.wikidata.org/entity/Q314914,http://dbpedia.org/resource/Donald_Pleasence
+person,http://it6390e-group2.example.org/resource/person/9278,Jennifer Garner,http://www.wikidata.org/entity/Q172044,http://dbpedia.org/resource/Jennifer_Garner
+person,http://it6390e-group2.example.org/resource/person/9281,Elizabeth Banks,http://www.wikidata.org/entity/Q219373,http://dbpedia.org/resource/Elizabeth_Banks
+person,http://it6390e-group2.example.org/resource/person/929906,Jared Gilman,http://www.wikidata.org/entity/Q6159969,http://dbpedia.org/resource/Jared_Gilman
+person,http://it6390e-group2.example.org/resource/person/931944,Ellar Coltrane,http://www.wikidata.org/entity/Q16728806,http://dbpedia.org/resource/Ellar_Coltrane
+person,http://it6390e-group2.example.org/resource/person/93210,Domhnall Gleeson,http://www.wikidata.org/entity/Q456047,http://dbpedia.org/resource/Domhnall_Gleeson
+person,http://it6390e-group2.example.org/resource/person/9339,Lilly Wachowski,http://www.wikidata.org/entity/Q9544977,http://dbpedia.org/resource/Lilly_Wachowski
+person,http://it6390e-group2.example.org/resource/person/934,Russell Crowe,http://www.wikidata.org/entity/Q129817,http://dbpedia.org/resource/Russell_Crowe
+person,http://it6390e-group2.example.org/resource/person/93491,Will Poulter,http://www.wikidata.org/entity/Q1319882,http://dbpedia.org/resource/Will_Poulter
+person,http://it6390e-group2.example.org/resource/person/935,Connie Nielsen,http://www.wikidata.org/entity/Q231951,http://dbpedia.org/resource/Connie_Nielsen
+person,http://it6390e-group2.example.org/resource/person/938,Djimon Hounsou,http://www.wikidata.org/entity/Q298682,http://dbpedia.org/resource/Djimon_Hounsou
+person,http://it6390e-group2.example.org/resource/person/94185,Shailene Woodley,http://www.wikidata.org/entity/Q231058,http://dbpedia.org/resource/Shailene_Woodley
+person,http://it6390e-group2.example.org/resource/person/94864,Max Martini,http://www.wikidata.org/entity/Q1189740,http://dbpedia.org/resource/Max_Martini
+person,http://it6390e-group2.example.org/resource/person/95047,Graham McTavish,http://www.wikidata.org/entity/Q609464,http://dbpedia.org/resource/Graham_McTavish
+person,http://it6390e-group2.example.org/resource/person/955,Penélope Cruz,http://www.wikidata.org/entity/Q39666,http://dbpedia.org/resource/Penélope_Cruz
+person,http://it6390e-group2.example.org/resource/person/956,Guy Ritchie,http://www.wikidata.org/entity/Q192990,http://dbpedia.org/resource/Guy_Ritchie
+person,http://it6390e-group2.example.org/resource/person/9560,Ellen Burstyn,http://www.wikidata.org/entity/Q211144,http://dbpedia.org/resource/Ellen_Burstyn
+person,http://it6390e-group2.example.org/resource/person/9576,Gina Torres,http://www.wikidata.org/entity/Q241471,http://dbpedia.org/resource/Gina_Torres
+person,http://it6390e-group2.example.org/resource/person/96066,Liam Hemsworth,http://www.wikidata.org/entity/Q32045,http://dbpedia.org/resource/Liam_Hemsworth
+person,http://it6390e-group2.example.org/resource/person/9642,Jude Law,http://www.wikidata.org/entity/Q160432,http://dbpedia.org/resource/Jude_Law
+person,http://it6390e-group2.example.org/resource/person/973,Jason Flemyng,http://www.wikidata.org/entity/Q472504,http://dbpedia.org/resource/Jason_Flemyng
+person,http://it6390e-group2.example.org/resource/person/974,Dexter Fletcher,http://www.wikidata.org/entity/Q388557,http://dbpedia.org/resource/Dexter_Fletcher
+person,http://it6390e-group2.example.org/resource/person/975,Nick Moran,http://www.wikidata.org/entity/Q1139301,http://dbpedia.org/resource/Nick_Moran
+person,http://it6390e-group2.example.org/resource/person/97599,Nathalie Boltt,http://www.wikidata.org/entity/Q1966424,http://dbpedia.org/resource/Nathalie_Boltt
+person,http://it6390e-group2.example.org/resource/person/976,Jason Statham,http://www.wikidata.org/entity/Q169963,http://dbpedia.org/resource/Jason_Statham
+person,http://it6390e-group2.example.org/resource/person/980,Vinnie Jones,http://www.wikidata.org/entity/Q296822,http://dbpedia.org/resource/Vinnie_Jones
+person,http://it6390e-group2.example.org/resource/person/996701,Miles Teller,http://www.wikidata.org/entity/Q267330,http://dbpedia.org/resource/Miles_Teller
+person,http://it6390e-group2.example.org/resource/person/9976,Henry Thomas,http://www.wikidata.org/entity/Q506198,http://dbpedia.org/resource/Henry_Thomas
+person,http://it6390e-group2.example.org/resource/person/9978,Robert MacNaughton,http://www.wikidata.org/entity/Q1368550,http://dbpedia.org/resource/Robert_MacNaughton
+person,http://it6390e-group2.example.org/resource/person/9979,Peter Coyote,http://www.wikidata.org/entity/Q354873,http://dbpedia.org/resource/Peter_Coyote
+person,http://it6390e-group2.example.org/resource/person/9994,Helen Hunt,http://www.wikidata.org/entity/Q170574,http://dbpedia.org/resource/Helen_Hunt
