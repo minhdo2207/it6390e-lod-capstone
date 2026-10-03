@@ -55,7 +55,7 @@ Chèn bảng class/property đã có trong `ontology/movies.ttl` (Movie, Person,
 ## 3. Bước 2 — Thu thập dữ liệu — ~1.5 trang
 
 - Nguồn: TMDB/Kaggle (ghi rõ tên dataset + link + license).
-- Phạm vi: số lượng phim thực tế đã lấy (VD 200 phim), tiêu chí lọc (VD top-rated, khoảng năm nào).
+- Phạm vi: số lượng phim thực tế đã lấy (250 phim, 1939–2016), tiêu chí lọc (ít nhất 1000 votes, top 250 theo rating).
 - Các trường dữ liệu: title, year, director, cast, genre, studio, country.
 - Vấn đề làm sạch dữ liệu gặp phải (nếu có): tên trùng, thiếu dữ liệu đạo diễn, encoding...
 
@@ -71,16 +71,16 @@ Chèn bảng class/property đã có trong `ontology/movies.ttl` (Movie, Person,
 
 ## 5. Bước 4 — Liên kết đạt 5-star — ~2 trang
 
-- Công cụ: script `scripts/link_dbpedia.py` — query DBpedia SPARQL endpoint, match theo **title + year** (tránh nhầm bản remake/sequel).
+- Công cụ: script `scripts/link_wikidata_dbpedia.py` — match theo **TMDB id** lưu trong Wikidata (P4947 phim, P4985 người), rồi lấy URI DBpedia từ `owl:sameAs` của DBpedia. Cách match theo title + year không dùng được vì resource phim trên DBpedia không có `dbo:releaseDate`.
 - Nguyên tắc dùng `owl:sameAs` đúng cách (dẫn lại từ LOD lecture): chỉ link khi chắc chắn cùng 1 thực thể; trường hợp không chắc → bỏ qua thay vì đoán (khác với các lỗi lạm dụng `owl:sameAs` đã học — VD nhầm state với city, nhầm instance với organization).
-- Kết quả: số phim được link thành công / tổng số phim, tỷ lệ %.
+- Kết quả: phim 249/250 link Wikidata và DBpedia; người 671/672 Wikidata, 667/672 DBpedia (xem `data/processed/link_report.csv`). 2 resource bỏ qua vì mơ hồ: Apocalypse Now, J.K. Simmons.
 - (Tuỳ chọn nếu có thời gian) Link thêm Wikidata.
 
 **[Chèn ảnh]** Screenshot Protégé — 1 individual Movie có property `owl:sameAs` trỏ tới DBpedia resource (Object property assertions panel).
 
 ## 6. Bước 5 — SPARQL Query Interface — ~2 trang
 
-- Công cụ: **Protégé SPARQL Query tab** (Window → Tabs → SPARQL Query), nạp trực tiếp ontology đã build.
+- Công cụ: **terminal** `python scripts/sparql_cli.py` (prompt tương tác hoặc `-n <số>`), và **Protégé SPARQL Query tab** (Window → Tabs → SPARQL Query).
 - Liệt kê 3-4 câu SPARQL demo (từ `sparql/sample_queries.rq`), giải thích từng câu trả lời competency question nào ở mục 2.1.
 
 **[Chèn ảnh]** Screenshot chạy từng câu SPARQL trong Protégé + kết quả trả về.
@@ -90,6 +90,7 @@ Chèn bảng class/property đã có trong `ontology/movies.ttl` (Movie, Person,
 ## 7. Kết luận — ~0.5 trang
 
 - Tóm tắt: đã đạt 5-star hay chưa, những gì làm được/chưa làm được.
+- Hạn chế cần nêu thẳng: URI của nhóm dùng `example.org` nên **chưa dereferenceable** (chưa đạt trọn nguyên lý Linked Data số 2); mỗi phim chỉ giữ 1 genre chính; dataset không có dữ liệu giải thưởng nên phải bổ sung Oscar Best Director từ Wikidata; ghi nguồn TMDb.
 - Bài học rút ra khi áp dụng RDF/RDFS/OWL/LOD vào 1 bài toán thực tế.
 - Hướng phát triển tiếp (nếu có thêm thời gian): mở rộng dataset, dùng Silk Framework để tự động hoá linking, dựng SPARQL endpoint HTTP thật.
 
