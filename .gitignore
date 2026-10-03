@@ -5,3 +5,6 @@ venv/
 .env
 .DS_Store
 *.log
+
+# Kaggle source files (45 MB) - re-download instead of committing, see README
+data/raw/tmdb_5000_*.csv
