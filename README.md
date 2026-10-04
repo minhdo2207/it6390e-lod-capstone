@@ -23,7 +23,7 @@ Build a Linked Open Data (LOD) application for the **movies** domain, following 
 ├── sparql/         sample SPARQL queries used for the demo
 └── data/
     ├── raw/        original source data (CSV)
-    └── processed/  generated RDF/Turtle output
+    └── processed/  generated RDF/Turtle output, incl. dataset_metadata.ttl
 ```
 
 ## Pipeline
@@ -77,6 +77,34 @@ python scripts/sparql_cli.py -n 3     # run sample query #3
 
 The queries are in `sparql/sample_queries.rq`.
 
+## Dataset metadata
+
+`data/processed/dataset_metadata.ttl` describes the dataset itself (LOD best
+practices on metadata, licensing and provenance):
+
+- **VoID**: a `void:Dataset` with title, description, `dcterms:license`,
+  `dcterms:source` (Kaggle TMDB 5000, Wikidata, DBpedia), `dcterms:created` and
+  `void:triples`, plus two `void:Linkset`s (`owl:sameAs` to Wikidata: 920 links,
+  to DBpedia: 916 links). The dataset is also typed `dcat:Dataset`, with one
+  `dcat:Distribution` per Turtle file.
+- **PROV-O**: the dataset `prov:wasDerivedFrom` the Kaggle CSV files and
+  `prov:wasGeneratedBy` a pipeline activity that `prov:used` our scripts.
+
+The counts are computed from the data files (and checked against
+`link_report.csv`), so regenerate the file after changing the data:
+
+```bash
+python scripts/generate_metadata.py
+```
+
+Check that it parses:
+
+```bash
+python -c "from rdflib import Graph; Graph().parse('data/processed/dataset_metadata.ttl')"
+```
+
+Details and example queries are in `docs/METADATA.md`.
+
 ## Reasoning check
 
 Runs HermiT over the ontology and data without opening Protege (needs Java):
@@ -98,6 +126,9 @@ Group 2 — IT6390E, HUST.
 ## License
 
 Code in this repo is released under the MIT License (see `LICENSE`).
+
+The generated RDF data and its metadata are proposed under CC BY-NC 4.0 (see
+`docs/METADATA.md`).
 
 Movie data comes from the Kaggle "TMDB 5000 Movie Dataset", which is built from
 the TMDb API. This product uses the TMDb API but is not endorsed or certified
