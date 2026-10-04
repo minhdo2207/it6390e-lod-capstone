@@ -1,0 +1,218 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix meta: <http://it6390e-group2.example.org/metadata/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+meta:distribution_awards a dcat:Distribution ;
+    dcterms:format "text/turtle" ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+    dcterms:title "awards.ttl" ;
+    void:triples 34 ;
+    dcat:accessURL <https://github.com/minhdo2207/it6390e-lod-capstone/blob/main/data/processed/awards.ttl> ;
+    dcat:byteSize "3582"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://raw.githubusercontent.com/minhdo2207/it6390e-lod-capstone/main/data/processed/awards.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+meta:distribution_movies_linked a dcat:Distribution ;
+    dcterms:format "text/turtle" ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+    dcterms:title "movies_linked.ttl" ;
+    void:triples 6622 ;
+    dcat:accessURL <https://github.com/minhdo2207/it6390e-lod-capstone/blob/main/data/processed/movies_linked.ttl> ;
+    dcat:byteSize "373021"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://raw.githubusercontent.com/minhdo2207/it6390e-lod-capstone/main/data/processed/movies_linked.ttl> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+meta:linkset_dbpedia a void:Linkset ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+    dcterms:title "owl:sameAs links to DBpedia"@en ;
+    void:linkPredicate owl:sameAs ;
+    void:objectsTarget <https://dbpedia.org/> ;
+    void:subjectsTarget meta:dataset ;
+    void:target meta:dataset,
+        <https://dbpedia.org/> ;
+    void:triples 916 ;
+    prov:wasGeneratedBy meta:pipeline .
+
+meta:linkset_wikidata a void:Linkset ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+    dcterms:title "owl:sameAs links to Wikidata"@en ;
+    void:linkPredicate owl:sameAs ;
+    void:objectsTarget <https://www.wikidata.org/> ;
+    void:subjectsTarget meta:dataset ;
+    void:target meta:dataset,
+        <https://www.wikidata.org/> ;
+    void:triples 920 ;
+    prov:wasGeneratedBy meta:pipeline .
+
+<https://creativecommons.org/licenses/by-sa/3.0/> a dcterms:LicenseDocument ;
+    dcterms:title "Creative Commons Attribution-ShareAlike 3.0"@en .
+
+<https://creativecommons.org/publicdomain/zero/1.0/> a dcterms:LicenseDocument ;
+    dcterms:title "Creative Commons CC0 1.0 Universal"@en .
+
+<https://github.com/minhdo2207/it6390e-lod-capstone/blob/main/scripts/add_awards.py> a prov:Entity ;
+    dcterms:license <https://opensource.org/licenses/MIT> ;
+    dcterms:title "add_awards.py" .
+
+<https://github.com/minhdo2207/it6390e-lod-capstone/blob/main/scripts/csv_to_rdf.py> a prov:Entity ;
+    dcterms:license <https://opensource.org/licenses/MIT> ;
+    dcterms:title "csv_to_rdf.py" .
+
+<https://github.com/minhdo2207/it6390e-lod-capstone/blob/main/scripts/link_wikidata_dbpedia.py> a prov:Entity ;
+    dcterms:license <https://opensource.org/licenses/MIT> ;
+    dcterms:title "link_wikidata_dbpedia.py" .
+
+<https://github.com/minhdo2207/it6390e-lod-capstone/blob/main/scripts/prepare_movies_csv.py> a prov:Entity ;
+    dcterms:license <https://opensource.org/licenses/MIT> ;
+    dcterms:title "prepare_movies_csv.py" .
+
+<https://www.themoviedb.org/api-terms-of-use> a dcterms:LicenseDocument ;
+    dcterms:title "TMDb API Terms of Use"@en .
+
+meta:source_tmdb_5000_credits_csv a prov:Entity ;
+    dcterms:format "text/csv" ;
+    dcterms:title "tmdb_5000_credits.csv" ;
+    prov:wasDerivedFrom <https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata> .
+
+meta:source_tmdb_5000_movies_csv a prov:Entity ;
+    dcterms:format "text/csv" ;
+    dcterms:title "tmdb_5000_movies.csv" ;
+    prov:wasDerivedFrom <https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata> .
+
+meta:pipeline a prov:Activity ;
+    rdfs:label "Movies LOD pipeline: CSV selection, CSV to RDF, Wikidata/DBpedia linking, awards"@en ;
+    prov:used meta:source_tmdb_5000_credits_csv,
+        meta:source_tmdb_5000_movies_csv,
+        <https://dbpedia.org/>,
+        <https://github.com/minhdo2207/it6390e-lod-capstone/blob/main/scripts/add_awards.py>,
+        <https://github.com/minhdo2207/it6390e-lod-capstone/blob/main/scripts/csv_to_rdf.py>,
+        <https://github.com/minhdo2207/it6390e-lod-capstone/blob/main/scripts/link_wikidata_dbpedia.py>,
+        <https://github.com/minhdo2207/it6390e-lod-capstone/blob/main/scripts/prepare_movies_csv.py>,
+        <https://www.wikidata.org/> ;
+    prov:wasAssociatedWith meta:group2 .
+
+meta:dataset a void:Dataset,
+        dcat:Dataset,
+        prov:Entity ;
+    dcterms:created "2026-10-04"^^xsd:date ;
+    dcterms:creator meta:group2 ;
+    dcterms:description "RDF description of 250 movies with their directors, cast, genre, studio and country, linked to Wikidata and DBpedia via owl:sameAs. Built for the IT6390E Knowledge Graphs capstone at HUST."@en,
+        "Mô tả RDF của 250 bộ phim cùng đạo diễn, diễn viên, thể loại, hãng phim và quốc gia, được liên kết tới Wikidata và DBpedia bằng owl:sameAs. Thực hiện cho đồ án môn IT6390E Knowledge Graphs, ĐHBK Hà Nội."@vi ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
+    dcterms:modified "2026-10-04"^^xsd:date ;
+    dcterms:publisher meta:group2 ;
+    dcterms:rights "Derived from the TMDb API via the Kaggle TMDB 5000 Movie Dataset. This product uses the TMDb API but is not endorsed or certified by TMDb. owl:sameAs links point to Wikidata (CC0) and DBpedia (CC BY-SA)."@en ;
+    dcterms:source <https://dbpedia.org/>,
+        <https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata>,
+        <https://www.wikidata.org/> ;
+    dcterms:title "Movies Knowledge Graph (TMDB 5000 subset)"@en,
+        "Đồ thị tri thức phim (tập con TMDB 5000)"@vi ;
+    void:classPartition [ void:class <http://it6390e-group2.example.org/ontology/Director> ;
+            void:entities 156 ],
+        [ void:class <http://it6390e-group2.example.org/ontology/Award> ;
+            void:entities 1 ],
+        [ void:class <http://it6390e-group2.example.org/ontology/Country> ;
+            void:entities 16 ],
+        [ void:class foaf:Person ;
+            void:entities 672 ],
+        [ void:class <http://it6390e-group2.example.org/ontology/Genre> ;
+            void:entities 17 ],
+        [ void:class <http://it6390e-group2.example.org/ontology/Studio> ;
+            void:entities 99 ],
+        [ void:class <http://it6390e-group2.example.org/ontology/Actor> ;
+            void:entities 522 ],
+        [ void:class <http://schema.org/Movie> ;
+            void:entities 250 ] ;
+    void:classes 8 ;
+    void:distinctSubjects 1087 ;
+    void:entities 1087 ;
+    void:exampleResource <http://it6390e-group2.example.org/resource/movie/100> ;
+    void:feature <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 12 ;
+    void:propertyPartition [ void:property dc:title ;
+            void:triples 250 ],
+        [ void:property <http://dbpedia.org/ontology/director> ;
+            void:triples 250 ],
+        [ void:property <http://it6390e-group2.example.org/ontology/producedIn> ;
+            void:triples 250 ],
+        [ void:property <http://it6390e-group2.example.org/ontology/producedBy> ;
+            void:triples 250 ],
+        [ void:property <http://it6390e-group2.example.org/ontology/hasGenre> ;
+            void:triples 250 ],
+        [ void:property <http://dbpedia.org/ontology/starring> ;
+            void:triples 750 ],
+        [ void:property <http://it6390e-group2.example.org/ontology/releaseYear> ;
+            void:triples 250 ],
+        [ void:property rdfs:label ;
+            void:triples 133 ],
+        [ void:property owl:sameAs ;
+            void:triples 1836 ],
+        [ void:property foaf:name ;
+            void:triples 672 ],
+        [ void:property <http://it6390e-group2.example.org/ontology/hasAward> ;
+            void:triples 32 ],
+        [ void:property rdf:type ;
+            void:triples 1733 ] ;
+    void:subset meta:linkset_dbpedia,
+        meta:linkset_wikidata ;
+    void:triples 6656 ;
+    void:uriSpace "http://it6390e-group2.example.org/resource/" ;
+    void:vocabulary <http://dbpedia.org/ontology/>,
+        <http://it6390e-group2.example.org/ontology/>,
+        dc:,
+        <http://schema.org/>,
+        foaf: ;
+    dcat:distribution meta:distribution_awards,
+        meta:distribution_movies_linked ;
+    dcat:keyword "DBpedia"@en,
+        "RDF"@en,
+        "Wikidata"@en,
+        "knowledge graph"@en,
+        "linked data"@en,
+        "movies"@en ;
+    dcat:landingPage <https://github.com/minhdo2207/it6390e-lod-capstone> ;
+    prov:wasAttributedTo meta:group2 ;
+    prov:wasDerivedFrom meta:source_tmdb_5000_credits_csv,
+        meta:source_tmdb_5000_movies_csv,
+        <https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata> ;
+    prov:wasGeneratedBy meta:pipeline .
+
+meta:group2 a prov:Agent,
+        foaf:Group ;
+    foaf:name "IT6390E Group 2, HUST" .
+
+<https://dbpedia.org/> a dcat:Dataset,
+        prov:Entity ;
+    dcterms:description "Target of owl:sameAs links, found through DBpedia's own links to Wikidata items."@en ;
+    dcterms:license <https://creativecommons.org/licenses/by-sa/3.0/> ;
+    dcterms:title "DBpedia"@en ;
+    void:uriSpace "http://dbpedia.org/resource/" .
+
+<https://opensource.org/licenses/MIT> a dcterms:LicenseDocument ;
+    dcterms:title "MIT License"@en .
+
+<https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata> a dcat:Dataset,
+        prov:Entity ;
+    dcterms:description "tmdb_5000_movies.csv and tmdb_5000_credits.csv, built from the TMDb API."@en ;
+    dcterms:license <https://www.themoviedb.org/api-terms-of-use> ;
+    dcterms:title "TMDB 5000 Movie Dataset (Kaggle)"@en .
+
+<https://www.wikidata.org/> a dcat:Dataset,
+        prov:Entity ;
+    dcterms:description "Target of owl:sameAs links, found through TMDB id properties P4947 (film) and P4985 (person)."@en ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:title "Wikidata"@en ;
+    void:uriSpace "http://www.wikidata.org/entity/" .
+
+<https://creativecommons.org/licenses/by-nc/4.0/> a dcterms:LicenseDocument ;
+    dcterms:title "Creative Commons Attribution-NonCommercial 4.0"@en .
+
