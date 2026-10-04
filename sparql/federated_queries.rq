@@ -1,0 +1,135 @@
+# Federated queries: local data (owl:sameAs links) joined with Wikidata and
+# DBpedia through SERVICE. Needs internet access.
+#
+# Run from the terminal (numbering continues after sample_queries.rq):
+#     python scripts/sparql_cli.py -n 6
+#
+# How they work: every local movie/person has owl:sameAs links to Wikidata
+# and DBpedia (see scripts/link_wikidata_dbpedia.py). A query first picks
+# local resources, then sends their Wikidata/DBpedia IRI to the remote
+# endpoint inside SERVICE and joins the answer back.
+#
+# Notes:
+#  - The local part is always a sub-select. A FILTER in the same group as
+#    SERVICE runs only AFTER the remote call, so without the sub-select the
+#    endpoint would be called for every row.
+#  - Do NOT put LIMIT or DISTINCT in that sub-select: rdflib then evaluates
+#    SERVICE without the local bindings and asks the endpoint for everything
+#    (all birth dates in Wikidata...). Limit the local rows with FILTER or
+#    HAVING instead. Tested with rdflib 7.6.
+#  - rdflib sends one request per local row, so each query below keeps the
+#    local part small (the number of calls is noted in each title).
+#  - The public endpoints are rate limited and can time out; if a query
+#    fails, wait a moment and run it again.
+
+PREFIX ont:    <http://it6390e-group2.example.org/ontology/>
+PREFIX dc:     <http://purl.org/dc/elements/1.1/>
+PREFIX dbo:    <http://dbpedia.org/ontology/>
+PREFIX foaf:   <http://xmlns.com/foaf/0.1/>
+PREFIX schema: <http://schema.org/>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd:     <http://www.wikidata.org/entity/>
+PREFIX wdt:    <http://www.wikidata.org/prop/direct/>
+
+# 6. [federated, 1 call] Birth date and birthplace of a director (Wikidata) with his movies in our data
+SELECT ?name ?birthDate ?birthPlace ?title ?year WHERE {
+  {
+    SELECT ?d ?name ?wd WHERE {
+      ?d foaf:name ?name ;
+         owl:sameAs ?wd .
+      FILTER(?name = "Christopher Nolan")
+      FILTER(STRSTARTS(STR(?wd), "http://www.wikidata.org/entity/"))
+    }
+  }
+  SERVICE <https://query.wikidata.org/sparql> {
+    ?wd wdt:P569 ?birthDate .
+    OPTIONAL {
+      ?wd wdt:P19 ?place .
+      ?place rdfs:label ?birthPlace .
+      FILTER(LANG(?birthPlace) = "en")
+    }
+  }
+  ?movie dbo:director ?d ;
+         dc:title ?title ;
+         ont:releaseYear ?year .
+}
+ORDER BY ?year
+
+# 7. [federated, 5 calls] Directors with at least 6 movies in our data: birth date (Wikidata) and age at their first movie
+SELECT ?name ?movies ?firstYear ?birthDate ?ageAtFirstMovie WHERE {
+  {
+    SELECT ?d ?name ?wd (COUNT(?movie) AS ?movies) (MIN(?year) AS ?firstYear) WHERE {
+      ?movie dbo:director ?d ;
+             ont:releaseYear ?year .
+      ?d foaf:name ?name ;
+         owl:sameAs ?wd .
+      FILTER(STRSTARTS(STR(?wd), "http://www.wikidata.org/entity/"))
+    }
+    GROUP BY ?d ?name ?wd
+    HAVING (COUNT(?movie) >= 6)
+  }
+  SERVICE <https://query.wikidata.org/sparql> {
+    ?wd wdt:P569 ?birthDate .
+  }
+  BIND(?firstYear - YEAR(?birthDate) AS ?ageAtFirstMovie)
+}
+ORDER BY DESC(?movies) ?name
+
+# 8. [federated, 3 calls] Cast of a movie with birth dates (Wikidata) and age at release
+SELECT ?title ?actor ?birthDate ?ageAtRelease WHERE {
+  {
+    SELECT ?title ?year ?actor ?wd WHERE {
+      ?movie dc:title ?title ;
+             ont:releaseYear ?year ;
+             dbo:starring ?a .
+      FILTER(?title = "Pulp Fiction")
+      ?a foaf:name ?actor ;
+         owl:sameAs ?wd .
+      FILTER(STRSTARTS(STR(?wd), "http://www.wikidata.org/entity/"))
+    }
+  }
+  SERVICE <https://query.wikidata.org/sparql> {
+    ?wd wdt:P569 ?birthDate .
+  }
+  BIND(?year - YEAR(?birthDate) AS ?ageAtRelease)
+}
+ORDER BY DESC(?ageAtRelease)
+
+# 9. [federated, 7 calls] Budget and box office of a director's movies (DBpedia); movies without both values are left out
+SELECT DISTINCT ?title ?year ?budget ?gross (?gross / ?budget AS ?ratio) WHERE {
+  {
+    SELECT ?title ?year ?dbp WHERE {
+      ?movie dbo:director ?d ;
+             dc:title ?title ;
+             ont:releaseYear ?year ;
+             owl:sameAs ?dbp .
+      ?d foaf:name "Christopher Nolan" .
+      FILTER(STRSTARTS(STR(?dbp), "http://dbpedia.org/resource/"))
+    }
+  }
+  SERVICE <https://dbpedia.org/sparql> {
+    ?dbp dbo:budget ?budget ;
+         dbo:gross ?gross .
+  }
+}
+ORDER BY ?year
+
+# 10. [federated, 8 calls] Data-quality check: release year in our data vs earliest publication year in Wikidata (movies of 1999)
+SELECT ?title ?year (MIN(YEAR(?published)) AS ?wikidataYear) WHERE {
+  {
+    SELECT ?movie ?title ?year ?wd WHERE {
+      ?movie a schema:Movie ;
+             dc:title ?title ;
+             ont:releaseYear ?year ;
+             owl:sameAs ?wd .
+      FILTER(?year = 1999)
+      FILTER(STRSTARTS(STR(?wd), "http://www.wikidata.org/entity/"))
+    }
+  }
+  SERVICE <https://query.wikidata.org/sparql> {
+    ?wd wdt:P577 ?published .
+  }
+}
+GROUP BY ?movie ?title ?year
+ORDER BY ?title
