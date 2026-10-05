@@ -40,7 +40,7 @@ activity per script.
 | Part | License |
 |---|---|
 | Code (`scripts/`) | MIT (`LICENSE`) |
-| Our RDF data and metadata | CC BY-NC 4.0 (**proposed, see note**) |
+| Our RDF data and metadata | CC BY-NC 4.0 |
 | Upstream movie facts | TMDb API terms of use |
 | Wikidata links | CC0 |
 | DBpedia links | CC BY-SA |

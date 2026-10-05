@@ -23,8 +23,7 @@ Build a Linked Open Data (LOD) application for the **movies** domain, following 
 ├── sparql/         sample SPARQL queries used for the demo
 └── data/
     ├── raw/        original source data (CSV)
-    └── processed/  generated RDF/Turtle output, incl. dataset_metadata.ttl
-```
+    └── processed/  generated RDF/Turtle output
 
 ## Pipeline
 
@@ -76,6 +75,22 @@ python scripts/sparql_cli.py -n 3     # run sample query #3
 ```
 
 The queries are in `sparql/sample_queries.rq`.
+
+### Federated queries (Wikidata / DBpedia)
+
+`sparql/federated_queries.rq` (queries 6-10) joins our data with Wikidata and
+DBpedia through `SERVICE`, using the `owl:sameAs` links from the linking step.
+They need internet access:
+
+```bash
+python scripts/sparql_cli.py -n 7   #run query #7
+```
+
+Add `-v` (for example `python scripts/sparql_cli.py -n 13 -v`) to print every
+request sent to Wikidata/DBpedia and how many rows came back; the request can
+be pasted into <https://dbpedia.org/sparql> to see the raw answer. The CLI also
+prints a warning when the endpoint says its answer is incomplete (query
+timeout).
 
 ## Dataset metadata
 
