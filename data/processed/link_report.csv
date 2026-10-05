@@ -186,10 +186,10 @@ movie,http://it6390e-group2.example.org/resource/movie/601,E.T. the Extra-Terres
 movie,http://it6390e-group2.example.org/resource/movie/603,The Matrix,http://www.wikidata.org/entity/Q83495,http://dbpedia.org/resource/The_Matrix
 movie,http://it6390e-group2.example.org/resource/movie/613,Downfall,http://www.wikidata.org/entity/Q152857,http://dbpedia.org/resource/Downfall_(2004_film)
 movie,http://it6390e-group2.example.org/resource/movie/616,The Last Samurai,http://www.wikidata.org/entity/Q207130,http://dbpedia.org/resource/The_Last_Samurai
-movie,http://it6390e-group2.example.org/resource/movie/62,2001: A Space Odyssey,http://www.wikidata.org/entity/Q103474,http://dbpedia.org/resource/2001:_A_Space_Odyssey_(film)
+movie,http://it6390e-group2.example.org/resource/movie/62,2001: A Space Odyssey,http://www.wikidata.org/entity/Q103474,http://dbpedia.org/resource/2001:_A_Space_Odyssey
 movie,http://it6390e-group2.example.org/resource/movie/627,Trainspotting,http://www.wikidata.org/entity/Q109135,http://dbpedia.org/resource/Trainspotting_(film)
 movie,http://it6390e-group2.example.org/resource/movie/629,The Usual Suspects,http://www.wikidata.org/entity/Q132351,http://dbpedia.org/resource/The_Usual_Suspects
-movie,http://it6390e-group2.example.org/resource/movie/630,The Wizard of Oz,http://www.wikidata.org/entity/Q193695,http://dbpedia.org/resource/The_Wizard_of_Oz_(1939_film)
+movie,http://it6390e-group2.example.org/resource/movie/630,The Wizard of Oz,http://www.wikidata.org/entity/Q193695,http://dbpedia.org/resource/The_Wizard_of_Oz
 movie,http://it6390e-group2.example.org/resource/movie/640,Catch Me If You Can,http://www.wikidata.org/entity/Q208108,http://dbpedia.org/resource/Catch_Me_If_You_Can
 movie,http://it6390e-group2.example.org/resource/movie/641,Requiem for a Dream,http://www.wikidata.org/entity/Q487181,http://dbpedia.org/resource/Requiem_for_a_Dream
 movie,http://it6390e-group2.example.org/resource/movie/64682,The Great Gatsby,http://www.wikidata.org/entity/Q892735,http://dbpedia.org/resource/The_Great_Gatsby_(2013_film)
@@ -339,7 +339,7 @@ person,http://it6390e-group2.example.org/resource/person/12052,Gwyneth Paltrow,h
 person,http://it6390e-group2.example.org/resource/person/1206,Jason Alexander,http://www.wikidata.org/entity/Q311754,http://dbpedia.org/resource/Jason_Alexander
 person,http://it6390e-group2.example.org/resource/person/120724,Jaden Smith,http://www.wikidata.org/entity/Q221364,http://dbpedia.org/resource/Jaden_Smith
 person,http://it6390e-group2.example.org/resource/person/12073,Mike Myers,http://www.wikidata.org/entity/Q185724,http://dbpedia.org/resource/Mike_Myers
-person,http://it6390e-group2.example.org/resource/person/1223,Joel Coen,http://www.wikidata.org/entity/Q13595311,http://dbpedia.org/resource/Joel_Coen
+person,http://it6390e-group2.example.org/resource/person/1223,Joel Coen,http://www.wikidata.org/entity/Q13595311,
 person,http://it6390e-group2.example.org/resource/person/1223786,Emilia Clarke,http://www.wikidata.org/entity/Q235132,http://dbpedia.org/resource/Emilia_Clarke
 person,http://it6390e-group2.example.org/resource/person/1229,Jeff Bridges,http://www.wikidata.org/entity/Q174843,http://dbpedia.org/resource/Jeff_Bridges
 person,http://it6390e-group2.example.org/resource/person/1230,John Goodman,http://www.wikidata.org/entity/Q215072,http://dbpedia.org/resource/John_Goodman
@@ -459,7 +459,7 @@ person,http://it6390e-group2.example.org/resource/person/19119,Mélanie Laurent,
 person,http://it6390e-group2.example.org/resource/person/192,Morgan Freeman,http://www.wikidata.org/entity/Q48337,http://dbpedia.org/resource/Morgan_Freeman
 person,http://it6390e-group2.example.org/resource/person/1920,Winona Ryder,http://www.wikidata.org/entity/Q101797,http://dbpedia.org/resource/Winona_Ryder
 person,http://it6390e-group2.example.org/resource/person/1925,Vincent Cassel,http://www.wikidata.org/entity/Q193504,http://dbpedia.org/resource/Vincent_Cassel
-person,http://it6390e-group2.example.org/resource/person/19271,Anthony Russo,http://www.wikidata.org/entity/Q18018415,http://dbpedia.org/resource/Anthony_Russo_(director)
+person,http://it6390e-group2.example.org/resource/person/19271,Anthony Russo,http://www.wikidata.org/entity/Q18018415,
 person,http://it6390e-group2.example.org/resource/person/193,Gene Hackman,http://www.wikidata.org/entity/Q150943,http://dbpedia.org/resource/Gene_Hackman
 person,http://it6390e-group2.example.org/resource/person/19311,Stephen Chbosky,http://www.wikidata.org/entity/Q2070360,http://dbpedia.org/resource/Stephen_Chbosky
 person,http://it6390e-group2.example.org/resource/person/1936,Martin Balsam,http://www.wikidata.org/entity/Q312107,http://dbpedia.org/resource/Martin_Balsam
@@ -475,7 +475,7 @@ person,http://it6390e-group2.example.org/resource/person/1979,Kevin Spacey,http:
 person,http://it6390e-group2.example.org/resource/person/19800,Richard Marquand,http://www.wikidata.org/entity/Q471402,http://dbpedia.org/resource/Richard_Marquand
 person,http://it6390e-group2.example.org/resource/person/19840,Alejandro Amenábar,http://www.wikidata.org/entity/Q274070,http://dbpedia.org/resource/Alejandro_Amenábar
 person,http://it6390e-group2.example.org/resource/person/2,Mark Hamill,http://www.wikidata.org/entity/Q210447,http://dbpedia.org/resource/Mark_Hamill
-person,http://it6390e-group2.example.org/resource/person/20051,Alakina Mann,http://www.wikidata.org/entity/Q2535137,http://dbpedia.org/resource/Alakina_Mann
+person,http://it6390e-group2.example.org/resource/person/20051,Alakina Mann,http://www.wikidata.org/entity/Q2535137,
 person,http://it6390e-group2.example.org/resource/person/20089,Jena Malone,http://www.wikidata.org/entity/Q233368,http://dbpedia.org/resource/Jena_Malone
 person,http://it6390e-group2.example.org/resource/person/201,Michel Gondry,http://www.wikidata.org/entity/Q126098,http://dbpedia.org/resource/Michel_Gondry
 person,http://it6390e-group2.example.org/resource/person/20189,Amy Smart,http://www.wikidata.org/entity/Q235272,http://dbpedia.org/resource/Amy_Smart
@@ -520,7 +520,7 @@ person,http://it6390e-group2.example.org/resource/person/227,William Hurt,http:/
 person,http://it6390e-group2.example.org/resource/person/227454,Alicia Vikander,http://www.wikidata.org/entity/Q439314,http://dbpedia.org/resource/Alicia_Vikander
 person,http://it6390e-group2.example.org/resource/person/228,Ed Harris,http://www.wikidata.org/entity/Q104791,http://dbpedia.org/resource/Ed_Harris
 person,http://it6390e-group2.example.org/resource/person/2282,Ben Kingsley,http://www.wikidata.org/entity/Q173158,http://dbpedia.org/resource/Ben_Kingsley
-person,http://it6390e-group2.example.org/resource/person/2291,Paul McGuigan,http://www.wikidata.org/entity/Q1377534,http://dbpedia.org/resource/Paul_McGuigan_(filmmaker)
+person,http://it6390e-group2.example.org/resource/person/2291,Paul McGuigan,http://www.wikidata.org/entity/Q1377534,http://dbpedia.org/resource/Paul_McGuigan_(director)
 person,http://it6390e-group2.example.org/resource/person/2296,Clive Owen,http://www.wikidata.org/entity/Q183178,http://dbpedia.org/resource/Clive_Owen
 person,http://it6390e-group2.example.org/resource/person/2299,Josh Hartnett,http://www.wikidata.org/entity/Q303957,http://dbpedia.org/resource/Josh_Hartnett
 person,http://it6390e-group2.example.org/resource/person/2310,Bruno Ganz,http://www.wikidata.org/entity/Q123206,http://dbpedia.org/resource/Bruno_Ganz
@@ -896,7 +896,7 @@ person,http://it6390e-group2.example.org/resource/person/9281,Elizabeth Banks,ht
 person,http://it6390e-group2.example.org/resource/person/929906,Jared Gilman,http://www.wikidata.org/entity/Q6159969,http://dbpedia.org/resource/Jared_Gilman
 person,http://it6390e-group2.example.org/resource/person/931944,Ellar Coltrane,http://www.wikidata.org/entity/Q16728806,http://dbpedia.org/resource/Ellar_Coltrane
 person,http://it6390e-group2.example.org/resource/person/93210,Domhnall Gleeson,http://www.wikidata.org/entity/Q456047,http://dbpedia.org/resource/Domhnall_Gleeson
-person,http://it6390e-group2.example.org/resource/person/9339,Lilly Wachowski,http://www.wikidata.org/entity/Q9544977,http://dbpedia.org/resource/Lilly_Wachowski
+person,http://it6390e-group2.example.org/resource/person/9339,Lilly Wachowski,http://www.wikidata.org/entity/Q9544977,
 person,http://it6390e-group2.example.org/resource/person/934,Russell Crowe,http://www.wikidata.org/entity/Q129817,http://dbpedia.org/resource/Russell_Crowe
 person,http://it6390e-group2.example.org/resource/person/93491,Will Poulter,http://www.wikidata.org/entity/Q1319882,http://dbpedia.org/resource/Will_Poulter
 person,http://it6390e-group2.example.org/resource/person/935,Connie Nielsen,http://www.wikidata.org/entity/Q231951,http://dbpedia.org/resource/Connie_Nielsen
