@@ -2446,7 +2446,7 @@
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
     ont:releaseYear 1968 ;
     dc:title "2001: A Space Odyssey" ;
-    owl:sameAs <http://dbpedia.org/resource/2001:_A_Space_Odyssey_(film)>,
+    owl:sameAs <http://dbpedia.org/resource/2001:_A_Space_Odyssey>,
         <http://www.wikidata.org/entity/Q103474> .
 
 <http://it6390e-group2.example.org/resource/movie/627> a schema:Movie ;
@@ -2485,7 +2485,7 @@
     ont:producedIn <http://it6390e-group2.example.org/ontology/country/united-states-of-america> ;
     ont:releaseYear 1939 ;
     dc:title "The Wizard of Oz" ;
-    owl:sameAs <http://dbpedia.org/resource/The_Wizard_of_Oz_(1939_film)>,
+    owl:sameAs <http://dbpedia.org/resource/The_Wizard_of_Oz>,
         <http://www.wikidata.org/entity/Q193695> .
 
 <http://it6390e-group2.example.org/resource/movie/640> a schema:Movie ;
@@ -4351,8 +4351,7 @@ ont:genre_music a ont:Genre ;
 
 <http://it6390e-group2.example.org/resource/person/19271> a ont:Director,
         foaf:Person ;
-    owl:sameAs <http://dbpedia.org/resource/Anthony_Russo_(director)>,
-        <http://www.wikidata.org/entity/Q18018415> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18018415> ;
     foaf:name "Anthony Russo" .
 
 <http://it6390e-group2.example.org/resource/person/19311> a ont:Director,
@@ -4428,8 +4427,7 @@ ont:genre_music a ont:Genre ;
 
 <http://it6390e-group2.example.org/resource/person/20051> a ont:Actor,
         foaf:Person ;
-    owl:sameAs <http://dbpedia.org/resource/Alakina_Mann>,
-        <http://www.wikidata.org/entity/Q2535137> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2535137> ;
     foaf:name "Alakina Mann" .
 
 <http://it6390e-group2.example.org/resource/person/20089> a ont:Actor,
@@ -4608,7 +4606,7 @@ ont:genre_music a ont:Genre ;
 
 <http://it6390e-group2.example.org/resource/person/2291> a ont:Director,
         foaf:Person ;
-    owl:sameAs <http://dbpedia.org/resource/Paul_McGuigan_(filmmaker)>,
+    owl:sameAs <http://dbpedia.org/resource/Paul_McGuigan_(director)>,
         <http://www.wikidata.org/entity/Q1377534> ;
     foaf:name "Paul McGuigan" .
 
@@ -6311,8 +6309,7 @@ ont:genre_music a ont:Genre ;
 
 <http://it6390e-group2.example.org/resource/person/9339> a ont:Director,
         foaf:Person ;
-    owl:sameAs <http://dbpedia.org/resource/Lilly_Wachowski>,
-        <http://www.wikidata.org/entity/Q9544977> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q9544977> ;
     foaf:name "Lilly Wachowski" .
 
 <http://it6390e-group2.example.org/resource/person/93491> a ont:Actor,
@@ -6602,8 +6599,7 @@ ont:genre_music a ont:Genre ;
 
 <http://it6390e-group2.example.org/resource/person/1223> a ont:Director,
         foaf:Person ;
-    owl:sameAs <http://dbpedia.org/resource/Joel_Coen>,
-        <http://www.wikidata.org/entity/Q13595311> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q13595311> ;
     foaf:name "Joel Coen" .
 
 <http://it6390e-group2.example.org/resource/person/1229> a ont:Actor,

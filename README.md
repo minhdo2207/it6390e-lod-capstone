@@ -85,7 +85,7 @@ practices on metadata, licensing and provenance):
 - **VoID**: a `void:Dataset` with title, description, `dcterms:license`,
   `dcterms:source` (Kaggle TMDB 5000, Wikidata, DBpedia), `dcterms:created` and
   `void:triples`, plus two `void:Linkset`s (`owl:sameAs` to Wikidata: 920 links,
-  to DBpedia: 916 links). The dataset is also typed `dcat:Dataset`, with one
+  to DBpedia: 912 links). The dataset is also typed `dcat:Dataset`, with one
   `dcat:Distribution` per Turtle file.
 - **PROV-O**: the dataset `prov:wasDerivedFrom` the Kaggle CSV files and
   `prov:wasGeneratedBy` a pipeline activity that `prov:used` our scripts.
