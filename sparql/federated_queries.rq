@@ -17,6 +17,20 @@
 #    SERVICE without the local bindings and asks the endpoint for everything
 #    (all birth dates in Wikidata...). Limit the local rows with FILTER or
 #    HAVING instead. Tested with rdflib 7.6.
+#  - Wikidata properties can have several values (two places of birth, two
+#    birth dates...). Each extra value multiplies the rows, so query 6
+#    collapses them with GROUP_CONCAT; if a person has several, you see all
+#    of them in one cell instead of repeated movies.
+#  - Queries 9 and 11-15 use DBpedia. If one of them returns nothing, run
+#    them in this order to find out where it breaks:
+#      11  no local data at all: is the endpoint answering?
+#      12  do our linked DBpedia IRIs exist there (and are they redirects)?
+#      13  same IRIs, English abstract
+#    Only the local IRI is sent to the endpoint (the sub-select projects
+#    just ?dbp); the movie title/year are joined back afterwards. Language
+#    filters and label lookups that DBpedia would have to scan for are done
+#    locally. Add -v to the command to see each request and its row count
+#    (the request can be pasted into https://dbpedia.org/sparql).
 #  - rdflib sends one request per local row, so each query below keeps the
 #    local part small (the number of calls is noted in each title).
 #  - The public endpoints are rate limited and can time out; if a query
@@ -29,11 +43,17 @@ PREFIX foaf:   <http://xmlns.com/foaf/0.1/>
 PREFIX schema: <http://schema.org/>
 PREFIX owl:    <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbp:    <http://dbpedia.org/property/>
 PREFIX wd:     <http://www.wikidata.org/entity/>
 PREFIX wdt:    <http://www.wikidata.org/prop/direct/>
 
 # 6. [federated, 1 call] Birth date and birthplace of a director (Wikidata) with his movies in our data
-SELECT ?name ?birthDate ?birthPlace ?title ?year WHERE {
+SELECT ?name
+       (GROUP_CONCAT(DISTINCT SUBSTR(STR(?birthDate), 1, 10); separator=", ") AS ?birthDates)
+       (GROUP_CONCAT(DISTINCT COALESCE(?birthPlace, "(unknown)"); separator=", ") AS ?birthPlaces)
+       ?title ?year
+WHERE {
   {
     SELECT ?d ?name ?wd WHERE {
       ?d foaf:name ?name ;
@@ -54,6 +74,7 @@ SELECT ?name ?birthDate ?birthPlace ?title ?year WHERE {
          dc:title ?title ;
          ont:releaseYear ?year .
 }
+GROUP BY ?name ?title ?year
 ORDER BY ?year
 
 # 7. [federated, 5 calls] Directors with at least 6 movies in our data: birth date (Wikidata) and age at their first movie
@@ -96,23 +117,30 @@ SELECT ?title ?actor ?birthDate ?ageAtRelease WHERE {
 }
 ORDER BY DESC(?ageAtRelease)
 
-# 9. [federated, 7 calls] Budget and box office of a director's movies (DBpedia); movies without both values are left out
-SELECT DISTINCT ?title ?year ?budget ?gross (?gross / ?budget AS ?ratio) WHERE {
+# 9. [federated, 7 calls] Budget and box office of a director's movies (DBpedia); missing values stay empty
+SELECT ?title ?year ?label
+       (MAX(?budget) AS ?maxBudget)
+       (MAX(?gross) AS ?maxGross)
+WHERE {
   {
-    SELECT ?title ?year ?dbp WHERE {
+    SELECT ?dbp WHERE {
       ?movie dbo:director ?d ;
-             dc:title ?title ;
-             ont:releaseYear ?year ;
              owl:sameAs ?dbp .
       ?d foaf:name "Christopher Nolan" .
       FILTER(STRSTARTS(STR(?dbp), "http://dbpedia.org/resource/"))
     }
   }
   SERVICE <https://dbpedia.org/sparql> {
-    ?dbp dbo:budget ?budget ;
-         dbo:gross ?gross .
+    ?dbp rdfs:label ?label .
+    FILTER(LANG(?label) = "en")
+    OPTIONAL { ?dbp dbo:budget ?budget }
+    OPTIONAL { ?dbp dbo:gross ?gross }
   }
+  ?movie owl:sameAs ?dbp ;
+         dc:title ?title ;
+         ont:releaseYear ?year .
 }
+GROUP BY ?title ?year ?label
 ORDER BY ?year
 
 # 10. [federated, 8 calls] Data-quality check: release year in our data vs earliest publication year in Wikidata (movies of 1999)
@@ -133,3 +161,104 @@ SELECT ?title ?year (MIN(YEAR(?published)) AS ?wikidataYear) WHERE {
 }
 GROUP BY ?movie ?title ?year
 ORDER BY ?title
+
+# 11. [DBpedia only, 1 call, no local data] Is the DBpedia endpoint answering? One hard-coded film
+SELECT ?label ?budget ?gross WHERE {
+  SERVICE <https://dbpedia.org/sparql> {
+    <http://dbpedia.org/resource/Inception> rdfs:label ?label .
+    FILTER(LANG(?label) = "en")
+    OPTIONAL { <http://dbpedia.org/resource/Inception> dbo:budget ?budget }
+    OPTIONAL { <http://dbpedia.org/resource/Inception> dbo:gross ?gross }
+  }
+}
+
+# 12. [DBpedia, 7 calls] Do our linked DBpedia IRIs exist there? A movie missing from the result = IRI not found; redirectsTo filled = the IRI is only a redirect
+SELECT ?title ?year ?label ?redirectsTo WHERE {
+  {
+    SELECT ?dbp WHERE {
+      ?movie dbo:director ?d ;
+             owl:sameAs ?dbp .
+      ?d foaf:name "Christopher Nolan" .
+      FILTER(STRSTARTS(STR(?dbp), "http://dbpedia.org/resource/"))
+    }
+  }
+  SERVICE <https://dbpedia.org/sparql> {
+    {
+      ?dbp rdfs:label ?label .
+      FILTER(LANG(?label) = "en")
+    }
+    UNION
+    { ?dbp dbo:wikiPageRedirects ?redirectsTo }
+  }
+  ?movie owl:sameAs ?dbp ;
+         dc:title ?title ;
+         ont:releaseYear ?year .
+}
+ORDER BY ?year
+
+# 13. [DBpedia, 7 calls] First 150 characters of the English abstract of each movie
+SELECT ?title ?year (SUBSTR(STR(?abstract), 1, 150) AS ?start) WHERE {
+  {
+    SELECT ?dbp WHERE {
+      ?movie dbo:director ?d ;
+             owl:sameAs ?dbp .
+      ?d foaf:name "Christopher Nolan" .
+      FILTER(STRSTARTS(STR(?dbp), "http://dbpedia.org/resource/"))
+    }
+  }
+  SERVICE <https://dbpedia.org/sparql> {
+    ?dbp dbo:abstract ?abstract .
+  }
+  ?movie owl:sameAs ?dbp ;
+         dc:title ?title ;
+         ont:releaseYear ?year .
+  FILTER(LANG(?abstract) = "en")
+}
+ORDER BY ?year
+
+# 14. [DBpedia, 3 calls] Cast of a movie with birth year (DBpedia) and age at release
+SELECT ?title ?actor (MIN(YEAR(?birthDate)) AS ?birthYear) (?year - MIN(YEAR(?birthDate)) AS ?ageAtRelease) WHERE {
+  {
+    SELECT ?dbp WHERE {
+      ?movie dc:title ?title ;
+             dbo:starring ?a .
+      FILTER(?title = "Pulp Fiction")
+      ?a owl:sameAs ?dbp .
+      FILTER(STRSTARTS(STR(?dbp), "http://dbpedia.org/resource/"))
+    }
+  }
+  SERVICE <https://dbpedia.org/sparql> {
+    ?dbp dbo:birthDate ?birthDate .
+    FILTER(DATATYPE(?birthDate) = xsd:date)
+  }
+  ?a owl:sameAs ?dbp ;
+     foaf:name ?actor .
+  ?movie dbo:starring ?a ;
+         dc:title ?title ;
+         ont:releaseYear ?year .
+  FILTER(?title = "Pulp Fiction")
+}
+GROUP BY ?title ?actor ?year
+ORDER BY DESC(?ageAtRelease)
+
+# 15. [DBpedia, 1 call] Birthplace(s) of a director according to DBpedia (dbo:birthPlace and dbp:birthPlace)
+SELECT ?name (GROUP_CONCAT(DISTINCT ?placeName; separator=", ") AS ?birthPlaces) WHERE {
+  {
+    SELECT ?dbp WHERE {
+      ?d foaf:name "Christopher Nolan" ;
+         owl:sameAs ?dbp .
+      FILTER(STRSTARTS(STR(?dbp), "http://dbpedia.org/resource/"))
+    }
+  }
+  SERVICE <https://dbpedia.org/sparql> {
+    { ?dbp dbo:birthPlace ?place }
+    UNION
+    { ?dbp dbp:birthPlace ?place }
+  }
+  ?d owl:sameAs ?dbp ;
+     foaf:name ?name .
+  BIND(IF(ISIRI(?place),
+          REPLACE(STRAFTER(STR(?place), "http://dbpedia.org/resource/"), "_", " "),
+          STR(?place)) AS ?placeName)
+}
+GROUP BY ?name

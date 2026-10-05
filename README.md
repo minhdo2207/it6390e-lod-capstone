@@ -83,8 +83,14 @@ DBpedia through `SERVICE`, using the `owl:sameAs` links from the linking step.
 They need internet access:
 
 ```bash
-python scripts/sparql_cli.py -n 7
+python scripts/sparql_cli.py -n 7   #run query #7
 ```
+
+Add `-v` (for example `python scripts/sparql_cli.py -n 13 -v`) to print every
+request sent to Wikidata/DBpedia and how many rows came back; the request can
+be pasted into <https://dbpedia.org/sparql> to see the raw answer. The CLI also
+prints a warning when the endpoint says its answer is incomplete (query
+timeout).
 
 ## Dataset metadata
 

@@ -102,13 +102,13 @@ meta:pipeline a prov:Activity ;
 meta:dataset a void:Dataset,
         dcat:Dataset,
         prov:Entity ;
-    dcterms:created "2026-10-04"^^xsd:date ;
+    dcterms:created "2026-10-05"^^xsd:date ;
     dcterms:creator meta:group2 ;
     dcterms:description "RDF description of 250 movies with their directors, cast, genre, studio and country, linked to Wikidata and DBpedia via owl:sameAs. Built for the IT6390E Knowledge Graphs capstone at HUST."@en,
         "Mô tả RDF của 250 bộ phim cùng đạo diễn, diễn viên, thể loại, hãng phim và quốc gia, được liên kết tới Wikidata và DBpedia bằng owl:sameAs. Thực hiện cho đồ án môn IT6390E Knowledge Graphs, ĐHBK Hà Nội."@vi ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:license <https://creativecommons.org/licenses/by-nc/4.0/> ;
-    dcterms:modified "2026-10-04"^^xsd:date ;
+    dcterms:modified "2026-10-05"^^xsd:date ;
     dcterms:publisher meta:group2 ;
     dcterms:rights "Derived from the TMDb API via the Kaggle TMDB 5000 Movie Dataset. This product uses the TMDb API but is not endorsed or certified by TMDb. owl:sameAs links point to Wikidata (CC0) and DBpedia (CC BY-SA)."@en ;
     dcterms:source <https://dbpedia.org/>,
@@ -116,52 +116,52 @@ meta:dataset a void:Dataset,
         <https://www.wikidata.org/> ;
     dcterms:title "Movies Knowledge Graph (TMDB 5000 subset)"@en,
         "Đồ thị tri thức phim (tập con TMDB 5000)"@vi ;
-    void:classPartition [ void:class <http://it6390e-group2.example.org/ontology/Director> ;
-            void:entities 156 ],
-        [ void:class <http://it6390e-group2.example.org/ontology/Award> ;
+    void:classPartition [ void:class <http://it6390e-group2.example.org/ontology/Award> ;
             void:entities 1 ],
+        [ void:class <http://it6390e-group2.example.org/ontology/Studio> ;
+            void:entities 99 ],
+        [ void:class <http://schema.org/Movie> ;
+            void:entities 250 ],
         [ void:class <http://it6390e-group2.example.org/ontology/Country> ;
             void:entities 16 ],
         [ void:class foaf:Person ;
             void:entities 672 ],
+        [ void:class <http://it6390e-group2.example.org/ontology/Director> ;
+            void:entities 156 ],
         [ void:class <http://it6390e-group2.example.org/ontology/Genre> ;
             void:entities 17 ],
-        [ void:class <http://it6390e-group2.example.org/ontology/Studio> ;
-            void:entities 99 ],
         [ void:class <http://it6390e-group2.example.org/ontology/Actor> ;
-            void:entities 522 ],
-        [ void:class <http://schema.org/Movie> ;
-            void:entities 250 ] ;
+            void:entities 522 ] ;
     void:classes 8 ;
     void:distinctSubjects 1087 ;
     void:entities 1087 ;
     void:exampleResource <http://it6390e-group2.example.org/resource/movie/100> ;
     void:feature <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 12 ;
-    void:propertyPartition [ void:property dc:title ;
-            void:triples 250 ],
+    void:propertyPartition [ void:property owl:sameAs ;
+            void:triples 1836 ],
+        [ void:property <http://it6390e-group2.example.org/ontology/hasAward> ;
+            void:triples 32 ],
         [ void:property <http://dbpedia.org/ontology/director> ;
-            void:triples 250 ],
-        [ void:property <http://it6390e-group2.example.org/ontology/producedIn> ;
-            void:triples 250 ],
-        [ void:property <http://it6390e-group2.example.org/ontology/producedBy> ;
             void:triples 250 ],
         [ void:property <http://it6390e-group2.example.org/ontology/hasGenre> ;
             void:triples 250 ],
-        [ void:property <http://dbpedia.org/ontology/starring> ;
-            void:triples 750 ],
+        [ void:property foaf:name ;
+            void:triples 672 ],
+        [ void:property <http://it6390e-group2.example.org/ontology/producedIn> ;
+            void:triples 250 ],
+        [ void:property rdf:type ;
+            void:triples 1733 ],
         [ void:property <http://it6390e-group2.example.org/ontology/releaseYear> ;
             void:triples 250 ],
         [ void:property rdfs:label ;
             void:triples 133 ],
-        [ void:property owl:sameAs ;
-            void:triples 1836 ],
-        [ void:property foaf:name ;
-            void:triples 672 ],
-        [ void:property <http://it6390e-group2.example.org/ontology/hasAward> ;
-            void:triples 32 ],
-        [ void:property rdf:type ;
-            void:triples 1733 ] ;
+        [ void:property dc:title ;
+            void:triples 250 ],
+        [ void:property <http://it6390e-group2.example.org/ontology/producedBy> ;
+            void:triples 250 ],
+        [ void:property <http://dbpedia.org/ontology/starring> ;
+            void:triples 750 ] ;
     void:subset meta:linkset_dbpedia,
         meta:linkset_wikidata ;
     void:triples 6656 ;

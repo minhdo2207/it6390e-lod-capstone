@@ -12,7 +12,7 @@
    `sparql/sample_queries.rq` one by one, tie each result back to a
    competency question from `docs/PROJECT_PLAN.md`.
    For the federated part (`SERVICE` to Wikidata/DBpedia) use the terminal,
-   `python scripts/sparql_cli.py -n 6` (and 7-10), from
+   `python scripts/sparql_cli.py -n 6` (and 7-15), from
    `sparql/federated_queries.rq`. Needs internet; run them once before the
    demo to check the endpoints are up.
 5. Rules tab (SWRL): paste in the rule from `ontology/rules.swrl`, re-run the

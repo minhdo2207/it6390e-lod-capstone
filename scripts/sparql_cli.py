@@ -5,21 +5,26 @@ Usage:
     python sparql_cli.py -n 3               # run query #3 from sparql/sample_queries.rq
     python sparql_cli.py -q "SELECT ..."    # run a one-off query
     python sparql_cli.py -f my_query.rq     # run a query from a file
+    python sparql_cli.py -n 13 -v           # -v: show every request sent to Wikidata/DBpedia and its row count
 
 In the prompt, end a query with a blank line to run it, ":list" shows the
 sample queries, ":n" (e.g. ":3") runs one of them, ":quit" exits.
 """
 
 import argparse
+import json
+import os
 import re
 import sys
 import time
 from pathlib import Path
 from urllib.error import HTTPError
+from urllib.parse import parse_qs, urlsplit
 from urllib.request import urlopen
 
-from rdflib import Graph
+from rdflib import Graph, Variable
 from rdflib.plugins.sparql import evaluate as sparql_evaluate
+from rdflib.plugins.sparql import parser as sparql_parser
 
 ROOT = Path(__file__).resolve().parent.parent
 FILES = [
@@ -32,6 +37,84 @@ SAMPLE_FILES = [
     ROOT / "sparql" / "federated_queries.rq",  # SERVICE queries, need internet
 ]
 USER_AGENT = "it6390e-group2-capstone/0.1 (HUST student project)"
+
+
+VERBOSE = False
+_rdflib_build_service_query = sparql_evaluate._buildQueryStringForServiceCall
+
+
+def _build_service_query(ctx, body):
+    """Build the query rdflib sends for a SERVICE block.
+
+    rdflib appends the already-bound values as a VALUES clause AFTER the
+    pattern. That is the same query, but endpoints such as DBpedia's Virtuoso
+    may then scan the whole pattern first (all abstracts, all labels...), hit
+    their time limit and return partial results without our movies, i.e. 0
+    rows and no error. Here VALUES goes FIRST inside the group, so the lookup
+    starts from the IRIs we send. Only the prefixes the pattern uses are sent.
+    """
+    try:
+        sparql_parser.parseQuery(body)
+    except Exception:
+        pass  # a bare group pattern, handled below
+    else:  # the block is already a complete query: keep rdflib's behaviour
+        return _rdflib_build_service_query(ctx, body)
+    values = ""
+    solution = [v for v in ctx.solution() if isinstance(v, Variable)]
+    if solution:
+        names = " ".join(v.n3() for v in solution)
+        bound = " ".join(ctx.get(v).n3() for v in solution)
+        values = f"VALUES ({names}) {{({bound})}} "
+    query = "SELECT REDUCED * WHERE { " + values + body + "}"
+    for prefix, namespace in ctx.prologue.namespace_manager.store.namespaces():
+        if re.search(r"(?<![\w-])" + re.escape(prefix) + ":", body):
+            query = f"PREFIX {prefix}:{namespace.n3()} " + query
+    base = ctx.prologue.base
+    if base:
+        query = f"BASE <{base}> " + query
+    return query
+
+
+sparql_evaluate._buildQueryStringForServiceCall = _build_service_query
+
+
+class _BufferedResponse:
+    """Minimal stand-in for an HTTP response whose body was already read."""
+
+    def __init__(self, response, body):
+        self.status = response.status
+        self.headers = response.headers
+        self._body = body
+
+    def read(self, *args):
+        return self._body
+
+
+def _request_query(request):
+    """The SPARQL text carried by a GET or POST request."""
+    raw = request.data.decode() if request.data else urlsplit(request.full_url).query
+    return parse_qs(raw).get("query", [""])[0]
+
+
+def _inspect_response(request, response):
+    """Warn when the endpoint says its answer is incomplete; in verbose mode
+    print the request and the number of rows that came back."""
+    endpoint = request.full_url.split("?")[0]
+    notes = [f"{k}: {response.headers[k]}"
+             for k in ("X-SQL-State", "X-SQL-Message", "X-SPARQL-MaxRows")
+             if response.headers.get(k)]
+    if notes:
+        print(f"  warning: {endpoint} may have returned incomplete results "
+              f"({'; '.join(notes)})", file=sys.stderr)
+    if not VERBOSE:
+        return response
+    body = response.read()
+    try:
+        rows = len(json.loads(body)["results"]["bindings"])
+    except (ValueError, KeyError, TypeError):
+        rows = "?"
+    print(f"[SERVICE] {endpoint} -> {rows} rows\n{_request_query(request)}\n", file=sys.stderr)
+    return _BufferedResponse(response, body)
 
 
 # Public endpoints (DBpedia, Wikidata) are rate limited and answer 429/503 when
@@ -62,7 +145,7 @@ def _urlopen_for_service(request, *args, **kwargs):
         if pause > 0:
             time.sleep(pause)
         try:
-            return urlopen(request, *args, **kwargs)
+            return _inspect_response(request, urlopen(request, *args, **kwargs))
         except HTTPError as e:
             if e.code not in RETRY_CODES or attempt == MAX_ATTEMPTS:
                 raise
@@ -164,7 +247,11 @@ def main():
     ap.add_argument("-n", type=int, help="run sample query number N")
     ap.add_argument("-q", help="run this query string")
     ap.add_argument("-f", help="run the query in this file")
+    ap.add_argument("-v", "--verbose", action="store_true",
+                    help="print every request sent to a SERVICE endpoint and how many rows it returned")
     args = ap.parse_args()
+    global VERBOSE
+    VERBOSE = args.verbose
 
     g = load_graph()
     samples = sample_queries()
@@ -180,6 +267,8 @@ def main():
             run(g, Path(args.f).read_text(encoding="utf-8"))
         else:
             repl(g, samples)
+    except BrokenPipeError:  # output piped into head/less that closed early
+        os.dup2(os.open(os.devnull, os.O_WRONLY), sys.stdout.fileno())
     except OSError as e:  # URLError/HTTPError/timeout from a SERVICE call
         sys.exit(f"error: could not reach the remote endpoint: {describe_error(e)}. "
                  "Federated queries need internet access; the endpoint may be busy, "
