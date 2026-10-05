@@ -15,6 +15,13 @@ named after the item's English Wikipedia article (DBpedia resources are named
 after those articles); if the article has been renamed since the DBpedia
 snapshot, we take the candidate only when it is the single one left.
 
+Redirect resources are never linked. DBpedia keeps the type and the sameAs
+of an article that was later merged into another one, so a redirect can lead
+to a different entity (an actor's page merged into a film, one director into
+the page about a duo) and owl:sameAs would then be wrong. A redirect is
+followed only when its target is the resource named after the item's English
+Wikipedia article, which is the case of a simple rename.
+
 The optional report CSV lists every resource with the links found, for
 manual review.
 """
@@ -86,13 +93,21 @@ def dbpedia_by_wikidata(expected, dbpedia_class):
         query = f"""
         PREFIX owl: <http://www.w3.org/2002/07/owl#>
         PREFIX dbo: <http://dbpedia.org/ontology/>
-        SELECT ?wd ?res WHERE {{
+        SELECT ?wd ?res ?target WHERE {{
             VALUES ?wd {{ {values} }}
             ?res owl:sameAs ?wd ; a dbo:{dbpedia_class} .
             FILTER(STRSTARTS(STR(?res), "{DBPEDIA_RESOURCE}"))
+            OPTIONAL {{ ?res dbo:wikiPageRedirects ?target }}
         }}"""
         for b in run_query(DBPEDIA_SPARQL, query):
-            candidates[b["wd"]["value"]].add(b["res"]["value"])
+            wd_uri, res = b["wd"]["value"], b["res"]["value"]
+            if "target" in b:
+                # a redirect: follow it only when it is a plain rename, i.e.
+                # it leads to the resource named after the item's article
+                res = b["target"]["value"]
+                if unquote(res) != expected[wd_uri]:
+                    continue
+            candidates[wd_uri].add(res)
 
     links = {}
     for wd_uri, resources in candidates.items():

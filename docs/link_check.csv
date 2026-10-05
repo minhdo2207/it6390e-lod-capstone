@@ -1,0 +1,31 @@
+uri,label,wikidata_ok,dbpedia_ok,note
+http://it6390e-group2.example.org/resource/movie/500,Reservoir Dogs,yes,yes,Both pages: 1992 film directed by Quentin Tarantino
+http://it6390e-group2.example.org/resource/movie/118340,Guardians of the Galaxy,yes,yes,Both pages: 2014 film directed by James Gunn
+http://it6390e-group2.example.org/resource/movie/10229,A Walk to Remember,yes,yes,Both pages: 2002 film directed by Adam Shankman
+http://it6390e-group2.example.org/resource/movie/630,The Wizard of Oz,yes,yes,"Both pages: 1939 film directed by Victor Fleming; DBpedia resource is a redirect to dbr:The_Wizard_of_Oz, the same film (article renamed)"
+http://it6390e-group2.example.org/resource/movie/16869,Inglourious Basterds,yes,yes,Both pages: 2009 film directed by Quentin Tarantino
+http://it6390e-group2.example.org/resource/movie/1542,Office Space,yes,yes,Both pages: 1999 film directed by Mike Judge
+http://it6390e-group2.example.org/resource/movie/14574,The Boy in the Striped Pyjamas,yes,yes,Both pages: 2008 film directed by Mark Herman; Wikidata label uses the US spelling 'Pajamas'
+http://it6390e-group2.example.org/resource/movie/122906,About Time,yes,yes,Both pages: 2013 film directed by Richard Curtis
+http://it6390e-group2.example.org/resource/movie/629,The Usual Suspects,yes,yes,Both pages: 1995 film directed by Bryan Singer
+http://it6390e-group2.example.org/resource/movie/115,The Big Lebowski,yes,yes,Both pages: 1998 film directed by Joel Coen; Wikidata and DBpedia credit both Coen brothers; local data has Joel Coen only
+http://it6390e-group2.example.org/resource/movie/578,Jaws,yes,yes,Both pages: 1975 film directed by Steven Spielberg
+http://it6390e-group2.example.org/resource/movie/8358,Cast Away,yes,yes,Both pages: 2000 film directed by Robert Zemeckis
+http://it6390e-group2.example.org/resource/movie/37165,The Truman Show,yes,yes,Both pages: 1998 film directed by Peter Weir
+http://it6390e-group2.example.org/resource/movie/1124,The Prestige,yes,yes,Both pages: 2006 film directed by Christopher Nolan
+http://it6390e-group2.example.org/resource/movie/4348,Pride & Prejudice,yes,yes,Both pages: 2005 film directed by Joe Wright
+http://it6390e-group2.example.org/resource/person/514,Jack Nicholson,yes,yes,Wikidata: American actor and filmmaker (born 1937); DBpedia: American actor and filmmaker (born 1937)
+http://it6390e-group2.example.org/resource/person/109,Elijah Wood,yes,yes,Wikidata: American actor (born 1981); DBpedia: American actor
+http://it6390e-group2.example.org/resource/person/10882,Rosamund Pike,yes,yes,Wikidata: British actress (born 1979); DBpedia: English actress
+http://it6390e-group2.example.org/resource/person/1243,Woody Allen,yes,yes,"Wikidata: American filmmaker, actor and comedian (born 1935); DBpedia: American filmmaker, actor and comedian (born 1935)"
+http://it6390e-group2.example.org/resource/person/19840,Alejandro Amenábar,yes,yes,"Wikidata: Spanish-Chilean film director, screenwriter and composer; DBpedia: Spanish-Chilean film director, screenwriter and composer"
+http://it6390e-group2.example.org/resource/person/205,Kirsten Dunst,yes,yes,Wikidata: American actress (born 1982); DBpedia: American actress (born 1982)
+http://it6390e-group2.example.org/resource/person/66190,Tony Bancroft,yes,yes,Wikidata: American animator and film director (born 1967); DBpedia: American animator and film director
+http://it6390e-group2.example.org/resource/person/8597,Phellipe Haagensen,yes,yes,Wikidata: Brazilian actor; DBpedia: Brazilian actor
+http://it6390e-group2.example.org/resource/person/10828,Guillermo del Toro,yes,yes,Wikidata: Mexican filmmaker and author (born 1964); DBpedia: Mexican filmmaker and author (born 1964)
+http://it6390e-group2.example.org/resource/person/76595,Byron Howard,yes,yes,Wikidata: American film director and animator; DBpedia: American film director and animator
+http://it6390e-group2.example.org/resource/person/190,Clint Eastwood,yes,yes,Wikidata: American actor and film director (born 1930); DBpedia: American actor and film director (born 1930)
+http://it6390e-group2.example.org/resource/person/980,Vinnie Jones,yes,yes,Wikidata: British footballer and actor; DBpedia: British footballer and actor
+http://it6390e-group2.example.org/resource/person/7303,Vera Miles,yes,yes,"Wikidata: American actress; DBpedia: American actress; both give birth date 23 August 1930 (the description text says 1929)"
+http://it6390e-group2.example.org/resource/person/5081,Emily Blunt,yes,yes,Wikidata: British actress (born 1983); DBpedia: British actress
+http://it6390e-group2.example.org/resource/person/20051,Alakina Mann,yes,no,"Wikidata: English actress. DBpedia: dbr:Alakina_Mann is a redirect to dbr:The_Others_(2001_film), a film, not this person"

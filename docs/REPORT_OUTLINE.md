@@ -73,8 +73,11 @@ Chèn bảng class/property đã có trong `ontology/movies.ttl` (Movie, Person,
 
 - Công cụ: script `scripts/link_wikidata_dbpedia.py` — match theo **TMDB id** lưu trong Wikidata (P4947 phim, P4985 người), rồi lấy URI DBpedia từ `owl:sameAs` của DBpedia. Cách match theo title + year không dùng được vì resource phim trên DBpedia không có `dbo:releaseDate`.
 - Nguyên tắc dùng `owl:sameAs` đúng cách (dẫn lại từ LOD lecture): chỉ link khi chắc chắn cùng 1 thực thể; trường hợp không chắc → bỏ qua thay vì đoán (khác với các lỗi lạm dụng `owl:sameAs` đã học — VD nhầm state với city, nhầm instance với organization).
-- Kết quả: phim 249/250 link Wikidata và DBpedia; người 671/672 Wikidata, 667/672 DBpedia (xem `data/processed/link_report.csv`). 2 resource bỏ qua vì mơ hồ: Apocalypse Now, J.K. Simmons.
+- Kết quả: phim 249/250 link Wikidata và DBpedia; người 671/672 Wikidata, 663/672 DBpedia (xem `data/processed/link_report.csv`). 2 resource bỏ qua vì mơ hồ: Apocalypse Now, J.K. Simmons.
 - (Tuỳ chọn nếu có thời gian) Link thêm Wikidata.
+- Kiểm tra thủ công: mẫu ngẫu nhiên 30 resource (15 phim, 15 người, `random.seed(42)`, script `scripts/sample_link_check.py`), mở từng trang Wikidata và DBpedia để đối chiếu năm + đạo diễn (phim) hoặc mô tả nghề nghiệp + ngày sinh (người). Kết quả trong `docs/link_check.csv`: **precision Wikidata 30/30 = 100%**, **precision DBpedia 29/30 = 96,7%**.
+- Link sai duy nhất trong mẫu: `dbr:Alakina_Mann` trên DBpedia là resource redirect sang phim `dbr:The_Others_(2001_film)` (bài Wikipedia về diễn viên đã bị gộp vào bài về phim), nên không còn mô tả đúng người này. Kiểm tra toàn bộ 916 link DBpedia lúc đó thì có 7 resource là redirect: 3 chỉ do đổi tên bài (cùng thực thể), 4 trỏ sang thực thể khác (Alakina Mann → phim; Joel Coen → Coen brothers; Anthony Russo → Russo brothers; Lilly Wachowski → The Wachowskis).
+- Đã sửa sau khi kiểm tra: script không link tới resource redirect nữa, chỉ đi theo redirect khi đích trùng tên bài Wikipedia tiếng Anh của item (trường hợp đổi tên bài). 4 link sai đã bị gỡ, 3 link đổi tên trỏ về resource hiện hành; còn 912 link DBpedia (phim 249, người 663), không link nào là redirect.
 
 **[Chèn ảnh]** Screenshot Protégé — 1 individual Movie có property `owl:sameAs` trỏ tới DBpedia resource (Object property assertions panel).
 
