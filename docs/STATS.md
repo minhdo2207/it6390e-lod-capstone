@@ -3,7 +3,7 @@
 Output of `python scripts/stats.py`. Re-run the script and paste the output here whenever the data files change.
 
 ```
-Total triples: 6733
+Total triples: 6729
 
 Individuals per class
 class     individuals
@@ -20,7 +20,7 @@ owl:sameAs links per target
 target        movies  people  total
 ------------  ------  ------  -----
 wikidata.org  249     671     920
-dbpedia.org   249     667     916
+dbpedia.org   249     663     912
 
 Movies per genre
 genre            movies
