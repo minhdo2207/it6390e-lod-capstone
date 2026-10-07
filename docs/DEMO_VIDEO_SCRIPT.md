@@ -128,4 +128,4 @@ python scripts/sparql_cli.py -n 16
 
 **Đã thử trên Protégé 5.6.9 (7/10):** mở `demo_all.ttl`, HermiT chạy khoảng 3 phút; DL Query `ont:ActionMovie` ra 87 dòng (29 phim × 3 tên do sameAs), `ont:ComedyMovie` 48, `ont:AwardWinningDirector` 95, `ont:CastRole` 750; thêm SWRL rule thì `ont:ActorDirector` ra 15 dòng (5 người). Chi tiết ở `docs/DEMO_SCRIPT.md`.
 
-**Chưa thử trên Protégé thật:** hộp thoại Open khi mở file thứ hai (`demo_all_bad.ttl`) và nút Explain ở cảnh 7. Hãy thử một lần trước khi quay.
+Cảnh 7 cũng đã thử: mở `demo_all_bad.ttl` thì Protégé mở cửa sổ mới, Start reasoner vài giây là báo inconsistent, nút **Explain** liệt kê 5 axiom (ActionMovie DisjointWith ComedyMovie, hai định nghĩa hasValue, hai dòng hasGenre của `ex:movie_demo_bad`).

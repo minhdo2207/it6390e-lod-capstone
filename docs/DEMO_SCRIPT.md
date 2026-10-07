@@ -1,7 +1,7 @@
 # Demo Script (Protégé) — Minh
 
-Checked on Protégé 5.6.9 (macOS, Apple Silicon) on 7 October 2026. Steps marked
-*(not yet run in Protégé)* were only checked with `scripts/check_reasoning.py`.
+Checked on Protégé 5.6.9 (macOS, Apple Silicon) on 7 October 2026. The step
+marked *(not yet run in Protégé)* was only checked from the terminal.
 
 ## Before the talk
 
@@ -62,12 +62,13 @@ Checked on Protégé 5.6.9 (macOS, Apple Silicon) on 7 October 2026. Steps marke
    Mel Gibson, Terry Gilliam, Woody Allen. Explain why this needs a rule: OWL
    cannot require the same person on two different properties of one movie.
 
-5. **Inconsistency.** *(not yet run in Protégé)* **File > Open**
-   `demo_all_bad.ttl` in a new window, **Reasoner > Start reasoner**:
-   HermiT reports the ontology as inconsistent; click **Explain** and walk
-   through the justification (the movie is in both ActionMovie and
-   ComedyMovie, which are disjoint; same pattern as Russell's paradox in the
-   lecture). `python scripts/check_reasoning.py --demo` shows the same result.
+5. **Inconsistency.** **File > Open** `demo_all_bad.ttl` (it opens in a new
+   window), **Reasoner > Start reasoner**: within seconds Protégé shows "Help
+   for inconsistent ontologies". Click **Explain**: the justification lists
+   five axioms, ActionMovie DisjointWith ComedyMovie, the two `hasValue`
+   definitions, and the two `hasGenre` assertions of `ex:movie_demo_bad`.
+   Walk through it (same pattern as Russell's paradox in the lecture).
+   `python scripts/check_reasoning.py --demo` shows the same result.
 
 When closing Protégé, choose **Don't save**: the rule and settings only live
 in the session, the generated files stay as they are.
