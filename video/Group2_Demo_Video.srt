@@ -1,0 +1,307 @@
+1
+00:00:00,300 --> 00:00:00,626
+Hello!
+
+2
+00:00:00,676 --> 00:00:05,570
+This is the demo of Group 2's capstone project for the Knowledge Graphs course.
+
+3
+00:00:06,733 --> 00:00:10,210
+We built a knowledge graph of 250 films from TMDB data,
+
+4
+00:00:10,260 --> 00:00:15,532
+and we went through all five steps of the assignment: an ontology, data collection,
+
+5
+00:00:15,582 --> 00:00:20,533
+conversion to four-star RDF, links to Wikidata and DBpedia for the fifth star,
+
+6
+00:00:20,583 --> 00:00:22,136
+and querying with SPARQL.
+
+7
+00:00:22,186 --> 00:00:27,457
+In this video we show three parts: the ontology with the reasoner, the linked data,
+
+8
+00:00:27,507 --> 00:00:28,483
+and the queries.
+
+9
+00:00:29,633 --> 00:00:31,746
+This is our ontology in Protégé.
+
+10
+00:00:31,796 --> 00:00:36,612
+We reuse existing vocabularies: Movie from schema.org, Person from FOAF,
+
+11
+00:00:36,662 --> 00:00:41,410
+director and starring from DBpedia, and we only define what is missing,
+
+12
+00:00:41,460 --> 00:00:43,168
+like hasGenre or CastRole.
+
+13
+00:00:43,218 --> 00:00:45,195
+Look at the class ActionMovie.
+
+14
+00:00:45,245 --> 00:00:49,250
+It is defined as an equivalent class: hasGenre value Action.
+
+15
+00:00:49,300 --> 00:00:53,643
+In other words, any film whose genre is Action is an ActionMovie.
+
+16
+00:00:53,693 --> 00:00:58,847
+Because it is an equivalence, the condition is both necessary and sufficient,
+
+17
+00:00:58,897 --> 00:01:01,821
+so the machine can classify films by itself.
+
+18
+00:01:01,871 --> 00:01:05,943
+The yellow rows below are members that the reasoner inferred.
+
+19
+00:01:07,100 --> 00:01:08,707
+We start the HermiT reasoner.
+
+20
+00:01:08,757 --> 00:01:13,050
+On the full dataset this takes about three minutes, so we have cut the wait.
+
+21
+00:01:14,200 --> 00:01:19,317
+Then we ask the DL Query tab: which individuals belong to ActionMovie?
+
+22
+00:01:19,367 --> 00:01:21,015
+Protégé lists 87 names.
+
+23
+00:01:21,065 --> 00:01:24,115
+That is 29 films, each listed three times,
+
+24
+00:01:24,165 --> 00:01:30,094
+because owl:sameAs makes our film the same individual as its Wikidata and DBpedia
+
+25
+00:01:30,144 --> 00:01:30,685
+entries.
+
+26
+00:01:30,735 --> 00:01:34,819
+Not a single film was tagged as an action movie by hand.
+
+27
+00:01:34,869 --> 00:01:37,550
+They are all inferred from the genre.
+
+28
+00:01:38,700 --> 00:01:43,431
+In the same way, we get 16 comedies and 32 Oscar-winning directors,
+
+29
+00:01:43,481 --> 00:01:46,000
+with the awards taken from Wikidata.
+
+30
+00:01:46,050 --> 00:01:51,352
+People who direct and star in the same film cannot be described with an OWL
+
+31
+00:01:51,402 --> 00:01:53,850
+restriction, so we add a SWRL rule.
+
+32
+00:01:55,000 --> 00:02:01,176
+After the reasoner runs again, five people appear: Clint Eastwood, Kevin Costner,
+
+33
+00:02:01,226 --> 00:02:06,710
+Mel Gibson, Terry Gilliam and Woody Allen, each again under three names.
+
+34
+00:02:07,867 --> 00:02:15,657
+Our check_reasoning script gives exactly the same numbers: 29, 16, 32, and 5.
+
+35
+00:02:16,833 --> 00:02:21,457
+Here is the film The Prestige in our RDF data: its director,
+
+36
+00:02:21,507 --> 00:02:27,687
+three actors with their cast roles, the genre, the studio, and the release year.
+
+37
+00:02:27,737 --> 00:02:34,152
+The last two lines are what matter: owl:sameAs links this film to its DBpedia page,
+
+38
+00:02:34,202 --> 00:02:36,567
+and to item Q46551 on Wikidata.
+
+39
+00:02:36,617 --> 00:02:38,358
+That is the fifth star.
+
+40
+00:02:38,408 --> 00:02:42,174
+We have 920 links to Wikidata and 912 to DBpedia.
+
+41
+00:02:42,224 --> 00:02:47,471
+We match on the TMDB id that Wikidata already stores, not on titles,
+
+42
+00:02:47,521 --> 00:02:51,287
+because matching by title and year found nothing.
+
+43
+00:02:51,337 --> 00:02:56,895
+We also checked 30 links by hand: Wikidata was right 30 times out of 30,
+
+44
+00:02:56,945 --> 00:02:58,063
+and DBpedia 29.
+
+45
+00:02:59,233 --> 00:03:04,004
+Our query interface is a terminal tool, plus the SPARQL tab in Protégé.
+
+46
+00:03:04,054 --> 00:03:09,436
+Query 3 answers which director has the most films in our data: Steven Spielberg,
+
+47
+00:03:09,486 --> 00:03:10,183
+with eight.
+
+48
+00:03:11,333 --> 00:03:13,831
+Query 16 uses our cast roles, an n-ary relation:
+
+49
+00:03:13,881 --> 00:03:16,697
+each appearance of an actor in a film is its own node,
+
+50
+00:03:16,747 --> 00:03:19,510
+so we can record the character and the billing order.
+
+51
+00:03:19,560 --> 00:03:22,376
+For The Dark Knight, Christian Bale plays Bruce Wayne,
+
+52
+00:03:22,426 --> 00:03:24,128
+and Heath Ledger plays the Joker.
+
+53
+00:03:24,178 --> 00:03:27,843
+A plain starring link from film to actor cannot hold that information.
+
+54
+00:03:29,000 --> 00:03:31,226
+The best part is the federated query.
+
+55
+00:03:31,276 --> 00:03:33,809
+Our data has no birth dates for directors.
+
+56
+00:03:33,859 --> 00:03:38,913
+This query follows Christopher Nolan's sameAs link and uses SERVICE to ask Wikidata
+
+57
+00:03:38,963 --> 00:03:42,542
+directly, then joins the answer with his films in our data.
+
+58
+00:03:42,592 --> 00:03:46,540
+Result: Nolan was born on the thirtieth of July, 1970, in London,
+
+59
+00:03:46,590 --> 00:03:50,107
+and we list his seven films, from Memento to Interstellar.
+
+60
+00:03:50,157 --> 00:03:55,150
+Thanks to the five-star links, one query enriches our data from an outside source.
+
+61
+00:03:56,300 --> 00:03:59,043
+Finally, the reasoner also catches mistakes.
+
+62
+00:03:59,093 --> 00:04:01,837
+We load one film that is deliberately wrong:
+
+63
+00:04:01,887 --> 00:04:04,630
+it has both the Action and the Comedy genre,
+
+64
+00:04:04,680 --> 00:04:08,185
+while ActionMovie and ComedyMovie are declared disjoint.
+
+65
+00:04:08,235 --> 00:04:13,010
+We start the reasoner, and HermiT reports that the ontology is inconsistent.
+
+66
+00:04:14,167 --> 00:04:18,395
+The Explain button shows exactly why: the film falls into both classes,
+
+67
+00:04:18,445 --> 00:04:20,383
+and the two classes are disjoint.
+
+68
+00:04:20,433 --> 00:04:24,058
+It is the same pattern as Russell's paradox from the lecture,
+
+69
+00:04:24,108 --> 00:04:27,252
+and it is why disjointness must be stated explicitly.
+
+70
+00:04:27,302 --> 00:04:29,180
+Under the open world assumption,
+
+71
+00:04:29,230 --> 00:04:33,277
+the Semantic Web would not treat this as a contradiction on its own.
+
+72
+00:04:34,433 --> 00:04:39,758
+To sum up, we went through all five steps: ontology, data, RDF, links and SPARQL,
+
+73
+00:04:39,808 --> 00:04:42,213
+plus reasoning and federated queries.
+
+74
+00:04:42,263 --> 00:04:46,128
+The current limits are that our URIs still use example.org,
+
+75
+00:04:46,178 --> 00:04:50,906
+so they cannot be opened on the web, and each film keeps only one genre.
+
+76
+00:04:50,956 --> 00:04:52,896
+All the code is on our GitHub.
+
+77
+00:04:52,946 --> 00:04:54,223
+Thanks for watching!
