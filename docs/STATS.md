@@ -3,7 +3,7 @@
 Output of `python scripts/stats.py`. Re-run the script and paste the output here whenever the data files change.
 
 ```
-Total triples: 6729
+Total triples: 12013
 
 Individuals per class
 class     individuals
@@ -15,6 +15,7 @@ Actor     522
 Genre     17
 Studio    99
 Country   16
+CastRole  750
 
 owl:sameAs links per target
 target        movies  people  total

@@ -24,6 +24,7 @@ Build a Linked Open Data (LOD) application for the **movies** domain, following 
 └── data/
     ├── raw/        original source data (CSV)
     └── processed/  generated RDF/Turtle output
+```
 
 ## Pipeline
 
@@ -54,6 +55,7 @@ pip install -r requirements.txt
 python scripts/prepare_movies_csv.py data/raw/tmdb_5000_movies.csv data/raw/tmdb_5000_credits.csv data/raw/movies.csv
 
 python scripts/csv_to_rdf.py data/raw/movies.csv data/processed/movies.ttl
+
 python scripts/link_wikidata_dbpedia.py data/processed/movies.ttl data/processed/movies_linked.ttl data/processed/link_report.csv
 ```
 
@@ -74,7 +76,46 @@ python scripts/sparql_cli.py          # interactive prompt (:list, :3, :quit)
 python scripts/sparql_cli.py -n 3     # run sample query #3
 ```
 
-The queries are in `sparql/sample_queries.rq`.
+The queries are in `sparql/sample_queries.rq` (1-5), `sparql/federated_queries.rq`
+(6-15) and `sparql/castrole_queries.rq` (16-21).
+
+### Cast roles (n-ary relation)
+
+`dbo:starring` only says that an actor is in a movie, so there is nowhere to put
+the character played or the billing position. Following the W3C note
+*Defining N-ary Relations*, each appearance of an actor in a movie is a node of
+its own, `ont:CastRole`:
+
+```
+movie --ont:hasCastRole--> role --ont:playedBy--> actor
+role --ont:characterName--> "Bruce Wayne"       role --ont:billingOrder--> 1
+role --ont:roleInMovie--> movie                 (inverse of hasCastRole)
+```
+
+```turtle
+ex:role/155-3894 a ont:CastRole ;
+    rdfs:label "Christian Bale as Bruce Wayne in The Dark Knight"@en ;
+    ont:playedBy ex:person/3894 ;
+    ont:roleInMovie ex:movie/155 ;
+    ont:characterName "Bruce Wayne" ;
+    ont:billingOrder 1 .
+```
+
+- `dbo:starring` is kept because existing data and queries use it. The ontology
+  declares `hasCastRole o playedBy` as a property chain implying `dbo:starring`,
+  and the data states both, so they never disagree:
+  `python scripts/check_reasoning.py` checks that the two give the same
+  movie-actor pairs, and query 21 does the same in SPARQL.
+- `billingOrder` is the position in the credits (1 = top-billed). Only the 3
+  first-billed actors of each movie are in the data, so there are 750 roles.
+- `characterName` is a plain string taken from TMDB, not a resource: the same
+  name can be different characters (query 18 shows "Sam" played by three actors
+  in three movies), and linking characters would need identity resolution that
+  the source does not provide.
+- Role URIs are `ex:role/<movie id>-<actor id>`. The roles are produced by
+  `scripts/csv_to_rdf.py` from the `cast_characters` column of the raw CSV, so
+  they are in `movies.ttl` and `movies_linked.ttl`; the linking step ignores them
+  (it only links `schema:Movie` and `foaf:Person`).
 
 ### Federated queries (Wikidata / DBpedia)
 

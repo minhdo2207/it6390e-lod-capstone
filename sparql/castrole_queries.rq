@@ -1,0 +1,95 @@
+# Queries over the n-ary cast roles (ont:CastRole).
+#
+# dbo:starring only says "this actor is in this movie". Each appearance is
+# also a node of its own, so the character and the billing position have
+# somewhere to live:
+#
+#   movie --ont:hasCastRole--> role --ont:playedBy--> actor
+#   role --ont:characterName--> "Vincent Vega"
+#   role --ont:billingOrder--> 1        (1 = top-billed, 3 = third)
+#   role --ont:roleInMovie--> movie     (inverse of hasCastRole)
+#
+# Only the 3 first-billed actors of each movie are in the data.
+#
+# Run from the terminal (numbering continues after federated_queries.rq):
+#     python scripts/sparql_cli.py -n 16
+
+PREFIX ont:  <http://it6390e-group2.example.org/ontology/>
+PREFIX dc:   <http://purl.org/dc/elements/1.1/>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+# 16. Cast of a movie with character and billing order
+SELECT ?order ?actor ?character WHERE {
+  ?movie dc:title "The Dark Knight" ;
+         ont:hasCastRole ?role .
+  ?role ont:billingOrder ?order ;
+        ont:playedBy ?a .
+  ?a foaf:name ?actor .
+  OPTIONAL { ?role ont:characterName ?character }
+}
+ORDER BY ?order
+
+# 17. All roles of an actor: movie, character and billing position
+SELECT ?year ?title ?character ?order WHERE {
+  ?a foaf:name "Leonardo DiCaprio" .
+  ?role ont:playedBy ?a ;
+        ont:roleInMovie ?movie ;
+        ont:billingOrder ?order .
+  OPTIONAL { ?role ont:characterName ?character }
+  ?movie dc:title ?title ;
+         ont:releaseYear ?year .
+}
+ORDER BY ?year
+
+# 18. Characters that appear in more than one movie. characterName is a plain string, so a name shared by different characters (e.g. "Sam") also shows up: compare the number of actors
+SELECT ?character (COUNT(?role) AS ?movies) (COUNT(DISTINCT ?a) AS ?actors)
+       (GROUP_CONCAT(DISTINCT ?name; separator=", ") AS ?playedBy)
+WHERE {
+  ?role ont:characterName ?character ;
+        ont:playedBy ?a .
+  ?a foaf:name ?name .
+}
+GROUP BY ?character
+HAVING (COUNT(?role) > 1)
+ORDER BY DESC(?movies) ?character
+
+# 19. Actors billed first most often
+SELECT ?actor (COUNT(?role) AS ?timesTopBilled) WHERE {
+  ?role ont:billingOrder 1 ;
+        ont:playedBy ?a .
+  ?a foaf:name ?actor .
+}
+GROUP BY ?actor
+ORDER BY DESC(?timesTopBilled) ?actor
+LIMIT 10
+
+# 20. Directors who played a character in their own movie
+SELECT ?name ?title ?year ?character ?order WHERE {
+  ?movie dbo:director ?d ;
+         ont:hasCastRole ?role ;
+         dc:title ?title ;
+         ont:releaseYear ?year .
+  ?role ont:playedBy ?d ;
+        ont:billingOrder ?order .
+  OPTIONAL { ?role ont:characterName ?character }
+  ?d foaf:name ?name .
+}
+ORDER BY ?name ?year
+
+# 21. Consistency check: dbo:starring and the cast roles must describe the same actor-movie pairs (both counts should be 0)
+SELECT ?starringWithoutRole ?roleWithoutStarring WHERE {
+  {
+    SELECT (COUNT(*) AS ?starringWithoutRole) WHERE {
+      ?movie dbo:starring ?a .
+      FILTER NOT EXISTS { ?movie ont:hasCastRole ?role . ?role ont:playedBy ?a }
+    }
+  }
+  {
+    SELECT (COUNT(*) AS ?roleWithoutStarring) WHERE {
+      ?movie ont:hasCastRole ?role .
+      ?role ont:playedBy ?a .
+      FILTER NOT EXISTS { ?movie dbo:starring ?a }
+    }
+  }
+}

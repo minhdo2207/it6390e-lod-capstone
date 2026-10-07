@@ -69,6 +69,7 @@ dbo:director a owl:ObjectProperty ;
 dbo:starring a owl:ObjectProperty ;
     rdfs:domain :Movie ;
     rdfs:range :Actor ;
+    owl:propertyChainAxiom ( :hasCastRole :playedBy ) ;
     rdfs:label "starring"@en .
 
 # dc:title / foaf:name are annotation-style literals, nothing to declare.
@@ -124,3 +125,51 @@ dbo:starring a owl:ObjectProperty ;
 :ActorDirector a owl:Class ;
     rdfs:subClassOf :Person ;
     rdfs:label "Actor-Director"@en .
+
+# N-ary relation: cast roles
+#
+# dbo:starring is a binary link Movie -> Actor, so there is nowhere to say
+# which character the actor plays or how high they are billed. As in the W3C
+# "Defining N-ary Relations" note, each appearance of an actor in a movie
+# becomes a node of its own (:CastRole) and the extra facts hang on that node:
+#
+#   movie --hasCastRole--> role --playedBy--> actor
+#   role --roleInMovie--> movie
+#   role --characterName--> "Vincent Vega"     role --billingOrder--> 1
+#
+# dbo:starring stays, because existing data and queries use it. The property
+# chain on dbo:starring above lets a reasoner derive it from the roles, so the
+# two never disagree.
+
+:CastRole a owl:Class ;
+    rdfs:label "Cast role"@en ;
+    rdfs:comment "One actor appearing in one movie, with the character played and the billing position."@en ;
+    rdfs:seeAlso schema:PerformanceRole .
+
+:hasCastRole a owl:ObjectProperty ;
+    owl:inverseOf :roleInMovie ;
+    rdfs:domain :Movie ;
+    rdfs:range :CastRole ;
+    rdfs:label "has cast role"@en .
+
+:roleInMovie a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:domain :CastRole ;
+    rdfs:range :Movie ;
+    rdfs:label "role in movie"@en .
+
+:playedBy a owl:ObjectProperty , owl:FunctionalProperty ;
+    rdfs:domain :CastRole ;
+    rdfs:range :Actor ;
+    rdfs:label "played by"@en .
+
+:characterName a owl:DatatypeProperty ;
+    rdfs:domain :CastRole ;
+    rdfs:range xsd:string ;
+    rdfs:label "character name"@en ;
+    rdfs:seeAlso schema:characterName .
+
+# 1 = top-billed. Same range as :releaseYear so queries can write "1".
+:billingOrder a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:domain :CastRole ;
+    rdfs:range xsd:integer ;
+    rdfs:label "billing order"@en .

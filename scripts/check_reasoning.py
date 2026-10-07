@@ -19,7 +19,7 @@ from owlready2 import (
     World,
     sync_reasoner_hermit,
 )
-from rdflib import Graph
+from rdflib import Graph, URIRef
 
 ROOT = Path(__file__).resolve().parent.parent
 ONT = "http://it6390e-group2.example.org/ontology/"
@@ -37,6 +37,27 @@ def load_world(files):
     world = World()
     world.get_ontology("file://" + tmp.name).load()
     return world
+
+
+def check_cast_roles(files):
+    """dbo:starring must agree with the n-ary cast roles: the ontology says
+    hasCastRole o playedBy implies starring, and the data keeps both."""
+    g = Graph()
+    for f in files:
+        g.parse(ROOT / f, format="turtle")
+    starring = set(g.subject_objects(URIRef(DBO + "starring")))
+    via_roles = {
+        (movie, actor)
+        for movie, role in g.subject_objects(URIRef(ONT + "hasCastRole"))
+        for actor in g.objects(role, URIRef(ONT + "playedBy"))
+    }
+    print(f"cast roles: {len(via_roles)} (movie, actor) pairs through roles, "
+          f"{len(starring)} through dbo:starring")
+    if starring != via_roles:
+        print(f"MISMATCH: {len(starring - via_roles)} starring without a role, "
+              f"{len(via_roles - starring)} roles without starring")
+        return False
+    return True
 
 
 def members(world, name):
@@ -71,7 +92,7 @@ def run(files, label):
     except OwlReadyInconsistentOntologyError:
         print("ontology is INCONSISTENT")
         return False
-    for name in ("ActionMovie", "ComedyMovie", "AwardWinningDirector", "ActorDirector"):
+    for name in ("ActionMovie", "ComedyMovie", "AwardWinningDirector", "ActorDirector", "CastRole"):
         found = members(world, name)
         print(f"{name}: {len(found)}")
     return True
@@ -85,6 +106,8 @@ def main():
     ]
     ok = run(base, "clean data")
     if not ok:
+        sys.exit(1)
+    if not check_cast_roles(base):
         sys.exit(1)
 
     if "--demo" in sys.argv:

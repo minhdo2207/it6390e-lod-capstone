@@ -52,11 +52,18 @@ Chèn bảng class/property đã có trong `ontology/movies.ttl` (Movie, Person,
 
 **[Chèn ảnh]** Screenshot Protégé — Class hierarchy trước và sau khi chạy reasoner (before/after inferred classes).
 
+### 2.4 Quan hệ n-ary: `CastRole` (Knowledge Modeling)
+`dbo:starring` là quan hệ nhị phân (Movie → Actor) nên không có chỗ để ghi **nhân vật** mà diễn viên đóng hay **thứ tự** xuất hiện trong danh sách diễn viên. Theo mẫu *Defining N-ary Relations* của W3C, mỗi lần một diễn viên xuất hiện trong một phim trở thành một node riêng (`ont:CastRole`):
+- `movie --hasCastRole--> role --playedBy--> actor`, kèm `characterName` (chuỗi) và `billingOrder` (1 = đứng đầu danh sách); `roleInMovie` là thuộc tính nghịch đảo của `hasCastRole`.
+- Giữ nguyên `dbo:starring` vì dữ liệu và truy vấn cũ đang dùng; ontology khai báo **property chain** `hasCastRole ∘ playedBy ⊑ dbo:starring` để hai cách mô tả luôn nhất quán (kiểm tra bằng `check_reasoning.py` và truy vấn 21).
+- **[Chèn hình]** Sơ đồ n-ary (movie – role – actor – character – order) và đoạn Turtle ví dụ `ex:role/155-3894` (Christian Bale – Bruce Wayne – *The Dark Knight*).
+- Thảo luận: vì sao `characterName` là chuỗi chứ không phải resource (cùng tên "Sam" là ba nhân vật khác nhau — truy vấn 18; TMDB không có định danh nhân vật). Chỉ có 3 diễn viên đầu danh sách mỗi phim → 750 `CastRole`.
+
 ## 3. Bước 2 — Thu thập dữ liệu — ~1.5 trang
 
 - Nguồn: TMDB/Kaggle (ghi rõ tên dataset + link + license).
 - Phạm vi: số lượng phim thực tế đã lấy (250 phim, 1939–2016), tiêu chí lọc (ít nhất 1000 votes, top 250 theo rating).
-- Các trường dữ liệu: title, year, director, cast, genre, studio, country.
+- Các trường dữ liệu: title, year, director, cast (kèm tên nhân vật và thứ tự), genre, studio, country.
 - Vấn đề làm sạch dữ liệu gặp phải (nếu có): tên trùng, thiếu dữ liệu đạo diễn, encoding...
 
 **[Chèn bảng]** Ví dụ 5-10 dòng dữ liệu thô (CSV) trước khi convert.

@@ -27,6 +27,7 @@ Classes:
 | `Genre` | |
 | `Studio` | |
 | `Country` | |
+| `CastRole` | n-ary relation: one actor in one movie, with character and billing position |
 
 Properties (prefer reusing existing vocabulary terms before minting new ones):
 
@@ -40,6 +41,15 @@ Properties (prefer reusing existing vocabulary terms before minting new ones):
 | `producedBy` | Movie -> Studio | local |
 | `producedIn` | Movie -> Country | local |
 | `foaf:name` | Person -> literal | FOAF |
+| `hasCastRole` | Movie -> CastRole | local (inverse: `roleInMovie`) |
+| `playedBy` | CastRole -> Actor | local |
+| `characterName` | CastRole -> literal | local (cf. `schema:characterName`) |
+| `billingOrder` | CastRole -> integer | local (1 = top-billed) |
+
+`dbo:starring` is a binary link, so it cannot say which character an actor plays
+or how high they are billed. Each appearance is therefore also modelled as a
+`CastRole` node (n-ary relation pattern); a property chain
+`hasCastRole o playedBy -> dbo:starring` keeps the two views consistent.
 
 ## 4. Data collection
 
@@ -49,7 +59,8 @@ movies to keep the ontology + linking work manageable within the timeline.
 ## 5. 4-star: CSV -> RDF
 
 `scripts/csv_to_rdf.py` reads the raw CSV, mints a URI per movie/person, and
-serializes the result as Turtle.
+serializes the result as Turtle. Each cast entry also becomes a `CastRole` node
+(`ex:role/<movie id>-<actor id>`) carrying the character and billing position.
 
 ## 6. 5-star: linking
 

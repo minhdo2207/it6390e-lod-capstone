@@ -35,6 +35,7 @@ FILES = [
 SAMPLE_FILES = [
     ROOT / "sparql" / "sample_queries.rq",
     ROOT / "sparql" / "federated_queries.rq",  # SERVICE queries, need internet
+    ROOT / "sparql" / "castrole_queries.rq",   # n-ary cast roles
 ]
 USER_AGENT = "it6390e-group2-capstone/0.1 (HUST student project)"
 

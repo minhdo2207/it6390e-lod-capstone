@@ -41,6 +41,7 @@ CLASSES = [
     ("Genre", "ont:Genre"),
     ("Studio", "ont:Studio"),
     ("Country", "ont:Country"),
+    ("CastRole", "ont:CastRole"),
 ]
 LINK_TARGETS = [
     ("wikidata.org", "http://www.wikidata.org/entity/"),
