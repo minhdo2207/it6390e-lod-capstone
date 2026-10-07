@@ -5,8 +5,15 @@ Usage:
 
 Expected CSV columns:
     id, title, year, director_id, director_name, genre, studio, country
-Optional columns ("|"-separated, same order in both):
-    cast_ids, cast_names
+Optional columns ("|"-separated, same order in all three, in billing order):
+    cast_ids, cast_names, cast_characters
+
+Each cast entry becomes a dbo:starring link (kept for existing queries) and
+an ont:CastRole node, the n-ary form that also records the character played
+and the billing position:
+
+    movie --hasCastRole--> role --playedBy--> actor
+    role --characterName--> "Vincent Vega"    role --billingOrder--> 1
 """
 
 import csv
@@ -52,13 +59,34 @@ def build_graph(rows):
             g.add((movie_uri, DBO.director, director_uri))
 
         if row.get("cast_ids"):
-            cast = zip(row["cast_ids"].split("|"), row["cast_names"].split("|"))
-            for actor_id, actor_name in cast:
+            ids = row["cast_ids"].split("|")
+            names = row["cast_names"].split("|")
+            characters = (row["cast_characters"].split("|")
+                          if row.get("cast_characters") else [""] * len(ids))
+            if not len(ids) == len(names) == len(characters):
+                raise ValueError(f"movie {row['id']}: cast columns do not line up")
+            for order, (actor_id, actor_name, character) in enumerate(
+                    zip(ids, names, characters), start=1):
                 actor_uri = BASE[f"person/{actor_id}"]
                 g.add((actor_uri, RDF.type, FOAF.Person))
                 g.add((actor_uri, RDF.type, ONT.Actor))
                 g.add((actor_uri, FOAF.name, Literal(actor_name)))
                 g.add((movie_uri, DBO.starring, actor_uri))
+
+                # n-ary relation: one node per appearance of an actor in a movie
+                role_uri = BASE[f"role/{row['id']}-{actor_id}"]
+                if (role_uri, RDF.type, ONT.CastRole) in g:
+                    # same person listed twice in one movie (two characters)
+                    role_uri = BASE[f"role/{row['id']}-{actor_id}-{order}"]
+                g.add((role_uri, RDF.type, ONT.CastRole))
+                g.add((movie_uri, ONT.hasCastRole, role_uri))
+                g.add((role_uri, ONT.roleInMovie, movie_uri))
+                g.add((role_uri, ONT.playedBy, actor_uri))
+                g.add((role_uri, ONT.billingOrder, Literal(order, datatype=XSD.integer)))
+                label = f"{actor_name} as {character}" if character else actor_name
+                g.add((role_uri, RDFS.label, Literal(f"{label} in {row['title']}", lang="en")))
+                if character:
+                    g.add((role_uri, ONT.characterName, Literal(character)))
 
         if row.get("genre"):
             # must match the genre individuals in ontology/movies.ttl

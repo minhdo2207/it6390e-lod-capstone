@@ -8,11 +8,13 @@ Rows missing a title, release date or director are dropped.
 
 Output columns:
     id, title, year, release_date, runtime, director_id, director_name,
-    genre, genres, cast_ids, cast_names, studio, country
+    genre, genres, cast_ids, cast_names, cast_characters, studio, country
 
 `genre`, `studio` and `country` hold the first listed value (TMDB lists the
-primary one first). `genres`, `cast_ids` and `cast_names` are "|"-separated;
-cast is limited to the TOP_CAST first-billed actors.
+primary one first). `genres`, `cast_ids`, `cast_names` and `cast_characters`
+are "|"-separated; cast is limited to the TOP_CAST first-billed actors, in
+billing order, and the three cast columns line up by position (a character
+TMDB leaves empty stays empty).
 """
 
 import csv
@@ -26,8 +28,13 @@ TOP_CAST = 3
 FIELDS = [
     "id", "title", "year", "release_date", "runtime",
     "director_id", "director_name",
-    "genre", "genres", "cast_ids", "cast_names", "studio", "country",
+    "genre", "genres", "cast_ids", "cast_names", "cast_characters", "studio", "country",
 ]
+
+
+def character(person):
+    """Character name of a cast entry; "|" is our separator, so it cannot appear."""
+    return " ".join((person.get("character") or "").replace("|", "/").split())
 
 
 def names(json_text):
@@ -62,6 +69,7 @@ def build_rows(movies, credits_by_id):
             "genres": "|".join(genres),
             "cast_ids": "|".join(str(p["id"]) for p in cast),
             "cast_names": "|".join(p["name"].strip() for p in cast),
+            "cast_characters": "|".join(character(p) for p in cast),
             "studio": studios[0] if studios else "",
             "country": countries[0] if countries else "",
         })
