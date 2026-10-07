@@ -16,24 +16,14 @@ pip install -r requirements.txt owlready2     # owlready2 + Java chỉ cần cho
 Tạo 2 file cho Protégé (để Desktop, **không commit**): một file đủ ontology + dữ liệu, một file thêm phim "lỗi" để demo mâu thuẫn.
 
 ```bash
-python - <<'EOF'
-from rdflib import Graph
-import os
-out = os.path.expanduser("~/Desktop/")
-g = Graph()
-for f in ["ontology/movies.ttl", "data/processed/movies_linked.ttl", "data/processed/awards.ttl"]:
-    g.parse(f)
-g.serialize(out + "demo_all.ttl", format="turtle")
-g.parse("ontology/demo_inconsistency.ttl")
-g.serialize(out + "demo_all_bad.ttl", format="turtle")
-EOF
+python scripts/make_protege_demo.py     # ghi ~/Desktop/demo_all.ttl và ~/Desktop/demo_all_bad.ttl
 ```
 
 Kiểm tra trước, mỗi lệnh phải chạy ra kết quả (nếu không thì xem mục "Nếu lỗi" cuối file):
 - `python scripts/sparql_cli.py -n 3` → bảng 5 đạo diễn (Spielberg 8, Tarantino 7, Nolan 7...)
 - `python scripts/sparql_cli.py -n 6` → ngày sinh Nolan **1970-07-30** (cần internet)
 - `python scripts/check_reasoning.py` → `ActionMovie: 29 / ComedyMovie: 16 / AwardWinningDirector: 32 / ActorDirector: 5`
-- Mở Protégé, File > Open `demo_all.ttl`, bấm **Reasoner > Start reasoner (HermiT)** thử một lần cho chắc chạy được.
+- Mở Protégé, File > Open `demo_all.ttl`, chọn **View > Render by prefixed name**, rồi **Reasoner > Start reasoner (HermiT)**. Lần chạy này mất **khoảng 3 phút** (đã đo trên Protégé 5.6.9), nên chạy thử trước khi quay; khi quay cảnh 3 thì cắt bớt đoạn chờ.
 
 Mẹo quay: tăng cỡ chữ terminal (Cmd + `+`), đóng thông báo/tab thừa, tắt chế độ làm phiền, quay 1080p. Quay từng cảnh riêng rồi ghép sẽ dễ sửa hơn quay một mạch.
 
@@ -60,8 +50,8 @@ Mẹo quay: tăng cỡ chữ terminal (Cmd + `+`), đóng thông báo/tab thừa
 ## Cảnh 3 — Reasoner phân loại tự động (1:05 – 2:00)
 
 **Màn hình:**
-1. Menu **Reasoner > Start reasoner** (HermiT), chờ vài giây tới khi hiện trạng thái xong.
-2. Mở **Window > Tabs > DL Query**. Gõ `ActionMovie`, tick **Instances**, bấm **Execute**. Cuộn danh sách.
+1. Menu **Reasoner > Start reasoner** (HermiT). Thực tế mất khoảng 3 phút: quay lúc bấm, rồi cắt tới lúc góc dưới hiện "Reasoner active".
+2. Mở **Window > Tabs > DL Query**. Gõ `ont:ActionMovie`, bấm **Esc** để tắt gợi ý tự động, chỉ tick **Instances**, bấm **Execute** (không bấm *Add to ontology*). Kết quả hiện "Instances (87 of 87)". Cuộn danh sách.
 3. Chuyển sang terminal, chạy: `python scripts/check_reasoning.py` và chỉ vào 4 dòng kết quả.
 
 **Lời thoại:**
@@ -131,8 +121,11 @@ python scripts/sparql_cli.py -n 16
 | `-n 6` báo lỗi hoặc rỗng (Wikidata chậm / giới hạn tốc độ) | Chờ 30 giây chạy lại. Vẫn lỗi thì thêm `-v`, hoặc chạy query khác `-n 11` (DBpedia) và nói vẫn theo ý đó; hoặc dùng ảnh chụp kết quả đã chụp từ trước. |
 | Protégé không chạy HermiT / báo thiếu bộ nhớ | Reasoner > Configure, hoặc mở lại Protégé; nếu vẫn lỗi, quay phần terminal `python scripts/check_reasoning.py --demo` (in ra đủ 29/16/32/5 và dòng `ontology is INCONSISTENT`), thay cho cảnh 3 và 7. |
 | DL Query không hiện lệnh | Window > Tabs > chọn DL Query; phải **Start reasoner** trước. |
+| Ô DL Query gạch đỏ, nút Execute mờ | Chưa đúng tên lớp: chọn **View > Render by prefixed name** rồi gõ `ont:ActionMovie`. |
 | Danh sách DL Query dài gấp ~3 lần 29 | Bình thường (cá thể sameAs); nói câu trong ngoặc ở cảnh 3. |
 | Hộp thoại Open hỏi merge hay cửa sổ mới | Chọn mở cửa sổ mới (không merge). |
 | Protégé không đọc được `.ttl` | Dùng File > Open và chọn "All files"; Protégé 5.6 đọc được Turtle. |
 
-**Những chỗ chưa được thử trên Protégé thật** (nhóm chưa mở GUI để chạy, hãy thử một lần trước khi quay và sửa lời thoại cho khớp): hình dạng danh sách trong DL Query (có thể dài hơn 29 dòng), hộp thoại Open khi mở file thứ hai, và nút Explain.
+**Đã thử trên Protégé 5.6.9 (7/10):** mở `demo_all.ttl`, HermiT chạy khoảng 3 phút; DL Query `ont:ActionMovie` ra 87 dòng (29 phim × 3 tên do sameAs), `ont:ComedyMovie` 48, `ont:AwardWinningDirector` 95, `ont:CastRole` 750; thêm SWRL rule thì `ont:ActorDirector` ra 15 dòng (5 người). Chi tiết ở `docs/DEMO_SCRIPT.md`.
+
+**Chưa thử trên Protégé thật:** hộp thoại Open khi mở file thứ hai (`demo_all_bad.ttl`) và nút Explain ở cảnh 7. Hãy thử một lần trước khi quay.
