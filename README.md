@@ -17,7 +17,6 @@ Build a Linked Open Data (LOD) application for the **movies** domain, following 
 
 ```
 .
-├── docs/           project plan, ontology design notes
 ├── ontology/       OWL/Turtle ontology definitions
 ├── scripts/        data pipeline (CSV -> RDF, linking to DBpedia/Wikidata)
 ├── sparql/         sample SPARQL queries used for the demo
@@ -159,7 +158,6 @@ Check that it parses:
 python -c "from rdflib import Graph; Graph().parse('data/processed/dataset_metadata.ttl')"
 ```
 
-Details and example queries are in `docs/METADATA.md`.
 
 ## Reasoning check
 
@@ -172,8 +170,7 @@ python scripts/check_reasoning.py --demo
 
 Expected: 29 `ActionMovie`, 16 `ComedyMovie`, 32 `AwardWinningDirector`,
 5 `ActorDirector` (from the SWRL rule), and an inconsistency once
-`ontology/demo_inconsistency.ttl` is added. Demo steps for Protege are in
-`docs/DEMO_SCRIPT.md`.
+`ontology/demo_inconsistency.ttl` is added.
 
 ## Team
 
@@ -183,8 +180,7 @@ Group 2 — IT6390E, HUST.
 
 Code in this repo is released under the MIT License (see `LICENSE`).
 
-The generated RDF data and its metadata are proposed under CC BY-NC 4.0 (see
-`docs/METADATA.md`).
+The generated RDF data and its metadata are proposed under CC BY-NC 4.0.
 
 Movie data comes from the Kaggle "TMDB 5000 Movie Dataset", which is built from
 the TMDb API. This product uses the TMDb API but is not endorsed or certified
