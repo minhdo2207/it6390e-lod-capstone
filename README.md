@@ -41,7 +41,7 @@ Kaggle TMDB 5000 CSVs  -->  scripts/prepare_movies_csv.py  -->  data/raw/movies.
                                    data/processed/movies_linked.ttl
                                               |
                                               v
-                                    scripts/sparql_cli.py  /  Protege SPARQL tab
+                                    scripts/sparql_cli.py  /  Protege (Snap SPARQL Query)
 ```
 
 ## Running locally
@@ -77,6 +77,17 @@ python scripts/sparql_cli.py -n 3     # run sample query #3
 
 The queries are in `sparql/sample_queries.rq` (1-5), `sparql/federated_queries.rq`
 (6-15) and `sparql/castrole_queries.rq` (16-21).
+
+**SPARQL inside Protege.** The "SPARQL Query" plugin bundled with Protege 5.6.9
+does not load (`NoClassDefFoundError: com/google/common/base/Optional` in
+`~/.Protege/logs/protege.log`). Use the **Snap SPARQL Query** plugin instead:
+File > Check for plugins > Snap SPARQL Query (6.0.0), restart Protege, then
+Window > Views > Query views > Snap SPARQL Query and drop it into a tab.
+`python scripts/make_protege_demo.py` writes the merged file to open. Snap SPARQL
+answers through the active reasoner, so start HermiT first (about 3 minutes on
+this data); it then returns inferred memberships too, e.g.
+`SELECT ?movie WHERE { ?movie rdf:type ont:ActionMovie }` gives 87 rows
+(29 movies, each also under its Wikidata and DBpedia IRIs because of `owl:sameAs`).
 
 ### Cast roles (n-ary relation)
 
