@@ -328,7 +328,7 @@ The only wrong link, \code{dbr:Alakina\_Mann}, was a redirect resource: the Wiki
 % ---------------------------------------------------------------- 6
 \section{SPARQL Query Interface}\label{sec:sparql}
 
-The graph is queried through two interfaces: \code{sparql\_cli.py}, a terminal tool over RDFLib that runs stored or ad-hoc queries, and the SPARQL Query tab of Protégé. Twenty-one queries are provided (Table~\ref{tab:queries}).
+The graph is queried through two interfaces: \code{sparql\_cli.py}, a terminal tool over RDFLib that runs stored or ad-hoc queries, and the Snap SPARQL Query plugin inside Protégé (the SPARQL plugin bundled with Protégé 5.6.9 fails to load because of a missing library). Snap SPARQL evaluates queries through the active reasoner, so it also returns inferred facts: asking for the instances of \code{ont:ActionMovie} returns the same 87 IRIs as the DL query in Section~\ref{sec:reasoning}. Twenty-one queries are provided (Table~\ref{tab:queries}).
 
 \begin{table}[H]
 \centering\small
